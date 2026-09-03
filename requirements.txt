@@ -1,0 +1,5 @@
+# Pinned on purpose: an unpinned image or dependency makes "why did this
+# break?" unanswerable later. Transitive deps (pydantic, starlette) are
+# resolved from these two.
+fastapi==0.115.12
+uvicorn==0.34.0

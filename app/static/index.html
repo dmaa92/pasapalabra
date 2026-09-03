@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pasapalabra</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header>
+    <h1>Pasapalabra</h1>
+    <p class="tagline">El rosco, para dos jugadores por turnos.</p>
+  </header>
+
+  <main>
+    <section id="setup" class="card">
+      <h2>Nueva partida</h2>
+      <form id="setup-form">
+        <label>Jugador 1
+          <input id="player-one" maxlength="24" value="Jugador 1" required>
+        </label>
+        <label>Jugador 2
+          <input id="player-two" maxlength="24" value="Jugador 2" required>
+        </label>
+        <label>Segundos por jugador
+          <input id="seconds" type="number" min="30" max="600" value="200" required>
+        </label>
+        <label>Modo
+          <select id="mode">
+            <option value="teclado">Teclado — cada jugador escribe su respuesta</option>
+            <option value="juez">Juez — se responde en voz alta y el juez decide</option>
+          </select>
+        </label>
+        <button type="submit" class="primary">Empezar</button>
+      </form>
+      <p class="rules">
+        Aciertas y sigues; fallas o dices <em>pasapalabra</em> y el turno
+        pasa al rival. Cada jugador tiene su propio rosco y su propio
+        reloj, que solo corre en su turno.
+      </p>
+      <p class="rules">
+        En <strong>modo juez</strong> esta pantalla es el tablero para
+        proyectar: no muestra ni pide respuestas. Al empezar te damos un
+        enlace aparte para el juez, que es quien ve el rosco resuelto y
+        marca cada respuesta.
+      </p>
+    </section>
+
+    <section id="judge-link" class="card" hidden>
+      <h2>Enlace del juez</h2>
+      <p class="rules">
+        Ábrelo en el móvil o el portátil del juez. Solo con este enlace se
+        ven las respuestas y se controla la partida — no lo proyectes.
+      </p>
+      <p><a id="judge-url" href="#" target="_blank" rel="noopener"></a></p>
+      <button type="button" id="copy-judge" class="secondary">Copiar enlace</button>
+      <button type="button" id="open-judge" class="ghost">Abrir en otra pestaña</button>
+    </section>
+
+    <section id="game" hidden>
+      <div class="boards">
+        <article class="player card" id="player-0">
+          <h2 class="player-name"></h2>
+          <p class="clock"><span class="time"></span></p>
+          <div class="rosco"></div>
+          <p class="score"></p>
+        </article>
+        <article class="player card" id="player-1">
+          <h2 class="player-name"></h2>
+          <p class="clock"><span class="time"></span></p>
+          <div class="rosco"></div>
+          <p class="score"></p>
+        </article>
+      </div>
+
+      <div class="card turn" id="turn-panel">
+        <p class="turn-of"><span id="turn-name"></span>, es tu turno</p>
+        <p class="clue"><span id="clue-letter"></span><span id="clue-text"></span></p>
+        <form id="answer-form" autocomplete="off">
+          <input id="answer" maxlength="80" placeholder="Tu respuesta" autocomplete="off" required>
+          <button type="submit" class="primary">Responder</button>
+          <button type="button" id="pass" class="secondary">Pasapalabra</button>
+          <button type="button" id="resign" class="ghost">Me planto</button>
+        </form>
+        <p id="waiting" class="waiting" hidden>Responde en voz alta: el juez marca desde su panel.</p>
+        <p id="feedback" class="feedback"></p>
+      </div>
+
+      <div class="card result" id="result" hidden>
+        <h2 id="result-title"></h2>
+        <div id="solutions"></div>
+        <button type="button" id="restart" class="primary">Otra partida</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

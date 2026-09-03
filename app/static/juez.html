@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pasapalabra · Panel del juez</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:,">
+</head>
+<body class="judge">
+  <header>
+    <h1>Panel del juez</h1>
+    <p class="tagline">Las respuestas están aquí. No proyectes esta pantalla.</p>
+  </header>
+
+  <main>
+    <section id="connect" class="card" hidden>
+      <h2>Conectar con una partida</h2>
+      <p class="rules">
+        Pega el enlace que te dieron al crear la partida, o el
+        identificador y el token por separado.
+      </p>
+      <form id="connect-form">
+        <label>Partida
+          <input id="game-id" placeholder="id de la partida" required>
+        </label>
+        <label>Token
+          <input id="token" placeholder="token del juez" required>
+        </label>
+        <button type="submit" class="primary">Conectar</button>
+      </form>
+    </section>
+
+    <section id="panel" hidden>
+      <div class="card scoreboard" id="scoreboard"></div>
+
+      <div class="card ruling" id="ruling">
+        <p class="turn-of">Turno de <strong id="turn-name"></strong></p>
+        <p class="clue"><span id="clue-letter"></span><span id="clue-text"></span></p>
+        <p class="answer-label">Respuesta correcta</p>
+        <p class="answer" id="answer"></p>
+        <div class="rulings">
+          <button type="button" id="ok" class="ok">✓ Correcto</button>
+          <button type="button" id="ko" class="ko">✗ Fallo</button>
+          <button type="button" id="pass" class="secondary">Pasapalabra</button>
+          <button type="button" id="resign" class="ghost">Se planta</button>
+        </div>
+        <p id="feedback" class="feedback"></p>
+      </div>
+
+      <div class="card" id="sheet">
+        <h2 id="sheet-title"></h2>
+        <div id="sheet-body"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="juez.js"></script>
+</body>
+</html>

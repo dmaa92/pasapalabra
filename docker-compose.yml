@@ -1,0 +1,44 @@
+# Local development stack: one service, no database — game state lives in
+# the process (docs/known-limitations.md). The same image is what gets
+# deployed to any container platform (deploy/k8s/).
+services:
+  app:
+    build: .
+    image: pasapalabra:dev
+    # Loopback-only by default: nothing here is meant to be reachable
+    # from the LAN without a deliberate decision.
+    ports:
+      - "127.0.0.1:${APP_PORT:-8080}:8000"
+    environment:
+      UVICORN_LOG_LEVEL: ${LOG_LEVEL:-info}
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: ${APP_MEM_LIMIT:-256m}
+    cpus: ${APP_CPU_LIMIT:-0.5}
+    pids_limit: ${APP_PIDS_LIMIT:-128}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 10s
+
+  # Test runner: same image, tests mounted in. Behind a profile so it
+  # never starts with `docker compose up`. The mount lives here rather
+  # than in a `-v` flag so the path survives shells that rewrite
+  # absolute paths (Git Bash on Windows).
+  tests:
+    profiles: [test]
+    build: .
+    image: pasapalabra:dev
+    environment:
+      # The image ships as a non-root user over a root-owned /srv, so
+      # anything that compiles bytecode needs a writable cache dir.
+      PYTHONPYCACHEPREFIX: /tmp/pycache
+    volumes:
+      - ./tests:/srv/tests:ro
+    command: ["python", "-m", "unittest", "discover", "-s", "tests/unit", "-t", ".", "-v"]

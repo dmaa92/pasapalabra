@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+*.log
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+work/
+.local/
+docker-compose.override.yml
+
+# Machine-local leftovers of the infrastructure this repository used to
+# carry (removed in ADR-0006). Real inventories and kubeconfigs live
+# here on this machine — never commit them.
+infra/
+.claude/settings.local.json
+.claude/*.lock

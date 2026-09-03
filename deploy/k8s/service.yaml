@@ -1,0 +1,17 @@
+# ClusterIP on purpose: how (and whether) this gets exposed outside the
+# cluster is a deliberate decision per environment — add an Ingress, a
+# LoadBalancer, or port-forward, but don't widen this by default.
+apiVersion: v1
+kind: Service
+metadata:
+  name: pasapalabra
+  labels:
+    app.kubernetes.io/name: pasapalabra
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: pasapalabra
+  ports:
+    - name: http
+      port: 80
+      targetPort: http

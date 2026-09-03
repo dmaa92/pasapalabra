@@ -1,0 +1,190 @@
+:root {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --card: #161b22;
+  --line: #263041;
+  --text: #e6edf3;
+  --muted: #8b98a8;
+  --accent: #3b82f6;
+  --ok: #2ea043;
+  --ko: #d3364a;
+  --pending: #303b4d;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0 1rem 3rem;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+header { text-align: center; padding: 2rem 0 1rem; }
+h1 { margin: 0; font-size: 2rem; letter-spacing: .18em; text-transform: uppercase; }
+.tagline { margin: .4rem 0 0; color: var(--muted); }
+
+main { max-width: 980px; margin: 0 auto; display: grid; gap: 1rem; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1.2rem;
+}
+
+form { display: flex; flex-wrap: wrap; gap: .8rem; align-items: end; }
+label { display: grid; gap: .3rem; font-size: .85rem; color: var(--muted); }
+input {
+  background: #0b0f16;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  padding: .55rem .7rem;
+  font-size: 1rem;
+}
+input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+button {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: .55rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #1f2733;
+  color: var(--text);
+}
+button:disabled { opacity: .45; cursor: not-allowed; }
+.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.secondary { background: #46351f; border-color: #6b4f2a; }
+.ghost { background: transparent; color: var(--muted); }
+
+.rules { color: var(--muted); font-size: .9rem; margin: 1rem 0 0; }
+
+.boards { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 720px) { .boards { grid-template-columns: 1fr; } }
+
+.player { text-align: center; transition: border-color .2s, box-shadow .2s; }
+.player.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.player.out { opacity: .55; }
+.player-name { margin: 0 0 .2rem; font-size: 1.1rem; }
+.clock { margin: 0; font-size: 2rem; font-variant-numeric: tabular-nums; font-weight: 600; }
+.player.low .clock { color: var(--ko); }
+.score { color: var(--muted); font-size: .9rem; margin: .6rem 0 0; }
+
+.rosco { position: relative; width: 260px; height: 260px; margin: 1rem auto 0; }
+.rosco .letter {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 30px; height: 30px;
+  margin: -15px 0 0 -15px;
+  border-radius: 50%;
+  display: grid; place-items: center;
+  font-size: .8rem; font-weight: 700;
+  background: var(--pending);
+  color: var(--text);
+}
+.rosco .letter.correct { background: var(--ok); }
+.rosco .letter.wrong { background: var(--ko); }
+.rosco .letter.current { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.turn-of { margin: 0 0 .4rem; color: var(--muted); font-size: .9rem; }
+.clue { margin: 0 0 1rem; font-size: 1.1rem; }
+#clue-letter { font-weight: 700; color: var(--accent); margin-right: .5rem; }
+#answer { flex: 1 1 16rem; }
+
+.feedback { margin: .8rem 0 0; min-height: 1.5rem; font-weight: 600; }
+.feedback.ok { color: var(--ok); }
+.feedback.ko { color: var(--ko); }
+.feedback.info { color: var(--muted); font-weight: 400; }
+
+.solutions-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 720px) { .solutions-grid { grid-template-columns: 1fr; } }
+.solutions-grid ul { list-style: none; padding: 0; margin: .5rem 0 0; font-size: .9rem; }
+.solutions-grid li { display: flex; gap: .5rem; padding: .15rem 0; border-bottom: 1px solid var(--line); }
+.solutions-grid b { width: 1.4rem; }
+.solutions-grid li.correct b { color: var(--ok); }
+.solutions-grid li.wrong b { color: var(--ko); }
+.solutions-grid li.pending b { color: var(--muted); }
+
+/* --- shared form control ------------------------------------------- */
+
+select {
+  background: #0b0f16;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  padding: .55rem .7rem;
+  font-size: 1rem;
+}
+select:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.waiting { margin: 0; color: var(--muted); font-size: 1rem; }
+
+#judge-url {
+  color: var(--accent);
+  word-break: break-all;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .95rem;
+}
+
+/* --- judge panel ---------------------------------------------------- */
+
+body.judge header h1 { font-size: 1.5rem; }
+
+.scoreboard { display: flex; gap: 1rem; flex-wrap: wrap; }
+.score-box {
+  flex: 1 1 12rem;
+  display: grid;
+  gap: .15rem;
+  padding: .6rem .8rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.score-box.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.score-box.out { opacity: .55; }
+.score-clock { font-size: 1.6rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.score-tally { color: var(--muted); font-size: .8rem; }
+
+.answer-label {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: .75rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.answer {
+  margin: .1rem 0 1rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--ok);
+  text-transform: uppercase;
+  letter-spacing: .02em;
+}
+.ruling.closed .answer { color: var(--muted); }
+
+.rulings { display: flex; gap: .8rem; flex-wrap: wrap; }
+.rulings button { flex: 1 1 8rem; padding: .9rem 1rem; font-size: 1.05rem; font-weight: 600; }
+button.ok { background: var(--ok); border-color: var(--ok); color: #fff; }
+button.ko { background: var(--ko); border-color: var(--ko); color: #fff; }
+
+.sheet-list {
+  list-style: none;
+  padding: 0;
+  margin: .5rem 0 0;
+  columns: 2;
+  font-size: .9rem;
+}
+@media (max-width: 720px) { .sheet-list { columns: 1; } }
+.sheet-list li {
+  display: flex;
+  gap: .5rem;
+  padding: .15rem .3rem;
+  border-radius: 6px;
+  break-inside: avoid;
+}
+.sheet-list b { width: 1.4rem; color: var(--muted); }
+.sheet-list li.correct b { color: var(--ok); }
+.sheet-list li.wrong b { color: var(--ko); }
+.sheet-list li.current { background: #1f2733; outline: 1px solid var(--accent); }
