@@ -3,7 +3,9 @@
 # deployed to any container platform (deploy/k8s/).
 services:
   app:
-    build: .
+    build:
+      context: .
+      target: runtime
     image: pasapalabra:dev
     # Loopback-only by default: nothing here is meant to be reachable
     # from the LAN without a deliberate decision.
@@ -33,7 +35,9 @@ services:
   # absolute paths (Git Bash on Windows).
   tests:
     profiles: [test]
-    build: .
+    build:
+      context: .
+      target: runtime
     image: pasapalabra:dev
     environment:
       # The image ships as a non-root user over a root-owned /srv, so
@@ -42,3 +46,20 @@ services:
     volumes:
       - ./tests:/srv/tests:ro
     command: ["python", "-m", "unittest", "discover", "-s", "tests/unit", "-t", ".", "-v"]
+
+  # Question generator. Separate image (Dockerfile `tools` stage): it is
+  # the only thing here that carries the Anthropic SDK, needs an API key
+  # and reaches the network, and it writes into the question bank. The
+  # deployed app has none of that — see docs/decisions/0008-*.md.
+  tools:
+    profiles: [tools]
+    build:
+      context: .
+      target: tools
+    image: pasapalabra:tools
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      PYTHONPYCACHEPREFIX: /tmp/pycache
+    volumes:
+      - ./app/data:/srv/app/data
+      - ./scripts:/srv/scripts:ro

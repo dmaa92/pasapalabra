@@ -1,4 +1,4 @@
-.PHONY: help build up wait down logs ps clean validate unit smoke
+.PHONY: help build up wait down logs ps clean validate unit smoke rosco
 
 # Everything runs through Docker on purpose: the container is the only
 # supported way to run this app, so "works on my machine" and "works in
@@ -16,6 +16,7 @@ help:
 	@echo "validate  - static checks: compose config, Python syntax, question bank"
 	@echo "unit      - game-rules and question-bank tests"
 	@echo "smoke     - play a turn against the running stack"
+	@echo "rosco     - generate a category rosco: make rosco CATEGORIA=\"cine español\""
 
 build:
 	docker compose build
@@ -52,11 +53,23 @@ clean:
 validate: build
 	docker compose config --quiet
 	$(RUN) tests python -m compileall -q app
-	$(RUN) tests python -m json.tool app/data/roscos.json > /dev/null
+	docker compose --profile tools build tools
+	$(RUN) tools python -m compileall -q scripts
+	$(RUN) tests python -c "import json, pathlib; [json.loads(p.read_text(encoding='utf-8')) for p in sorted(pathlib.Path('app/data').rglob('*.json'))]"
 	@find . -name '*.sh' -not -path './.git/*' -exec bash -n {} \;
 
 unit: build
 	$(RUN) tests
+
+# Authoring, not runtime: drafts a category's roscos with Claude, holds
+# them to the same rules as the shipped ones, and writes them into
+# app/data/roscos/ for a human to read before committing. Needs
+# ANTHROPIC_API_KEY in your .env — the app itself never needs one.
+#   make rosco CATEGORIA="cine español"
+rosco:
+	@test -n "$(CATEGORIA)" || { echo 'usage: make rosco CATEGORIA="cine español"'; exit 1; }
+	docker compose --profile tools build tools
+	$(RUN) tools python -m scripts.generate_rosco --category "$(CATEGORIA)" $(ARGS)
 
 smoke:
 	@port=$${APP_PORT:-8080}; base="http://127.0.0.1:$$port"; \

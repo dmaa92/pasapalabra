@@ -41,8 +41,25 @@ answers, and refereed by a judge for competitions — runnable locally with
   the match is created, as part of the judge's link.
 - The board reflects the judge's rulings within about a second, without
   anyone touching it.
-- The rules are identical in both modes; only who resolves a letter
-  differs.
+- **`por categoría`** — the third option in the selector. The questions
+  come from a themed bank instead of the general one, and the player then
+  chooses whether that match is resolved from the keyboard or by a judge.
+  It is a question-source choice, not a third rulebook: on the wire it is
+  still `mode` (`teclado`/`juez`) plus a `category`.
+- Only categories with at least two roscos are offered — one rosco would
+  mean both players answering the same questions.
+- The rules are identical in every mode; only who resolves a letter, and
+  which bank it comes from, differ.
+
+### Category banks
+
+- A category is authored ahead of time with
+  `make rosco CATEGORIA="cine español"`, which drafts it with the Claude
+  API, validates it mechanically, and writes it into `app/data/roscos/`
+  for a human to review and commit (ADR-0008).
+- The application never generates questions: at match time it only reads
+  files already in the repository, needs no API key, and makes no
+  outbound request.
 
 ## Constraints
 
@@ -57,9 +74,11 @@ answers, and refereed by a judge for competitions — runnable locally with
 
 - Should matches survive a restart (and therefore support more than one
   replica)? That needs shared state — a decision nobody has made yet.
-- How many roscos should ship? Two is the minimum that lets both players
-  have a different one; a bigger bank means less repetition between
-  matches, which matters more for competitions.
+- How many roscos should a category ship? Two is the minimum that lets
+  both players have a different one; a bigger bank means less repetition
+  between matches, which matters more for competitions.
+- Should a generated bank record who reviewed it, rather than a
+  `"reviewed_by_a_human": false` field nothing ever flips?
 - Does a judged match need an "undo last ruling" button? A misclick
   currently costs a letter, with no way back.
 - Is a single-player or online (two browsers) mode ever wanted? Today's

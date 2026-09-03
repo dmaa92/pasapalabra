@@ -68,6 +68,24 @@ isolation between users, persistence of untrusted data, secret handling.
 - `docs/decisions/0007-judge-mode.md` — the judge's answers live behind a
   separate, token-gated URL so the projected board can stay safe to
   project.
+- `docs/decisions/0008-generated-category-roscos.md` — question
+  generation is an authoring step, so the API key and the network stay
+  out of the deployed image.
+
+## The generation toolchain
+
+`scripts/generate_rosco.py` is the only thing here that touches an API
+key or the network, and it is deliberately kept out of the running
+system (ADR-0008):
+
+- The key lives in the developer's `.env` (gitignored) and is passed to
+  the `tools` compose service only. It is never baked into an image,
+  never committed, and the deployed `runtime` stage cannot use one — it
+  has no SDK and makes no outbound request.
+- Generated questions are **untrusted content until a human reads them**.
+  The validator settles form, not truth. Treat a generated bank like any
+  other third-party input: review it before it reaches a player, and
+  never commit one you have not read.
 
 ## Reporting
 

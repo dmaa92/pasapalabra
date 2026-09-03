@@ -20,7 +20,7 @@ make wait    # espera a que reporte healthy
 Luego abre http://127.0.0.1:8080/. `make down` lo para; `make clean`
 además borra volúmenes y huérfanos de este proyecto.
 
-## Dos modos de juego
+## Tres modos de juego
 
 Se elige al crear la partida:
 
@@ -31,6 +31,10 @@ Se elige al crear la partida:
   tablero que se proyecta: roscos, relojes, marcador y la pista, sin
   ninguna respuesta. Los jugadores responden en voz alta y un juez, desde
   su propio dispositivo, marca *correcto* o *fallo*.
+- **Por categoría** — las preguntas salen de un banco temático en lugar
+  del rosco general, y eliges si esa partida se resuelve con teclado o
+  con juez. Es una elección sobre *de dónde vienen las preguntas*, no
+  otro reglamento: las reglas son las mismas en los tres casos.
 
 Al crear una partida en modo juez, el tablero muestra un enlace del tipo
 `http://<host>:8080/juez#<id>:<token>`. Ese enlace es el panel del juez:
@@ -40,6 +44,26 @@ se actualiza solo cada segundo con lo que el juez marca.
 
 El token va en el enlace y no se vuelve a mostrar: si se pierde, lo más
 rápido es empezar otra partida.
+
+## Generar preguntas de una categoría
+
+```
+make rosco CATEGORIA="cine español"
+```
+
+Redacta dos roscos del tema con la API de Claude, los somete a las mismas
+reglas que los escritos a mano (letras correctas y en orden, sin
+repeticiones, sin pistas que filtren su respuesta), pide que se corrija lo
+que falle, y escribe `app/data/roscos/<categoría>.json` para que lo revises
+y lo commitees.
+
+Esto es una herramienta de autoría, no parte del juego: necesita
+`ANTHROPIC_API_KEY` en tu `.env` local y vive en una imagen aparte. **La
+aplicación desplegada no lleva clave, no sale a internet y no inventa
+preguntas durante una partida** ([ADR-0008](docs/decisions/0008-generated-category-roscos.md)).
+
+Lo que la validación comprueba es la forma. Que la respuesta sea *cierta*
+no lo comprueba nada: lee el fichero antes de commitearlo.
 
 ## Comprobaciones
 
@@ -62,10 +86,11 @@ Ver [docs/testing.md](docs/testing.md).
 - Un jugador puede plantarse y cerrar su rosco antes de tiempo.
 - Gana quien tenga más aciertos; a igualdad, menos fallos; si persiste,
   empate. Las soluciones solo se revelan al terminar la partida.
-- Las reglas son idénticas en los dos modos: lo único que cambia es
+- Las reglas son idénticas en los tres modos: lo único que cambia es
   quién resuelve la letra — el servidor comparando el texto escrito, o
-  el juez pulsando un botón. Pasapalabra y "se planta" también los
-  controla el juez en modo competición.
+  el juez pulsando un botón — y de qué banco salen las preguntas.
+  Pasapalabra y "se planta" también los controla el juez en modo
+  competición.
 
 ## Mapa del repositorio
 
@@ -73,6 +98,7 @@ Ver [docs/testing.md](docs/testing.md).
 |---|---|
 | [AGENTS.md](AGENTS.md) / [CLAUDE.md](CLAUDE.md) | El contrato de trabajo — léelo primero. |
 | [app/](app/) | La aplicación: reglas, banco de preguntas, API y cliente web. |
+| [scripts/](scripts/) | Herramientas de autoría (generador de roscos), fuera del runtime. |
 | [tests/](tests/) | Tests de reglas y de contenido. |
 | [deploy/k8s/](deploy/k8s/) | Manifiestos genéricos de Kubernetes. |
 | [docs/](docs/) | Arquitectura, producto, seguridad, testing, decisiones. |

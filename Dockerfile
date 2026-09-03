@@ -1,6 +1,7 @@
 # Single stateless image: the game is Python + a handful of static files,
-# so there is nothing to compile and no separate build stage to justify.
-FROM python:3.13-slim
+# so there is nothing to compile. The `tools` stage below is the authoring
+# toolchain (question generator) and is never what gets deployed.
+FROM python:3.13-slim AS base
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
@@ -16,6 +17,20 @@ COPY app ./app
 # Least privilege: the app never writes to disk, so it runs as a
 # non-root user and the filesystem can be mounted read-only.
 RUN useradd --system --uid 10001 --no-create-home pasapalabra
+
+# Authoring toolchain: carries the Anthropic SDK, needs an API key and
+# network access, writes into app/data. Built and run only by
+# `make rosco` / `make unit` on a developer's machine — the deployed
+# image is the `runtime` stage, which has none of this.
+FROM base AS tools
+COPY requirements-dev.txt ./
+RUN pip install --no-cache-dir -r requirements-dev.txt
+COPY scripts ./scripts
+USER 10001
+CMD ["python", "-m", "scripts.generate_rosco", "--help"]
+
+# The deployed image. Last on purpose: a plain `docker build .` builds it.
+FROM base AS runtime
 USER 10001
 
 EXPOSE 8000

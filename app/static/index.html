@@ -30,6 +30,16 @@
           <select id="mode">
             <option value="teclado">Teclado — cada jugador escribe su respuesta</option>
             <option value="juez">Juez — se responde en voz alta y el juez decide</option>
+            <option value="categoria">Por categoría — preguntas de un tema concreto</option>
+          </select>
+        </label>
+        <label id="category-field" hidden>Categoría
+          <select id="category"></select>
+        </label>
+        <label id="resolve-field" hidden>Resolver
+          <select id="resolve">
+            <option value="teclado">Con teclado</option>
+            <option value="juez">Con panel de juez</option>
           </select>
         </label>
         <button type="submit" class="primary">Empezar</button>
@@ -44,6 +54,13 @@
         proyectar: no muestra ni pide respuestas. Al empezar te damos un
         enlace aparte para el juez, que es quien ve el rosco resuelto y
         marca cada respuesta.
+      </p>
+      <p class="rules">
+        <strong>Por categoría</strong> usa un banco de preguntas de un tema
+        concreto en lugar del rosco general, y tú eliges si esa partida se
+        resuelve con teclado o con juez. Las categorías se preparan antes
+        con <code>make rosco</code> — la aplicación no inventa preguntas
+        durante la partida.
       </p>
     </section>
 
@@ -76,6 +93,7 @@
 
       <div class="card turn" id="turn-panel">
         <p class="turn-of"><span id="turn-name"></span>, es tu turno</p>
+        <p class="category-tag" id="category-tag" hidden></p>
         <p class="clue"><span id="clue-letter"></span><span id="clue-text"></span></p>
         <form id="answer-form" autocomplete="off">
           <input id="answer" maxlength="80" placeholder="Tu respuesta" autocomplete="off" required>

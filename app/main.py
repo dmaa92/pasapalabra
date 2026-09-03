@@ -19,7 +19,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from .content import load_roscos
+from .content import DEFAULT_CATEGORY, by_category, load_roscos, slugify
 from .game import (CORRECT, DEFAULT_TIME_SECONDS, MODE_JUDGE, MODE_KEYBOARD,
                    PENDING, WRONG, Game, GameOver, WrongMode)
 
@@ -29,11 +29,17 @@ STATIC_DIR = Path(__file__).resolve().parent / "static"
 # growth just by looping over "new game".
 MAX_GAMES = 200
 
-app = FastAPI(title="Pasapalabra", version="0.2.0")
+app = FastAPI(title="Pasapalabra", version="0.3.0")
 
 ROSCOS = load_roscos()
+# Categories are addressed by slug over the wire and keep their written
+# name for display: {slug: (name, [rosco, ...])}.
+CATEGORIES = {
+    slugify(name): (name, roscos)
+    for name, roscos in by_category(ROSCOS).items()
+}
 GAMES: "OrderedDict[str, Game]" = OrderedDict()
-_next_rosco = 0
+_next_rosco: dict[str, int] = {}
 
 
 class NewGameRequest(BaseModel):
@@ -41,6 +47,7 @@ class NewGameRequest(BaseModel):
     player_two: str = Field(default="Jugador 2", max_length=24)
     seconds: int = Field(default=int(DEFAULT_TIME_SECONDS), ge=30, le=600)
     mode: Literal["teclado", "juez"] = MODE_KEYBOARD
+    category: str = Field(default=slugify(DEFAULT_CATEGORY), max_length=60)
 
 
 class AnswerRequest(BaseModel):
@@ -51,13 +58,20 @@ class JudgeRequest(BaseModel):
     correct: bool
 
 
-def _pick_roscos() -> tuple:
+def _pick_roscos(category: str) -> tuple:
     """Hand each player a different rosco, rotating between matches."""
-    global _next_rosco
-    first = ROSCOS[_next_rosco % len(ROSCOS)]
-    second = ROSCOS[(_next_rosco + 1) % len(ROSCOS)]
-    _next_rosco = (_next_rosco + 1) % len(ROSCOS)
-    return first, second
+    if category not in CATEGORIES:
+        raise HTTPException(status_code=404, detail=f"categoría desconocida: {category}")
+    _, roscos = CATEGORIES[category]
+    if len(roscos) < 2:
+        raise HTTPException(
+            status_code=409,
+            detail=f"la categoría «{category}» solo tiene un rosco: "
+                   "cada jugador necesita el suyo",
+        )
+    index = _next_rosco.get(category, 0)
+    _next_rosco[category] = (index + 1) % len(roscos)
+    return roscos[index % len(roscos)], roscos[(index + 1) % len(roscos)]
 
 
 def _get_game(game_id: str) -> Game:
@@ -116,6 +130,7 @@ def _state(game: Game, now: float) -> dict:
     state = {
         "id": game.id,
         "mode": game.mode,
+        "category": game.players[0].rosco.category,
         "turn": game.turn,
         "over": game.over,
         "winner": game.winner,
@@ -149,6 +164,24 @@ async def judge_view() -> FileResponse:
     return FileResponse(STATIC_DIR / "juez.html")
 
 
+@app.get("/api/categories")
+async def categories() -> list[dict]:
+    """What the client can offer in the "por categoría" mode.
+
+    A category with a single rosco is listed but not playable: both
+    players would get the same questions.
+    """
+    return [
+        {
+            "slug": slug,
+            "name": name,
+            "roscos": len(roscos),
+            "playable": len(roscos) >= 2,
+        }
+        for slug, (name, roscos) in sorted(CATEGORIES.items())
+    ]
+
+
 @app.post("/api/games", status_code=201)
 async def create_game(request: NewGameRequest) -> dict:
     now = time.monotonic()
@@ -158,7 +191,7 @@ async def create_game(request: NewGameRequest) -> dict:
     game = Game.create(
         names=(request.player_one.strip() or "Jugador 1",
                request.player_two.strip() or "Jugador 2"),
-        roscos=_pick_roscos(),
+        roscos=_pick_roscos(request.category),
         now=now,
         seconds=float(request.seconds),
         mode=request.mode,

@@ -31,8 +31,14 @@ the container, so CI and a laptop run the same thing.
   answer in a refereed match and a ruling in a keyboard match are both
   refused, and a judge's hit/miss moves the turn exactly like a typed
   one.
-- Content: 25 letters in order per rosco, answers consistent with their
-  letter and not repeated, clues that don't leak their answer.
+- Content: `validate_rosco` is tested against its own rules — a missing
+  letter, an answer that doesn't start with (or contain) its letter, a
+  repeat, a clue that leaks its answer, a clue that's too short, an
+  unknown kind — and then every shipped rosco is held to it. The
+  generator calls the same function, so a generated bank cannot enter
+  the repository under a laxer standard than the hand-written one.
+- Categories: every rosco declares one, and every category has at least
+  two roscos so both players can get a different one.
 
 ## Manual acceptance
 

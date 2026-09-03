@@ -89,6 +89,30 @@ works without one and never contains an answer.
 
 FastAPI's generated docs are at http://127.0.0.1:8080/docs.
 
+## Generate a category
+
+```
+make rosco CATEGORIA="cine español"
+```
+
+Drafts two roscos on that theme with the Claude API, validates them with
+the same `validate_rosco` the tests use, asks for a repair of whatever
+failed, and writes `app/data/roscos/cine-espanol.json`. Useful flags come
+after `ARGS=`:
+
+```
+make rosco CATEGORIA="geografía" ARGS="--roscos 4 --attempts 5 --force"
+```
+
+It needs `ANTHROPIC_API_KEY` in your `.env`, and runs in the `tools`
+image (Dockerfile stage `tools`), which is the only place the Anthropic
+SDK is installed. The app image has none of it and never calls out.
+
+Read the generated file before committing it: the validator checks the
+shape of a rosco, not whether its answers are true. Restart the app
+(`make up`) to pick up a new category — the banks are loaded once at
+startup.
+
 ## Change the questions
 
 `app/data/roscos.json` is the whole question bank. `make unit` checks

@@ -142,6 +142,10 @@ function render() {
   answerForm.hidden = judged();
   waiting.hidden = !judged();
 
+  const tag = document.getElementById("category-tag");
+  tag.hidden = state.category === "general";
+  tag.textContent = `Categoría: ${state.category}`;
+
   const player = state.players[state.turn];
   document.getElementById("turn-name").textContent = player.name;
   document.getElementById("clue-letter").textContent =
@@ -224,6 +228,48 @@ function showJudgeLink(game) {
   document.getElementById("open-judge").onclick = () => window.open(url, "_blank");
 }
 
+// The third option in the selector is not a third set of rules: it picks
+// where the questions come from, and then who resolves them.
+const modeSelect = document.getElementById("mode");
+const categoryField = document.getElementById("category-field");
+const categorySelect = document.getElementById("category");
+const resolveField = document.getElementById("resolve-field");
+
+function byCategory() {
+  return modeSelect.value === "categoria";
+}
+
+function toggleCategoryFields() {
+  categoryField.hidden = !byCategory();
+  resolveField.hidden = !byCategory();
+}
+
+modeSelect.addEventListener("change", toggleCategoryFields);
+
+async function loadCategories() {
+  let available = [];
+  try {
+    // "general" is the built-in bank: it is what the other two modes
+    // already play, so it is not offered as a category.
+    available = (await api("/api/categories"))
+      .filter((entry) => entry.playable && entry.slug !== "general");
+  } catch (_) {
+    /* leave the option disabled below */
+  }
+  categorySelect.innerHTML = "";
+  available.forEach((entry) => {
+    const option = document.createElement("option");
+    option.value = entry.slug;
+    option.textContent = `${entry.name} (${entry.roscos} roscos)`;
+    categorySelect.appendChild(option);
+  });
+  const option = modeSelect.querySelector('option[value="categoria"]');
+  if (!available.length) {
+    option.disabled = true;
+    option.textContent = "Por categoría — todavía no hay ninguna generada";
+  }
+}
+
 document.getElementById("setup-form").addEventListener("submit", async (event) => {
   event.preventDefault();
   try {
@@ -233,7 +279,8 @@ document.getElementById("setup-form").addEventListener("submit", async (event) =
         player_one: document.getElementById("player-one").value,
         player_two: document.getElementById("player-two").value,
         seconds: Number(document.getElementById("seconds").value),
-        mode: document.getElementById("mode").value,
+        mode: byCategory() ? document.getElementById("resolve").value : modeSelect.value,
+        category: byCategory() ? categorySelect.value : "general",
       }),
     });
     location.hash = game.id;
@@ -295,6 +342,8 @@ document.getElementById("restart").addEventListener("click", () => {
 // Reopening the board with a match id in the URL (a projector that got
 // refreshed, or a second screen) picks the match back up.
 (async function resume() {
+  toggleCategoryFields();
+  loadCategories();
   const id = location.hash.slice(1);
   if (!id) return;
   try {

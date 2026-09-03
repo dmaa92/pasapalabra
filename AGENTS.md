@@ -71,7 +71,15 @@ A change is done when:
 - **Two modes, one rule engine.** `teclado` (players type) and `juez`
   (a judge rules, `docs/decisions/0007-judge-mode.md`) resolve a letter
   through the same code path — only the verdict's source differs. Add a
-  rule to both or to neither.
+  rule to both or to neither. The client's third option, "por categoría",
+  is a question-source choice layered on top of those two, not a third
+  rulebook — keep `mode` and `category` as separate axes.
+- **Question generation is authoring, not runtime.**
+  `scripts/generate_rosco.py` runs on a developer's machine with an API
+  key from `.env` and writes files a human reviews
+  (`docs/decisions/0008-generated-category-roscos.md`). Do not move it
+  into the request path, and do not add an API key, an SDK, or network
+  egress to the deployed image.
 - **The board is projected.** Anything `_state()` returns is assumed to
   be on a screen a room can see. Answers and tokens go only through the
   token-gated judge endpoint; never widen the board payload.

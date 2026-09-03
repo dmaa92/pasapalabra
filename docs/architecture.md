@@ -8,12 +8,30 @@ One process, one container image, no database:
   (`teclado` / `juez`). Pure Python, no I/O and no wall clock (every call
   takes an explicit monotonic `now`), so the rules are testable without
   sleeping.
-- `app/content.py` — loads `app/data/roscos.json` and normalises answers
-  (case, accents, punctuation, `ñ` → `n`).
+- `app/content.py` — loads the question banks, normalises answers (case,
+  accents, punctuation, `ñ` → `n`), and owns `validate_rosco()`: the
+  single statement of what makes a rosco playable. The unit tests hold
+  the shipped banks to it and the generator holds its drafts to it, so
+  generated content cannot enter under a laxer standard.
 - `app/main.py` — the HTTP layer: FastAPI serves the JSON API under
   `/api/`, `/healthz`, the board at `/` and the judge panel at `/juez`.
 - `app/static/` — the two browser views: plain HTML/CSS/JS, no build
   step, no bundler, no framework.
+- `scripts/generate_rosco.py` — **not part of the running system.** An
+  authoring tool that drafts a category's roscos with the Claude API and
+  writes them into `app/data/roscos/` for a human to review. It lives in
+  its own Dockerfile stage (`tools`) with the Anthropic SDK and an API
+  key; the deployed `runtime` stage has neither (ADR-0008).
+
+## Question banks
+
+`app/data/roscos.json` is the built-in general bank. Every
+`app/data/roscos/*.json` is a generated category bank, loaded and
+appended at startup. A rosco carries a `category`; categories are
+addressed over the wire by slug (`GET /api/categories`) and a match is
+created with `mode` plus an optional `category`. The two axes are
+deliberately separate: `mode` says who resolves a letter, `category` says
+where the questions come from.
 
 ## The two views
 
