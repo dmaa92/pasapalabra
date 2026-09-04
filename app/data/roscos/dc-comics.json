@@ -1,0 +1,68 @@
+{
+  "category": "DC Comics",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "dc-comics-1",
+      "name": "DC Comics 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Mayordomo de la mansión Wayne y confidente de su señor.", "answer": "Alfred"},
+        {"letter": "B", "kind": "empieza", "clue": "Héroe enmascarado que patrulla de noche vestido como un mamífero volador.", "answer": "Batman"},
+        {"letter": "C", "kind": "empieza", "clue": "Nombre de pila del periodista Kent.", "answer": "Clark"},
+        {"letter": "D", "kind": "empieza", "clue": "Nombre de la princesa amazona conocida como Wonder Woman.", "answer": "Diana"},
+        {"letter": "E", "kind": "empieza", "clue": "Villano de los interrogantes verdes que plantea acertijos al Caballero Oscuro.", "answer": "Enigma", "accepted": ["riddler"]},
+        {"letter": "F", "kind": "empieza", "clue": "Héroe del rayo en el pecho, el hombre más rápido del mundo.", "answer": "Flash"},
+        {"letter": "G", "kind": "empieza", "clue": "Ciudad oscura y corrupta que protege el Caballero Oscuro.", "answer": "Gotham"},
+        {"letter": "H", "kind": "empieza", "clue": "Nombre de pila de la psiquiatra reconvertida en villana de las coletas.", "answer": "Harley"},
+        {"letter": "I", "kind": "empieza", "clue": "Así es el avión que pilota la princesa amazona: no se ve.", "answer": "invisible"},
+        {"letter": "J", "kind": "empieza", "clue": "Payaso criminal de pelo verde, archienemigo del hombre murciélago.", "answer": "Joker"},
+        {"letter": "L", "kind": "empieza", "clue": "Nombre de pila de Luthor, el enemigo calvo del kryptoniano.", "answer": "Lex"},
+        {"letter": "M", "kind": "empieza", "clue": "Ciudad que protege el hombre de acero.", "answer": "Metrópolis"},
+        {"letter": "N", "kind": "empieza", "clue": "Alias que adopta Dick Grayson al independizarse de su mentor.", "answer": "Nightwing"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Lo que el comisario proyecta en las nubes para llamar al héroe.", "answer": "señal"},
+        {"letter": "O", "kind": "empieza", "clue": "Alias de Barbara Gordon cuando ayuda al equipo desde el ordenador.", "answer": "Oráculo"},
+        {"letter": "P", "kind": "empieza", "clue": "Villano bajito con monóculo, sombrero de copa y paraguas con trucos.", "answer": "Pingüino"},
+        {"letter": "Q", "kind": "empieza", "clue": "Detective de DC cuya máscara no tiene ojos, nariz ni boca.", "answer": "Question"},
+        {"letter": "R", "kind": "empieza", "clue": "Compañero adolescente del hombre murciélago, vestido de rojo y verde.", "answer": "Robin"},
+        {"letter": "S", "kind": "empieza", "clue": "Nombre de pila de Kyle, la ladrona que se disfraza de gata.", "answer": "Selina"},
+        {"letter": "T", "kind": "empieza", "clue": "Equipo juvenil de superhéroes de DC que da nombre a una serie.", "answer": "Titanes"},
+        {"letter": "U", "kind": "empieza", "clue": "Palabra culta para una gran ciudad como las que protegen estos héroes.", "answer": "urbe"},
+        {"letter": "V", "kind": "empieza", "clue": "Sello editorial de DC para cómics adultos, donde se publicó Sandman.", "answer": "Vertigo"},
+        {"letter": "X", "kind": "contiene", "clue": "Lo que destruye Krypton y obliga a enviar a un bebé a la Tierra.", "answer": "explosión"},
+        {"letter": "Y", "kind": "empieza", "clue": "Casco dorado del Doctor Destino que le otorga los poderes de Nabu.", "answer": "yelmo"},
+        {"letter": "Z", "kind": "empieza", "clue": "Maga de DC que lanza sus hechizos pronunciando las palabras al revés.", "answer": "Zatanna"}
+      ]
+    },
+    {
+      "id": "dc-comics-2",
+      "name": "DC Comics 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Rey de la Atlántida que se comunica con los peces.", "answer": "Aquaman"},
+        {"letter": "B", "kind": "empieza", "clue": "Villano de máscara y musculatura química que parte la espalda del murciélago.", "answer": "Bane"},
+        {"letter": "C", "kind": "empieza", "clue": "Miembro de la Liga mitad hombre, mitad máquina.", "answer": "Cyborg"},
+        {"letter": "D", "kind": "empieza", "clue": "Tirano de Apokolips que busca la ecuación de la antivida.", "answer": "Darkseid"},
+        {"letter": "E", "kind": "empieza", "clue": "Primera palabra del equipo de villanos reclutados a la fuerza, apodado Suicida.", "answer": "Escuadrón"},
+        {"letter": "F", "kind": "empieza", "clue": "Proyectil que dispara el arquero esmeralda de DC.", "answer": "flecha"},
+        {"letter": "G", "kind": "empieza", "clue": "Apellido del comisario de policía de la ciudad del murciélago.", "answer": "Gordon"},
+        {"letter": "H", "kind": "empieza", "clue": "Villana pelirroja que domina las plantas, Poison Ivy en inglés.", "answer": "Hiedra"},
+        {"letter": "I", "kind": "empieza", "clue": "Videojuego de lucha de DC en el que el hombre de acero se vuelve un tirano.", "answer": "Injustice"},
+        {"letter": "J", "kind": "empieza", "clue": "Segunda palabra del nombre de la Liga que forman los grandes héroes de DC.", "answer": "Justicia"},
+        {"letter": "L", "kind": "empieza", "clue": "Héroe cuyo anillo verde da forma sólida a su voluntad.", "answer": "Linterna"},
+        {"letter": "M", "kind": "empieza", "clue": "Detective verde y telépata que pertenece a la Liga.", "answer": "Marciano"},
+        {"letter": "N", "kind": "empieza", "clue": "Esposa congelada por la que Mister Frío comete todos sus crímenes.", "answer": "Nora"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Personificación de lo que ocurre al dormir, protagonista de Sandman.", "answer": "Sueño"},
+        {"letter": "O", "kind": "empieza", "clue": "Nombre de pila del millonario que se convierte en el arquero esmeralda.", "answer": "Oliver"},
+        {"letter": "P", "kind": "empieza", "clue": "Nombre del director del Daily Planet, jefe del reportero de las gafas.", "answer": "Perry"},
+        {"letter": "Q", "kind": "empieza", "clue": "Apellido de Harley, la villana de las coletas.", "answer": "Quinn"},
+        {"letter": "R", "kind": "empieza", "clue": "Vigilante de Watchmen con una máscara de manchas cambiantes.", "answer": "Rorschach"},
+        {"letter": "S", "kind": "empieza", "clue": "Kryptoniano criado en Kansas que viste capa roja.", "answer": "Superman"},
+        {"letter": "T", "kind": "empieza", "clue": "Hija de Ra's al Ghul y madre de Damian Wayne.", "answer": "Talia"},
+        {"letter": "U", "kind": "empieza", "clue": "Cada una de las realidades paralelas que DC reordena en sus grandes crisis.", "answer": "universo"},
+        {"letter": "V", "kind": "empieza", "clue": "Quien hace justicia por su cuenta, al margen de la ley.", "answer": "vigilante"},
+        {"letter": "X", "kind": "contiene", "clue": "Empresa del enemigo calvo del kryptoniano.", "answer": "Lexcorp"},
+        {"letter": "Y", "kind": "empieza", "clue": "Material con el que se escayola un brazo roto tras un mal combate.", "answer": "yeso"},
+        {"letter": "Z", "kind": "empieza", "clue": "General kryptoniano desterrado a la Zona Fantasma.", "answer": "Zod"}
+      ]
+    }
+  ]
+}

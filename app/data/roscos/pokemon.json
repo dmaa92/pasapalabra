@@ -1,0 +1,68 @@
+{
+  "category": "Pokémon",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pokemon-1",
+      "name": "Pokémon 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Nombre del entrenador protagonista del anime, el de la gorra roja.", "answer": "Ash"},
+        {"letter": "B", "kind": "empieza", "clue": "Inicial de tipo planta de Kanto, con un bulbo en el lomo.", "answer": "Bulbasaur"},
+        {"letter": "C", "kind": "empieza", "clue": "Dragón naranja con alas, evolución final del inicial de fuego de Kanto.", "answer": "Charizard"},
+        {"letter": "D", "kind": "empieza", "clue": "Pokémon rosa y gelatinoso capaz de transformarse en cualquier otro.", "answer": "Ditto"},
+        {"letter": "E", "kind": "empieza", "clue": "Pokémon marrón de orejas grandes con muchas evoluciones distintas.", "answer": "Eevee"},
+        {"letter": "F", "kind": "empieza", "clue": "Tipo fuerte contra planta y débil contra agua.", "answer": "fuego"},
+        {"letter": "G", "kind": "empieza", "clue": "Pokémon fantasma morado de sonrisa inquietante.", "answer": "Gengar"},
+        {"letter": "H", "kind": "empieza", "clue": "Ave legendaria de fuego y colores del arcoíris, de la región de Johto.", "answer": "Ho-Oh", "accepted": ["hooh", "ho oh"]},
+        {"letter": "I", "kind": "empieza", "clue": "Evolución intermedia del inicial de tipo planta de Kanto.", "answer": "Ivysaur"},
+        {"letter": "J", "kind": "empieza", "clue": "Pokémon rosa y redondo que duerme a sus rivales cantando.", "answer": "Jigglypuff"},
+        {"letter": "L", "kind": "empieza", "clue": "Legendario blanco guardián de los mares, portada de la versión Plata.", "answer": "Lugia"},
+        {"letter": "M", "kind": "empieza", "clue": "Pokémon psíquico creado en un laboratorio a partir del ADN de Mew.", "answer": "Mewtwo"},
+        {"letter": "N", "kind": "empieza", "clue": "Empresa japonesa que publica los videojuegos de la saga.", "answer": "Nintendo"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Parte de la mano cerrada con la que golpean los de tipo lucha.", "answer": "puño"},
+        {"letter": "O", "kind": "empieza", "clue": "Pokémon con forma de serpiente gigante hecha de rocas.", "answer": "Onix"},
+        {"letter": "P", "kind": "empieza", "clue": "Ratón eléctrico amarillo, mascota de la franquicia.", "answer": "Pikachu"},
+        {"letter": "Q", "kind": "empieza", "clue": "Evolución de Cyndaquil, de tipo fuego.", "answer": "Quilava"},
+        {"letter": "R", "kind": "empieza", "clue": "Equipo villano al que pertenecen Jessie y James.", "answer": "Rocket"},
+        {"letter": "S", "kind": "empieza", "clue": "Tortuga azul, inicial de tipo agua de la primera generación.", "answer": "Squirtle"},
+        {"letter": "T", "kind": "empieza", "clue": "Tipo que es inmune a los ataques eléctricos.", "answer": "tierra"},
+        {"letter": "U", "kind": "empieza", "clue": "Evolución oscura y nocturna, negra y con anillos amarillos brillantes.", "answer": "Umbreon"},
+        {"letter": "V", "kind": "empieza", "clue": "Evolución final del inicial de planta, con una gran flor en el lomo.", "answer": "Venusaur"},
+        {"letter": "X", "kind": "empieza", "clue": "Legendario con forma de ciervo de cuernos luminosos, de la región de Kalos.", "answer": "Xerneas"},
+        {"letter": "Y", "kind": "empieza", "clue": "Legendario rojo y negro con forma de ave, de la sexta generación.", "answer": "Yveltal"},
+        {"letter": "Z", "kind": "empieza", "clue": "Murciélago azul que aparece sin parar en las cuevas.", "answer": "Zubat"}
+      ]
+    },
+    {
+      "id": "pokemon-2",
+      "name": "Pokémon 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Pokémon considerado el creador del universo en la mitología de la saga.", "answer": "Arceus"},
+        {"letter": "B", "kind": "empieza", "clue": "Líder de Ciudad Plateada, especialista en Pokémon de tipo roca.", "answer": "Brock"},
+        {"letter": "C", "kind": "empieza", "clue": "Inicial de fuego de Kanto, con una llama encendida en la punta de la cola.", "answer": "Charmander"},
+        {"letter": "D", "kind": "empieza", "clue": "Tipo al que Lance, del Alto Mando, dedica todo su equipo.", "answer": "dragón"},
+        {"letter": "E", "kind": "empieza", "clue": "Cambio por el que una criatura se transforma en otra más fuerte.", "answer": "evolución"},
+        {"letter": "F", "kind": "empieza", "clue": "Evolución de fuego de Eevee, de pelaje naranja.", "answer": "Flareon"},
+        {"letter": "G", "kind": "empieza", "clue": "Lugar donde se consigue una medalla derrotando a su líder.", "answer": "gimnasio"},
+        {"letter": "H", "kind": "empieza", "clue": "Tercera región de la saga, la de Rubí y Zafiro.", "answer": "Hoenn"},
+        {"letter": "I", "kind": "empieza", "clue": "Meseta donde espera el Alto Mando al final del viaje por Kanto.", "answer": "Índigo"},
+        {"letter": "J", "kind": "empieza", "clue": "Segunda región de la saga, la de Oro y Plata.", "answer": "Johto"},
+        {"letter": "L", "kind": "empieza", "clue": "Categoría de las criaturas únicas y muy poderosas de cada generación.", "answer": "legendario"},
+        {"letter": "M", "kind": "empieza", "clue": "Entrenadora pelirroja de Ciudad Celeste, especialista en tipo agua.", "answer": "Misty"},
+        {"letter": "N", "kind": "empieza", "clue": "Número que sube una criatura al acumular puntos de combate.", "answer": "nivel"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Estado en el que cae una criatura tras recibir el ataque Canto.", "answer": "sueño"},
+        {"letter": "O", "kind": "empieza", "clue": "Apellido del profesor que entrega la primera criatura en Kanto.", "answer": "Oak"},
+        {"letter": "P", "kind": "empieza", "clue": "Objeto esférico rojo y blanco con el que se captura.", "answer": "pokébola", "accepted": ["pokeball"]},
+        {"letter": "Q", "kind": "empieza", "clue": "Evolución de Wooper, de tipo agua y tierra.", "answer": "Quagsire"},
+        {"letter": "R", "kind": "empieza", "clue": "Evolución del ratón eléctrico amarillo mediante una piedra trueno.", "answer": "Raichu"},
+        {"letter": "S", "kind": "empieza", "clue": "Criatura enorme y dormilona que bloquea el camino hasta que la despiertas.", "answer": "Snorlax"},
+        {"letter": "T", "kind": "empieza", "clue": "Criatura con forma de cascarón blanco con picos de colores.", "answer": "Togepi"},
+        {"letter": "U", "kind": "empieza", "clue": "Prefijo de las versiones mejoradas de Sol y Luna que salieron en 2017.", "answer": "Ultra"},
+        {"letter": "V", "kind": "empieza", "clue": "Evolución acuática de piel azulada que se obtiene con la piedra agua.", "answer": "Vaporeon"},
+        {"letter": "X", "kind": "contiene", "clue": "Lo que gana una criatura tras cada combate y la hace más fuerte.", "answer": "experiencia"},
+        {"letter": "Y", "kind": "empieza", "clue": "Parte amarilla del interior de un huevo de gallina.", "answer": "yema"},
+        {"letter": "Z", "kind": "empieza", "clue": "Ave legendaria eléctrica del trío de pájaros de Kanto.", "answer": "Zapdos"}
+      ]
+    }
+  ]
+}

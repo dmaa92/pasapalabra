@@ -1,0 +1,68 @@
+{
+  "category": "Tecnología",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "tecnologia-1",
+      "name": "Tecnología 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Secuencia ordenada y finita de pasos para resolver un problema.", "answer": "algoritmo"},
+        {"letter": "B", "kind": "empieza", "clue": "Unidad de información formada por ocho bits.", "answer": "byte"},
+        {"letter": "C", "kind": "empieza", "clue": "Memoria pequeña y rápida donde se guarda lo que se consulta a menudo.", "answer": "caché"},
+        {"letter": "D", "kind": "empieza", "clue": "Nombre que se escribe en la barra del navegador para llegar a una web.", "answer": "dominio"},
+        {"letter": "E", "kind": "empieza", "clue": "Cable de red de toda la vida, el del conector RJ45.", "answer": "ethernet"},
+        {"letter": "F", "kind": "empieza", "clue": "Barrera que filtra el tráfico de red no autorizado.", "answer": "firewall", "accepted": ["cortafuegos"]},
+        {"letter": "G", "kind": "empieza", "clue": "Buscador fundado por Larry Page y Sergey Brin en 1998.", "answer": "Google"},
+        {"letter": "H", "kind": "empieza", "clue": "Parte física de un ordenador, la que se puede tocar.", "answer": "hardware"},
+        {"letter": "I", "kind": "empieza", "clue": "Red mundial que conecta entre sí a millones de ordenadores.", "answer": "internet"},
+        {"letter": "J", "kind": "empieza", "clue": "Lenguaje de programación creado por Sun Microsystems en 1995.", "answer": "Java"},
+        {"letter": "L", "kind": "empieza", "clue": "Núcleo de sistema operativo libre creado por Linus Torvalds en 1991.", "answer": "Linux"},
+        {"letter": "M", "kind": "empieza", "clue": "Aparato que conecta la casa con la red del proveedor.", "answer": "módem"},
+        {"letter": "N", "kind": "empieza", "clue": "Donde se guardan los archivos cuando no están en tu propio disco.", "answer": "nube"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Palabra secreta que hay que teclear para entrar en una cuenta.", "answer": "contraseña"},
+        {"letter": "O", "kind": "empieza", "clue": "Empresa estadounidense famosa por su base de datos, que compró Sun.", "answer": "Oracle"},
+        {"letter": "P", "kind": "empieza", "clue": "Cada uno de los puntos de color que forman una imagen digital.", "answer": "píxel"},
+        {"letter": "Q", "kind": "empieza", "clue": "Código cuadrado de puntos que se escanea con la cámara del móvil.", "answer": "QR"},
+        {"letter": "R", "kind": "empieza", "clue": "Aparato que reparte la conexión entre los dispositivos de casa.", "answer": "router"},
+        {"letter": "S", "kind": "empieza", "clue": "Parte lógica de un ordenador: los programas.", "answer": "software"},
+        {"letter": "T", "kind": "empieza", "clue": "Periférico de teclas con el que se escribe.", "answer": "teclado"},
+        {"letter": "U", "kind": "empieza", "clue": "Puerto universal por el que se conectan memorias y periféricos.", "answer": "USB"},
+        {"letter": "V", "kind": "empieza", "clue": "Programa malicioso que se replica e infecta otros archivos.", "answer": "virus"},
+        {"letter": "X", "kind": "contiene", "clue": "Tipo de fichero plano, sin formato, que abre cualquier editor.", "answer": "texto"},
+        {"letter": "Y", "kind": "empieza", "clue": "Plataforma de vídeos fundada en 2005 y comprada un año después por un buscador.", "answer": "YouTube"},
+        {"letter": "Z", "kind": "empieza", "clue": "Formato de archivo comprimido más conocido.", "answer": "zip"}
+      ]
+    },
+    {
+      "id": "tecnologia-2",
+      "name": "Tecnología 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Programa que se instala en el móvil desde una tienda.", "answer": "aplicación"},
+        {"letter": "B", "kind": "empieza", "clue": "Tecnología inalámbrica de corto alcance para auriculares y ratones.", "answer": "bluetooth"},
+        {"letter": "C", "kind": "empieza", "clue": "Pastilla de silicio con millones de transistores integrados.", "answer": "chip"},
+        {"letter": "D", "kind": "empieza", "clue": "Soporte donde se almacenan los datos de forma permanente.", "answer": "disco"},
+        {"letter": "E", "kind": "empieza", "clue": "Aparato que convierte un documento de papel en un archivo digital.", "answer": "escáner"},
+        {"letter": "F", "kind": "empieza", "clue": "Tecnología de conexión que transmite la luz por un hilo de vidrio.", "answer": "fibra"},
+        {"letter": "G", "kind": "empieza", "clue": "Unidad de almacenamiento equivalente a unos mil millones de bytes.", "answer": "gigabyte"},
+        {"letter": "H", "kind": "empieza", "clue": "Persona con gran habilidad para entender y manipular sistemas informáticos.", "answer": "hacker"},
+        {"letter": "I", "kind": "empieza", "clue": "Periférico que pasa a papel lo que se ve en la pantalla.", "answer": "impresora"},
+        {"letter": "J", "kind": "empieza", "clue": "Lenguaje que da vida a las páginas web dentro del navegador.", "answer": "JavaScript"},
+        {"letter": "L", "kind": "empieza", "clue": "Diodo emisor de luz que ha sustituido a las bombillas de siempre.", "answer": "LED"},
+        {"letter": "M", "kind": "empieza", "clue": "Componente donde el ordenador guarda lo que está usando en ese momento.", "answer": "memoria"},
+        {"letter": "N", "kind": "empieza", "clue": "Programa con el que se visitan las páginas web.", "answer": "navegador"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Lo que pierde el móvil dentro de un ascensor.", "answer": "señal"},
+        {"letter": "O", "kind": "empieza", "clue": "Máquina que procesa datos, con pantalla, teclado y ratón.", "answer": "ordenador"},
+        {"letter": "P", "kind": "empieza", "clue": "Persona que escribe el código de una aplicación.", "answer": "programador"},
+        {"letter": "Q", "kind": "empieza", "clue": "Nombre de la distribución de teclado más extendida en Occidente.", "answer": "QWERTY"},
+        {"letter": "R", "kind": "empieza", "clue": "Conjunto de equipos conectados entre sí para compartir datos.", "answer": "red"},
+        {"letter": "S", "kind": "empieza", "clue": "Ordenador que atiende las peticiones que le hacen otros equipos.", "answer": "servidor"},
+        {"letter": "T", "kind": "empieza", "clue": "Dispositivo de pantalla táctil, más grande que un móvil y sin teclas.", "answer": "tableta", "accepted": ["tablet"]},
+        {"letter": "U", "kind": "empieza", "clue": "Dirección completa de un recurso en la web, la que empieza por https.", "answer": "URL"},
+        {"letter": "V", "kind": "empieza", "clue": "Túnel cifrado que oculta por dónde navegas y desde dónde.", "answer": "VPN"},
+        {"letter": "X", "kind": "contiene", "clue": "Las letras que siguen al punto en el nombre de un archivo.", "answer": "extensión"},
+        {"letter": "Y", "kind": "empieza", "clue": "Portal y buscador estadounidense de los años noventa, rival de Altavista.", "answer": "Yahoo"},
+        {"letter": "Z", "kind": "empieza", "clue": "Aplicación de videollamadas que se popularizó durante la pandemia.", "answer": "Zoom"}
+      ]
+    }
+  ]
+}

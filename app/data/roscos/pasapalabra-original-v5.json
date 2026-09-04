@@ -1,0 +1,68 @@
+{
+  "category": "Pasapalabra Original V5",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pasapalabra-original-v5-1",
+      "name": "Original V5 · Rosco A",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Flor roja de pétalos finos que crece entre el trigo.", "answer": "amapola"},
+        {"letter": "B", "kind": "empieza", "clue": "Árbol enano cultivado en maceta según la tradición japonesa.", "answer": "bonsái"},
+        {"letter": "C", "kind": "empieza", "clue": "Flor de pétalos dentados que dio nombre a la revolución portuguesa.", "answer": "clavel"},
+        {"letter": "D", "kind": "empieza", "clue": "Flor de origen mexicano con muchos pétalos en círculos concéntricos.", "answer": "dalia"},
+        {"letter": "E", "kind": "empieza", "clue": "Pincho que protege el tallo de la rosa.", "answer": "espina"},
+        {"letter": "F", "kind": "empieza", "clue": "Proceso por el que la planta fabrica su alimento gracias a la luz.", "answer": "fotosíntesis"},
+        {"letter": "G", "kind": "empieza", "clue": "Flor grande y amarilla cuya cabeza sigue la luz del día.", "answer": "girasol"},
+        {"letter": "H", "kind": "empieza", "clue": "Planta trepadora de hoja perenne que cubre los muros.", "answer": "hiedra"},
+        {"letter": "I", "kind": "empieza", "clue": "Recinto acristalado donde se cultiva a resguardo del frío.", "answer": "invernadero"},
+        {"letter": "J", "kind": "empieza", "clue": "Arbusto de flores blancas que huelen sobre todo de noche.", "answer": "jazmín"},
+        {"letter": "L", "kind": "empieza", "clue": "Planta morada de olor intenso que se usa contra las polillas.", "answer": "lavanda"},
+        {"letter": "M", "kind": "empieza", "clue": "Planta diminuta y verde que tapiza las piedras húmedas.", "answer": "musgo"},
+        {"letter": "N", "kind": "empieza", "clue": "Planta acuática de hojas redondas que flotan en el estanque.", "answer": "nenúfar"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Árbol que da un fruto marrón que se asa en los puestos de invierno.", "answer": "castaño"},
+        {"letter": "O", "kind": "empieza", "clue": "Árbol mediterráneo del que se recoge la aceituna.", "answer": "olivo"},
+        {"letter": "P", "kind": "empieza", "clue": "Corte de ramas que se hace para que el árbol crezca mejor.", "answer": "poda"},
+        {"letter": "Q", "kind": "empieza", "clue": "Árbol parecido al roble, propio de la península ibérica.", "answer": "quejigo"},
+        {"letter": "R", "kind": "empieza", "clue": "Parte que crece bajo tierra y absorbe el agua y los nutrientes.", "answer": "raíz"},
+        {"letter": "S", "kind": "empieza", "clue": "Líquido que circula por el interior de la planta alimentándola.", "answer": "savia"},
+        {"letter": "T", "kind": "empieza", "clue": "Parte de la planta que sostiene las hojas y las flores.", "answer": "tallo"},
+        {"letter": "U", "kind": "empieza", "clue": "Zona de la ladera de un monte donde da poco el sol.", "answer": "umbría"},
+        {"letter": "V", "kind": "empieza", "clue": "Planta trepadora que da las uvas.", "answer": "vid"},
+        {"letter": "X", "kind": "contiene", "clue": "Se dice de la rama del sauce, que se dobla sin llegar a romperse.", "answer": "flexible"},
+        {"letter": "Y", "kind": "empieza", "clue": "Planta de hojas puntiagudas y raíz comestible, típica de América.", "answer": "yuca"},
+        {"letter": "Z", "kind": "empieza", "clue": "Arbusto espinoso en el que crecen las moras.", "answer": "zarza"}
+      ]
+    },
+    {
+      "id": "pasapalabra-original-v5-2",
+      "name": "Original V5 · Rosco B",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Cuerpo rocoso de pocos kilómetros que gira alrededor del Sol.", "answer": "asteroide"},
+        {"letter": "B", "kind": "empieza", "clue": "Nombre de la gran explosión con la que empezó todo, hace 13.800 millones de años.", "answer": "big bang", "accepted": ["bigbang", "gran explosion"]},
+        {"letter": "C", "kind": "empieza", "clue": "Hoyo circular que deja el impacto de un meteorito.", "answer": "cráter"},
+        {"letter": "D", "kind": "empieza", "clue": "Tiempo que tarda la Tierra en dar una vuelta sobre sí misma.", "answer": "día"},
+        {"letter": "E", "kind": "empieza", "clue": "Ocultación de un astro al interponerse otro entre él y quien mira.", "answer": "eclipse"},
+        {"letter": "F", "kind": "empieza", "clue": "Cada uno de los aspectos del satélite terrestre: nueva, creciente, llena.", "answer": "fase"},
+        {"letter": "G", "kind": "empieza", "clue": "Fuerza que mantiene a la Tierra girando alrededor del Sol.", "answer": "gravedad"},
+        {"letter": "H", "kind": "empieza", "clue": "Observatorio espacial lanzado en 1990 que sigue orbitando la Tierra.", "answer": "Hubble"},
+        {"letter": "I", "kind": "empieza", "clue": "Tipo de luz invisible con la que observa el James Webb.", "answer": "infrarrojo"},
+        {"letter": "J", "kind": "empieza", "clue": "El mayor cuerpo del sistema solar después del Sol.", "answer": "Júpiter"},
+        {"letter": "L", "kind": "empieza", "clue": "Único satélite natural de la Tierra.", "answer": "Luna"},
+        {"letter": "M", "kind": "empieza", "clue": "El vecino rojo de la Tierra, cuarto desde el Sol.", "answer": "Marte"},
+        {"letter": "N", "kind": "empieza", "clue": "Nube de gas y polvo en la que nacen las estrellas.", "answer": "nebulosa"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Distancia que recorre la luz a lo largo de doce meses.", "answer": "año luz", "accepted": ["anio luz"]},
+        {"letter": "O", "kind": "empieza", "clue": "Trayectoria que sigue un cuerpo celeste alrededor de otro.", "answer": "órbita"},
+        {"letter": "P", "kind": "empieza", "clue": "Cuerpo esférico que gira alrededor de una estrella y ha despejado su camino.", "answer": "planeta"},
+        {"letter": "Q", "kind": "empieza", "clue": "Núcleo de galaxia lejanísimo y brillantísimo.", "answer": "quásar", "accepted": ["quasar"]},
+        {"letter": "R", "kind": "empieza", "clue": "Giro de un cuerpo sobre su propio eje.", "answer": "rotación"},
+        {"letter": "S", "kind": "empieza", "clue": "El de los anillos más vistosos del sistema solar.", "answer": "Saturno"},
+        {"letter": "T", "kind": "empieza", "clue": "Instrumento con el que se observan los astros lejanos.", "answer": "telescopio"},
+        {"letter": "U", "kind": "empieza", "clue": "Todo lo que existe: materia, energía, espacio y tiempo.", "answer": "universo"},
+        {"letter": "V", "kind": "empieza", "clue": "El lucero del alba, segundo cuerpo en distancia desde el Sol.", "answer": "Venus"},
+        {"letter": "X", "kind": "contiene", "clue": "Mundo que gira alrededor de una estrella distinta a la nuestra.", "answer": "exoplaneta"},
+        {"letter": "Y", "kind": "empieza", "clue": "Nombre de pila de Gagarin, primer ser humano que viajó al espacio.", "answer": "Yuri"},
+        {"letter": "Z", "kind": "empieza", "clue": "Franja del cielo dividida en doce constelaciones.", "answer": "zodiaco", "accepted": ["zodíaco"]}
+      ]
+    }
+  ]
+}

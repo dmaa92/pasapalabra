@@ -1,0 +1,68 @@
+{
+  "category": "Pasapalabra Original V4",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pasapalabra-original-v4-1",
+      "name": "Original V4 · Rosco A",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Quien escribe una obra literaria.", "answer": "autor"},
+        {"letter": "B", "kind": "empieza", "clue": "Libro que cuenta la vida de una persona real.", "answer": "biografía"},
+        {"letter": "C", "kind": "empieza", "clue": "Cada una de las partes numeradas en que se divide un libro.", "answer": "capítulo"},
+        {"letter": "D", "kind": "empieza", "clue": "Género teatral de conflicto serio y desenlace grave.", "answer": "drama"},
+        {"letter": "E", "kind": "empieza", "clue": "Parte final que cierra una obra después del desenlace.", "answer": "epílogo"},
+        {"letter": "F", "kind": "empieza", "clue": "Lo inventado en una obra, frente a lo que ocurrió de verdad.", "answer": "ficción"},
+        {"letter": "G", "kind": "empieza", "clue": "Poeta cordobés del Siglo de Oro, autor de las Soledades.", "answer": "Góngora"},
+        {"letter": "H", "kind": "empieza", "clue": "Poema japonés muy breve, de tres versos.", "answer": "haiku"},
+        {"letter": "I", "kind": "empieza", "clue": "Lista que indica en qué página empieza cada parte de un libro.", "answer": "índice"},
+        {"letter": "J", "kind": "empieza", "clue": "Nombre de pila de Verne, autor de Viaje al centro de la Tierra.", "answer": "Julio"},
+        {"letter": "L", "kind": "empieza", "clue": "Persona a la que va dirigido un libro y que lo abre.", "answer": "lector"},
+        {"letter": "M", "kind": "empieza", "clue": "Figura que llama a algo por el nombre de otra cosa parecida.", "answer": "metáfora"},
+        {"letter": "N", "kind": "empieza", "clue": "Obra narrativa larga escrita en prosa.", "answer": "novela"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Lo que Calderón dice que es la vida en el título de su obra.", "answer": "sueño"},
+        {"letter": "O", "kind": "empieza", "clue": "Poema lírico de tono elevado dedicado a alguien o algo.", "answer": "oda"},
+        {"letter": "P", "kind": "empieza", "clue": "Texto que precede a la obra y la presenta al que va a leerla.", "answer": "prólogo"},
+        {"letter": "Q", "kind": "empieza", "clue": "Poeta barroco de los anteojos, célebre por sus sátiras.", "answer": "Quevedo"},
+        {"letter": "R", "kind": "empieza", "clue": "Repetición de sonidos al final de las líneas de un poema.", "answer": "rima"},
+        {"letter": "S", "kind": "empieza", "clue": "Poema de catorce versos en dos cuartetos y dos tercetos.", "answer": "soneto"},
+        {"letter": "T", "kind": "empieza", "clue": "Conjunto de tres obras que cuentan una misma historia.", "answer": "trilogía"},
+        {"letter": "U", "kind": "empieza", "clue": "Escritor bilbaíno de la generación del 98, autor de Niebla.", "answer": "Unamuno"},
+        {"letter": "V", "kind": "empieza", "clue": "Cada una de las líneas que forman un poema.", "answer": "verso"},
+        {"letter": "X", "kind": "contiene", "clue": "Conjunto de palabras escritas que forman un escrito.", "answer": "texto"},
+        {"letter": "Y", "kind": "empieza", "clue": "Tragedia de Federico García Lorca sobre una mujer sin hijos.", "answer": "Yerma"},
+        {"letter": "Z", "kind": "empieza", "clue": "Autor romántico español de Don Juan Tenorio.", "answer": "Zorrilla"}
+      ]
+    },
+    {
+      "id": "pasapalabra-original-v4-2",
+      "name": "Original V4 · Rosco B",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Construcción romana de arcos para llevar agua, como el de Segovia.", "answer": "acueducto"},
+        {"letter": "B", "kind": "empieza", "clue": "Estilo artístico recargado y teatral del siglo XVII.", "answer": "barroco"},
+        {"letter": "C", "kind": "empieza", "clue": "Soporte de tres patas sobre el que el pintor apoya su obra.", "answer": "caballete"},
+        {"letter": "D", "kind": "empieza", "clue": "Pintor de Figueras célebre por sus relojes blandos.", "answer": "Dalí"},
+        {"letter": "E", "kind": "empieza", "clue": "Obra de arte tallada o modelada en tres dimensiones.", "answer": "escultura"},
+        {"letter": "F", "kind": "empieza", "clue": "Técnica de pintura mural aplicada sobre el revoque aún húmedo.", "answer": "fresco"},
+        {"letter": "G", "kind": "empieza", "clue": "Pintor aragonés autor de los fusilamientos del 3 de mayo.", "answer": "Goya"},
+        {"letter": "H", "kind": "empieza", "clue": "Mezcla de cemento, arena y grava sobre la que se levanta la arquitectura moderna.", "answer": "hormigón"},
+        {"letter": "I", "kind": "empieza", "clue": "Movimiento pictórico francés de Monet y Renoir.", "answer": "impresionismo"},
+        {"letter": "J", "kind": "empieza", "clue": "Recipiente decorado de cerámica, frecuente en los bodegones.", "answer": "jarrón"},
+        {"letter": "L", "kind": "empieza", "clue": "Tela tensada sobre un bastidor en la que se pinta.", "answer": "lienzo"},
+        {"letter": "M", "kind": "empieza", "clue": "Composición hecha con pequeñas piezas de colores encajadas.", "answer": "mosaico"},
+        {"letter": "N", "kind": "empieza", "clue": "Estilo que vuelve a los cánones griegos y romanos en el siglo XVIII.", "answer": "neoclásico"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Trabajo previo de idear la forma de un objeto o de un cartel.", "answer": "diseño"},
+        {"letter": "O", "kind": "empieza", "clue": "Pintura de pigmentos mezclados con aceite.", "answer": "óleo"},
+        {"letter": "P", "kind": "empieza", "clue": "Malagueño autor del Guernica y padre del cubismo.", "answer": "Picasso"},
+        {"letter": "Q", "kind": "empieza", "clue": "Figura fantástica de animales mezclados que decora las catedrales.", "answer": "quimera"},
+        {"letter": "R", "kind": "empieza", "clue": "Cuadro que representa a una persona concreta.", "answer": "retrato"},
+        {"letter": "S", "kind": "empieza", "clue": "Movimiento que lleva al lienzo el mundo de los sueños.", "answer": "surrealismo"},
+        {"letter": "T", "kind": "empieza", "clue": "Técnica en la que el pigmento se liga con huevo.", "answer": "témpera"},
+        {"letter": "U", "kind": "empieza", "clue": "Disciplina que planifica cómo crecen y se ordenan las ciudades.", "answer": "urbanismo"},
+        {"letter": "V", "kind": "empieza", "clue": "Pintor sevillano autor de Las meninas.", "answer": "Velázquez"},
+        {"letter": "X", "kind": "contiene", "clue": "Muestra pública de obras en una sala o un museo.", "answer": "exposición"},
+        {"letter": "Y", "kind": "empieza", "clue": "Colocar dos elementos juntos y sin nexo, recurso propio del collage.", "answer": "yuxtaposición"},
+        {"letter": "Z", "kind": "empieza", "clue": "Franja inferior de una pared, decorada de forma distinta al resto.", "answer": "zócalo"}
+      ]
+    }
+  ]
+}

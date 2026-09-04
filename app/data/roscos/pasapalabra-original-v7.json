@@ -1,0 +1,68 @@
+{
+  "category": "Pasapalabra Original V7",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pasapalabra-original-v7-1",
+      "name": "Original V7 · Rosco A",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Lo que se pone bajo la cabeza para dormir.", "answer": "almohada"},
+        {"letter": "B", "kind": "empieza", "clue": "Plataforma con barandilla que sobresale de la fachada.", "answer": "balcón"},
+        {"letter": "C", "kind": "empieza", "clue": "Tela que cuelga en la ventana y tapa la claridad.", "answer": "cortina"},
+        {"letter": "D", "kind": "empieza", "clue": "Cuarto pequeño donde se guardan los alimentos de reserva.", "answer": "despensa"},
+        {"letter": "E", "kind": "empieza", "clue": "Sucesión de peldaños que permite subir de un piso a otro.", "answer": "escalera"},
+        {"letter": "F", "kind": "empieza", "clue": "Pila de la cocina donde se lavan los platos.", "answer": "fregadero"},
+        {"letter": "G", "kind": "empieza", "clue": "Lugar de la casa donde se guarda el coche.", "answer": "garaje"},
+        {"letter": "H", "kind": "empieza", "clue": "Electrodoméstico en el que se asan y se hornean los alimentos.", "answer": "horno"},
+        {"letter": "I", "kind": "empieza", "clue": "Lo que se pulsa en la pared para encender la luz.", "answer": "interruptor"},
+        {"letter": "J", "kind": "empieza", "clue": "Recipiente con asa y pico para servir el agua en la mesa.", "answer": "jarra"},
+        {"letter": "L", "kind": "empieza", "clue": "Aparato que sostiene la bombilla y alumbra la habitación.", "answer": "lámpara"},
+        {"letter": "M", "kind": "empieza", "clue": "Pieza gruesa de abrigo que cubre la cama en invierno.", "answer": "manta"},
+        {"letter": "N", "kind": "empieza", "clue": "Electrodoméstico que mantiene fríos los alimentos.", "answer": "nevera"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Recipiente grande del cuarto de aseo en el que uno se sumerge.", "answer": "bañera"},
+        {"letter": "O", "kind": "empieza", "clue": "Recipiente hondo con dos asas que se usa para cocer.", "answer": "olla"},
+        {"letter": "P", "kind": "empieza", "clue": "Lo que se baja para que no entre claridad por la ventana.", "answer": "persiana"},
+        {"letter": "Q", "kind": "empieza", "clue": "Parte del marco sobre la que gira la puerta.", "answer": "quicio"},
+        {"letter": "R", "kind": "empieza", "clue": "Franja que remata por abajo la unión entre la pared y el suelo.", "answer": "rodapié"},
+        {"letter": "S", "kind": "empieza", "clue": "Asiento largo y mullido presidiendo el salón.", "answer": "sofá"},
+        {"letter": "T", "kind": "empieza", "clue": "Tela con la que uno se seca al salir de la ducha.", "answer": "toalla"},
+        {"letter": "U", "kind": "empieza", "clue": "Cada uno de los objetos que se manejan al cocinar.", "answer": "utensilio"},
+        {"letter": "V", "kind": "empieza", "clue": "Conjunto de platos, fuentes y tazas de una casa.", "answer": "vajilla"},
+        {"letter": "X", "kind": "contiene", "clue": "Aparato de la cocina que aspira los humos y los saca fuera.", "answer": "extractor"},
+        {"letter": "Y", "kind": "empieza", "clue": "Parte amarilla del huevo, que se separa de la clara al cocinar.", "answer": "yema"},
+        {"letter": "Z", "kind": "empieza", "clue": "Espacio cubierto justo detrás de la puerta de entrada.", "answer": "zaguán"}
+      ]
+    },
+    {
+      "id": "pasapalabra-original-v7-2",
+      "name": "Original V7 · Rosco B",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Aeronave de alas fijas que despega de una pista.", "answer": "avión"},
+        {"letter": "B", "kind": "empieza", "clue": "Vehículo de dos ruedas que avanza pedaleando.", "answer": "bicicleta"},
+        {"letter": "C", "kind": "empieza", "clue": "Vehículo grande destinado a llevar carga por carretera.", "answer": "camión"},
+        {"letter": "D", "kind": "empieza", "clue": "Coche al que se le puede plegar o quitar el techo.", "answer": "descapotable"},
+        {"letter": "E", "kind": "empieza", "clue": "Lugar donde paran los trenes y suben los pasajeros.", "answer": "estación"},
+        {"letter": "F", "kind": "empieza", "clue": "Sistema de transporte que circula sobre raíles.", "answer": "ferrocarril"},
+        {"letter": "G", "kind": "empieza", "clue": "Barca negra que se impulsa con un remo por los canales de Venecia.", "answer": "góndola"},
+        {"letter": "H", "kind": "empieza", "clue": "Aeronave que despega en vertical gracias a sus hélices.", "answer": "helicóptero"},
+        {"letter": "I", "kind": "empieza", "clue": "Recorrido previsto de un viaje, con todas sus paradas.", "answer": "itinerario"},
+        {"letter": "J", "kind": "empieza", "clue": "Aeronave a reacción, normalmente pequeña y privada.", "answer": "jet"},
+        {"letter": "L", "kind": "empieza", "clue": "Máquina que tira de los vagones de un convoy.", "answer": "locomotora"},
+        {"letter": "M", "kind": "empieza", "clue": "Ferrocarril urbano que circula bajo tierra.", "answer": "metro"},
+        {"letter": "N", "kind": "empieza", "clue": "Cubierta de goma que rodea la llanta de la rueda.", "answer": "neumático"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Placa de tráfico que indica una norma en la carretera.", "answer": "señal"},
+        {"letter": "O", "kind": "empieza", "clue": "Palabra culta y antigua para el autobús.", "answer": "ómnibus"},
+        {"letter": "P", "kind": "empieza", "clue": "Lo que se paga en una cabina por circular por ciertas autopistas.", "answer": "peaje"},
+        {"letter": "Q", "kind": "empieza", "clue": "Pieza que recorre el fondo del barco de proa a popa.", "answer": "quilla"},
+        {"letter": "R", "kind": "empieza", "clue": "Lo que se engancha detrás del vehículo para llevar más carga.", "answer": "remolque"},
+        {"letter": "S", "kind": "empieza", "clue": "Dispositivo de luces de colores que regula el tráfico.", "answer": "semáforo"},
+        {"letter": "T", "kind": "empieza", "clue": "Vehículo sobre raíles que circula por las calles de la ciudad.", "answer": "tranvía"},
+        {"letter": "U", "kind": "empieza", "clue": "Coche pequeño y económico pensado para el uso diario.", "answer": "utilitario"},
+        {"letter": "V", "kind": "empieza", "clue": "Barco que avanza empujado por el viento en sus velas.", "answer": "velero"},
+        {"letter": "X", "kind": "contiene", "clue": "Coche de alquiler con conductor que se para levantando la mano.", "answer": "taxi"},
+        {"letter": "Y", "kind": "empieza", "clue": "Embarcación de recreo, normalmente de lujo.", "answer": "yate"},
+        {"letter": "Z", "kind": "empieza", "clue": "Dirigible rígido lleno de gas, popular a principios del siglo XX.", "answer": "zepelín", "accepted": ["zeppelin"]}
+      ]
+    }
+  ]
+}

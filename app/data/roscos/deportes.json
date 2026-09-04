@@ -1,0 +1,68 @@
+{
+  "category": "Deportes",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "deportes-1",
+      "name": "Deportes 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Quien dirige un partido, pita las faltas y saca las tarjetas.", "answer": "árbitro"},
+        {"letter": "B", "kind": "empieza", "clue": "Deporte en el que hay que encestar el balón en un aro a más de tres metros.", "answer": "baloncesto", "accepted": ["basquet", "basquetbol"]},
+        {"letter": "C", "kind": "empieza", "clue": "Saque de esquina en el fútbol.", "answer": "córner"},
+        {"letter": "D", "kind": "empieza", "clue": "Uso de sustancias prohibidas para rendir más de la cuenta.", "answer": "dopaje"},
+        {"letter": "E", "kind": "empieza", "clue": "Deporte de combate que se practica con florete, espada o sable.", "answer": "esgrima"},
+        {"letter": "F", "kind": "empieza", "clue": "Deporte de once contra once, el más popular del mundo.", "answer": "fútbol"},
+        {"letter": "G", "kind": "empieza", "clue": "Deporte con aparatos como las anillas, el potro y la barra de equilibrio.", "answer": "gimnasia"},
+        {"letter": "H", "kind": "empieza", "clue": "Deporte que se juega con un stick y un disco sobre una pista de hielo.", "answer": "hockey"},
+        {"letter": "I", "kind": "empieza", "clue": "Ciclista navarro que ganó cinco Tours de Francia seguidos en los años noventa.", "answer": "Indurain"},
+        {"letter": "J", "kind": "empieza", "clue": "Prueba de atletismo en la que se lanza una lanza ligera lo más lejos posible.", "answer": "jabalina"},
+        {"letter": "L", "kind": "empieza", "clue": "Competición en la que todos los equipos se enfrentan entre sí a lo largo del año.", "answer": "liga"},
+        {"letter": "M", "kind": "empieza", "clue": "Carrera a pie de 42 kilómetros y 195 metros.", "answer": "maratón"},
+        {"letter": "N", "kind": "empieza", "clue": "Deporte de piscina en el que se compite a crol, espalda o mariposa.", "answer": "natación"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Grupo de aficionados de un mismo club que se organizan para animarlo.", "answer": "peña"},
+        {"letter": "O", "kind": "empieza", "clue": "Cita deportiva que reúne cada cuatro años a los mejores del mundo.", "answer": "olimpiada", "accepted": ["juegos olimpicos", "olimpiadas"]},
+        {"letter": "P", "kind": "empieza", "clue": "Castigo máximo del fútbol, que se lanza desde once metros.", "answer": "penalti", "accepted": ["penalty"]},
+        {"letter": "Q", "kind": "empieza", "clue": "Los cinco jugadores que un equipo de baloncesto pone a la vez en pista.", "answer": "quinteto"},
+        {"letter": "R", "kind": "empieza", "clue": "Utensilio de mango y cuerdas con el que se golpea la pelota.", "answer": "raqueta"},
+        {"letter": "S", "kind": "empieza", "clue": "Golpe con el que se pone la pelota en juego al comienzo de un punto.", "answer": "saque"},
+        {"letter": "T", "kind": "empieza", "clue": "Deporte que se disputa en pistas de hierba, tierra batida o superficie dura.", "answer": "tenis"},
+        {"letter": "U", "kind": "empieza", "clue": "Nombre de pila del velocista Bolt, plusmarquista mundial de los cien metros.", "answer": "Usain"},
+        {"letter": "V", "kind": "empieza", "clue": "Deporte de seis contra seis en el que el balón no puede tocar el suelo.", "answer": "voleibol", "accepted": ["volleyball", "voley"]},
+        {"letter": "X", "kind": "contiene", "clue": "Deporte de combate por asaltos en el que se golpea con los puños enguantados.", "answer": "boxeo"},
+        {"letter": "Y", "kind": "empieza", "clue": "Arte marcial olímpica japonesa basada en proyecciones y llaves.", "answer": "yudo", "accepted": ["judo"]},
+        {"letter": "Z", "kind": "empieza", "clue": "Jugador que ocupa la posición más retrasada del equipo.", "answer": "zaguero"}
+      ]
+    },
+    {
+      "id": "deportes-2",
+      "name": "Deportes 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Deporte que reúne carreras, saltos y lanzamientos.", "answer": "atletismo"},
+        {"letter": "B", "kind": "empieza", "clue": "Deporte de siete contra siete en el que se lanza a portería con la mano.", "answer": "balonmano"},
+        {"letter": "C", "kind": "empieza", "clue": "Deporte que se practica sobre dos ruedas y pedales.", "answer": "ciclismo"},
+        {"letter": "D", "kind": "empieza", "clue": "Número que el corredor lleva prendido en la espalda.", "answer": "dorsal"},
+        {"letter": "E", "kind": "empieza", "clue": "Persona que dirige al equipo desde el banquillo y decide las alineaciones.", "answer": "entrenador"},
+        {"letter": "F", "kind": "empieza", "clue": "Último partido de un torneo, el que decide el campeón.", "answer": "final"},
+        {"letter": "G", "kind": "empieza", "clue": "Tanto que se marca cuando el balón cruza por completo la línea de meta.", "answer": "gol"},
+        {"letter": "H", "kind": "empieza", "clue": "Deporte olímpico consistente en levantar pesas.", "answer": "halterofilia"},
+        {"letter": "I", "kind": "empieza", "clue": "Futbolista español que marcó el tanto decisivo en la final del Mundial de 2010.", "answer": "Iniesta"},
+        {"letter": "J", "kind": "empieza", "clue": "Apellido del jugador que lució el número 23 en los Chicago Bulls.", "answer": "Jordan"},
+        {"letter": "L", "kind": "empieza", "clue": "Raya blanca que delimita el terreno de juego.", "answer": "línea"},
+        {"letter": "M", "kind": "empieza", "clue": "Presea de oro, plata o bronce que se cuelga del cuello en el podio.", "answer": "medalla"},
+        {"letter": "N", "kind": "empieza", "clue": "Tenista español con catorce títulos en Roland Garros.", "answer": "Nadal"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Banda elástica que el tenista lleva en el brazo para secarse el sudor.", "answer": "muñequera"},
+        {"letter": "O", "kind": "empieza", "clue": "Metal precioso del que es la presea del ganador.", "answer": "oro"},
+        {"letter": "P", "kind": "empieza", "clue": "Jugador que defiende la meta y es el único que puede usar las manos.", "answer": "portero"},
+        {"letter": "Q", "kind": "empieza", "clue": "Boleto en el que se pronostican los resultados de la jornada futbolística.", "answer": "quiniela"},
+        {"letter": "R", "kind": "empieza", "clue": "Marca máxima conseguida en una prueba, que otro puede batir.", "answer": "récord"},
+        {"letter": "S", "kind": "empieza", "clue": "Objeto que sopla el colegiado para detener el juego.", "answer": "silbato"},
+        {"letter": "T", "kind": "empieza", "clue": "Copa que levanta el capitán al ganar un título.", "answer": "trofeo"},
+        {"letter": "U", "kind": "empieza", "clue": "País que organizó y ganó el primer Mundial de fútbol, en 1930.", "answer": "Uruguay"},
+        {"letter": "V", "kind": "empieza", "clue": "Resultado que suma tres puntos en la clasificación futbolística.", "answer": "victoria"},
+        {"letter": "X", "kind": "contiene", "clue": "Ejercicio de brazos que se hace boca abajo apoyando las manos en el suelo.", "answer": "flexión"},
+        {"letter": "Y", "kind": "empieza", "clue": "Jinete profesional de las carreras de caballos.", "answer": "yóquey", "accepted": ["jockey", "yoqui"]},
+        {"letter": "Z", "kind": "empieza", "clue": "Calzado deportivo de suela de goma.", "answer": "zapatilla"}
+      ]
+    }
+  ]
+}

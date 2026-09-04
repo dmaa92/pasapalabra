@@ -48,6 +48,9 @@ function startClocks() {
   stopClocks();
   ticking = setInterval(() => {
     if (!state || state.over || busy) return;
+    // A paused match keeps whatever the server last said; interpolating
+    // here would count time nobody is spending.
+    if (state.paused) return;
     const player = state.players[state.turn];
     const left = player.remaining_seconds - (seconds() - syncedAt);
     paintClock(state.turn, left);
@@ -145,6 +148,12 @@ function render() {
   const tag = document.getElementById("category-tag");
   tag.hidden = state.category === "general";
   tag.textContent = `Categoría: ${state.category}`;
+
+  document.getElementById("paused-banner").hidden = !state.paused;
+  const pauseButton = document.getElementById("pause");
+  pauseButton.textContent = state.paused ? "Reanudar" : "Pausa";
+  pauseButton.classList.toggle("primary", state.paused);
+  answerInput.disabled = state.paused;
 
   const player = state.players[state.turn];
   document.getElementById("turn-name").textContent = player.name;
@@ -309,6 +318,14 @@ answerForm.addEventListener("submit", (event) => {
         say(`Fallo en la ${result.letter}: era "${result.solution}"`, "ko");
       }
     },
+  );
+});
+
+document.getElementById("pause").addEventListener("click", () => {
+  const resuming = state && state.paused;
+  play(
+    () => api(`/api/games/${state.id}/${resuming ? "resume" : "pause"}`, { method: "POST" }),
+    () => say(resuming ? "Se reanuda la partida." : "Partida en pausa: relojes parados.", "info"),
   );
 });
 

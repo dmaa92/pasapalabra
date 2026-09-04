@@ -1,0 +1,68 @@
+{
+  "category": "Bridgerton",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "bridgerton-1",
+      "name": "Bridgerton 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "El hermano mayor de la familia protagonista, vizconde y cabeza de casa.", "answer": "Anthony"},
+        {"letter": "B", "kind": "empieza", "clue": "Segundo de los hermanos, el que se dedica a la pintura.", "answer": "Benedict"},
+        {"letter": "C", "kind": "empieza", "clue": "Hermano que viaja por Europa y escribe diarios de sus viajes.", "answer": "Colin"},
+        {"letter": "D", "kind": "empieza", "clue": "Hermana mayor y protagonista de la primera temporada.", "answer": "Daphne"},
+        {"letter": "E", "kind": "empieza", "clue": "Hermana que prefiere los libros y las ideas a los bailes.", "answer": "Eloise"},
+        {"letter": "F", "kind": "empieza", "clue": "Apellido de la familia vecina, siempre vestida de amarillo chillón.", "answer": "Featherington"},
+        {"letter": "G", "kind": "empieza", "clue": "El penúltimo de los ocho hermanos de la familia principal.", "answer": "Gregory"},
+        {"letter": "H", "kind": "empieza", "clue": "La más pequeña de los ocho hermanos.", "answer": "Hyacinth"},
+        {"letter": "I", "kind": "empieza", "clue": "País donde transcurre la serie, en plena época de regencia.", "answer": "Inglaterra"},
+        {"letter": "J", "kind": "empieza", "clue": "Nombre de pila de la novelista estadounidense autora de los libros originales.", "answer": "Julia"},
+        {"letter": "L", "kind": "empieza", "clue": "Ciudad a la que las familias acuden para la vida social de primavera.", "answer": "Londres"},
+        {"letter": "M", "kind": "empieza", "clue": "Prima de las vecinas que llega embarazada en la primera temporada.", "answer": "Marina"},
+        {"letter": "N", "kind": "empieza", "clue": "Plataforma que estrenó la serie en diciembre de 2020.", "answer": "Netflix"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Tratamiento de la joven soltera que se presenta en sociedad.", "answer": "señorita"},
+        {"letter": "O", "kind": "empieza", "clue": "Número de hermanos que tiene la familia que da título a la serie.", "answer": "ocho"},
+        {"letter": "P", "kind": "empieza", "clue": "La menor de las vecinas, que escribe en secreto la gaceta de sociedad.", "answer": "Penélope"},
+        {"letter": "Q", "kind": "empieza", "clue": "Apellido de la novelista en cuyos libros se basa la serie.", "answer": "Quinn"},
+        {"letter": "R", "kind": "empieza", "clue": "Carlota, la soberana que decide quién es el diamante de la temporada.", "answer": "reina"},
+        {"letter": "S", "kind": "empieza", "clue": "Duque de Hastings y primer galán de la serie.", "answer": "Simon"},
+        {"letter": "T", "kind": "empieza", "clue": "Periodo social en el que las jóvenes se presentan y buscan marido.", "answer": "temporada"},
+        {"letter": "U", "kind": "empieza", "clue": "Lo que se sella en el altar y cierra casi cada tanda de episodios.", "answer": "unión"},
+        {"letter": "V", "kind": "empieza", "clue": "Madre viuda de los ocho hermanos protagonistas.", "answer": "Violet"},
+        {"letter": "X", "kind": "contiene", "clue": "Lo que fue la serie al estrenarse: la más vista de la plataforma.", "answer": "éxito"},
+        {"letter": "Y", "kind": "empieza", "clue": "Hembra del caballo, animal habitual en los paseos de la alta sociedad.", "answer": "yegua"},
+        {"letter": "Z", "kind": "empieza", "clue": "Calzado de tacón y hebilla que completa el vestido de gala.", "answer": "zapato"}
+      ]
+    },
+    {
+      "id": "bridgerton-2",
+      "name": "Bridgerton 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Nombre de pila de la lady viuda que apadrina al duque, interpretada por Adjoa Andoh.", "answer": "Agatha"},
+        {"letter": "B", "kind": "empieza", "clue": "Fiesta con orquesta donde cada noche se busca pareja.", "answer": "baile"},
+        {"letter": "C", "kind": "empieza", "clue": "Rival envidiosa de las jóvenes casaderas, apellidada Cowper.", "answer": "Cressida"},
+        {"letter": "D", "kind": "empieza", "clue": "Apellido de la lady que apadrina al duque de Hastings.", "answer": "Danbury"},
+        {"letter": "E", "kind": "empieza", "clue": "Hermana pequeña de Kate y diamante de la segunda temporada.", "answer": "Edwina"},
+        {"letter": "F", "kind": "empieza", "clue": "Hermana de la familia protagonista que toca el piano.", "answer": "Francesca"},
+        {"letter": "G", "kind": "empieza", "clue": "Publicación de cotilleos que aparece impresa cada mañana.", "answer": "gaceta"},
+        {"letter": "H", "kind": "empieza", "clue": "Ducado que hereda Simon al morir su padre.", "answer": "Hastings"},
+        {"letter": "I", "kind": "empieza", "clue": "Tarjeta que hay que recibir para poder asistir a una fiesta.", "answer": "invitación"},
+        {"letter": "J", "kind": "empieza", "clue": "Adorno de pedrería que la soberana luce en cada aparición.", "answer": "joya"},
+        {"letter": "L", "kind": "empieza", "clue": "Tratamiento inglés que antecede al nombre de una dama noble.", "answer": "lady"},
+        {"letter": "M", "kind": "empieza", "clue": "Objetivo declarado de casi todas las familias de la serie.", "answer": "matrimonio"},
+        {"letter": "N", "kind": "empieza", "clue": "Nombre de pila de la actriz Coughlan, la vecina que escribe en secreto.", "answer": "Nicola"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Trabajo de vestuario por el que la serie es famosa, lleno de flores y pedrería.", "answer": "diseño"},
+        {"letter": "O", "kind": "empieza", "clue": "Grupo de músicos que toca versiones de canciones actuales en los salones.", "answer": "orquesta"},
+        {"letter": "P", "kind": "empieza", "clue": "Matriarca de la familia vecina, madre de tres hijas casaderas.", "answer": "Portia"},
+        {"letter": "Q", "kind": "empieza", "clue": "Pleito o disputa formal, como los que amenazan el honor de una familia.", "answer": "querella"},
+        {"letter": "R", "kind": "empieza", "clue": "Época histórica inglesa en la que se ambienta la serie.", "answer": "regencia"},
+        {"letter": "S", "kind": "empieza", "clue": "Apellido de las hermanas Kate y Edwina.", "answer": "Sharma"},
+        {"letter": "T", "kind": "empieza", "clue": "Adorno de cabeza con piedras preciosas que corona a la soberana.", "answer": "tiara"},
+        {"letter": "U", "kind": "empieza", "clue": "Lo que se dice del diamante de cada año: no hay más que uno.", "answer": "único"},
+        {"letter": "V", "kind": "empieza", "clue": "Baile en tres tiempos que las parejas ensayan para la fiesta.", "answer": "vals"},
+        {"letter": "X", "kind": "contiene", "clue": "Tratamiento que corresponde a un duque cuando se le habla de usted.", "answer": "excelencia"},
+        {"letter": "Y", "kind": "empieza", "clue": "Carga o sometimiento que alguien impone a otro.", "answer": "yugo"},
+        {"letter": "Z", "kind": "empieza", "clue": "Adorno que cuelga de la oreja, habitual con los peinados de la época.", "answer": "zarcillo"}
+      ]
+    }
+  ]
+}

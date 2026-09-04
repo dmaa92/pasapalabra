@@ -1,0 +1,68 @@
+{
+  "category": "Pasapalabra Original V10",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pasapalabra-original-v10-1",
+      "name": "Original V10 · Rosco A",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Paga extra o regalo que se da en las fiestas de diciembre.", "answer": "aguinaldo"},
+        {"letter": "B", "kind": "empieza", "clue": "Representación del nacimiento con figuritas que se monta en diciembre.", "answer": "belén"},
+        {"letter": "C", "kind": "empieza", "clue": "Fiesta de máscaras y comparsas anterior a la Cuaresma.", "answer": "carnaval"},
+        {"letter": "D", "kind": "empieza", "clue": "Ropa con la que uno se hace pasar por otro en una fiesta.", "answer": "disfraz"},
+        {"letter": "E", "kind": "empieza", "clue": "Mes en el que llegan los Reyes Magos.", "answer": "enero"},
+        {"letter": "F", "kind": "empieza", "clue": "Fiesta con casetas, atracciones y baile, como la de Abril en Sevilla.", "answer": "feria"},
+        {"letter": "G", "kind": "empieza", "clue": "Adorno colgante de flores o de papel que engalana una calle.", "answer": "guirnalda"},
+        {"letter": "H", "kind": "empieza", "clue": "Fuego que se enciende en la playa la noche de San Juan.", "answer": "hoguera"},
+        {"letter": "I", "kind": "empieza", "clue": "Quien acude a una celebración porque le han llamado.", "answer": "invitado"},
+        {"letter": "J", "kind": "empieza", "clue": "Diversión ruidosa y bulliciosa.", "answer": "jolgorio"},
+        {"letter": "L", "kind": "empieza", "clue": "Sorteo de diciembre cuyo premio mayor se llama el Gordo.", "answer": "lotería"},
+        {"letter": "M", "kind": "empieza", "clue": "Prenda bordada con flecos que se lleva sobre los hombros en las fiestas.", "answer": "mantón"},
+        {"letter": "N", "kind": "empieza", "clue": "Fiesta que se celebra el 25 de diciembre.", "answer": "Navidad"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Recipiente lleno de golosinas que se rompe con un palo y los ojos vendados.", "answer": "piñata"},
+        {"letter": "O", "kind": "empieza", "clue": "Regalo que se entrega a un santo o a una virgen.", "answer": "ofrenda"},
+        {"letter": "P", "kind": "empieza", "clue": "Desfile religioso que recorre las calles con imágenes a hombros.", "answer": "procesión"},
+        {"letter": "Q", "kind": "empieza", "clue": "Lo que se hace con las fallas valencianas la noche del 19 de marzo.", "answer": "quema"},
+        {"letter": "R", "kind": "empieza", "clue": "Peregrinación festiva a una ermita, con comida campestre incluida.", "answer": "romería"},
+        {"letter": "S", "kind": "empieza", "clue": "Tira de papel enrollada que se lanza en las celebraciones.", "answer": "serpentina"},
+        {"letter": "T", "kind": "empieza", "clue": "Serie de petardos que estallan uno detrás de otro.", "answer": "traca"},
+        {"letter": "U", "kind": "empieza", "clue": "Lo que se toma, doce veces, con las campanadas de fin de año.", "answer": "uvas", "accepted": ["uva"]},
+        {"letter": "V", "kind": "empieza", "clue": "Fiesta popular nocturna con música y baile al aire libre.", "answer": "verbena"},
+        {"letter": "X", "kind": "contiene", "clue": "Lo que hace el castillo de fuegos artificiales al final de la fiesta.", "answer": "explosión"},
+        {"letter": "Y", "kind": "empieza", "clue": "Prueba de juegos por equipos, típica de las fiestas de un pueblo.", "answer": "yincana", "accepted": ["gymkana", "gincana"]},
+        {"letter": "Z", "kind": "empieza", "clue": "Instrumento de fricción que acompaña a los villancicos.", "answer": "zambomba"}
+      ]
+    },
+    {
+      "id": "pasapalabra-original-v10-2",
+      "name": "Original V10 · Rosco B",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Barrera de coral o de roca que aflora cerca de la superficie del mar.", "answer": "arrecife"},
+        {"letter": "B", "kind": "empieza", "clue": "Lado izquierdo del barco mirando hacia la parte delantera.", "answer": "babor"},
+        {"letter": "C", "kind": "empieza", "clue": "Movimiento continuo de una masa de agua dentro del océano.", "answer": "corriente"},
+        {"letter": "D", "kind": "empieza", "clue": "Muro que protege un puerto del oleaje.", "answer": "dique"},
+        {"letter": "E", "kind": "empieza", "clue": "Lado derecho del barco mirando hacia la parte delantera.", "answer": "estribor"},
+        {"letter": "F", "kind": "empieza", "clue": "Torre con una luz que orienta a los navegantes de noche.", "answer": "faro"},
+        {"letter": "G", "kind": "empieza", "clue": "Aprendiz de marinero, el más joven de la tripulación.", "answer": "grumete"},
+        {"letter": "H", "kind": "empieza", "clue": "Pieza giratoria que impulsa al barco bajo el agua.", "answer": "hélice"},
+        {"letter": "I", "kind": "empieza", "clue": "Porción de tierra rodeada de agua por todas partes.", "answer": "isla"},
+        {"letter": "J", "kind": "empieza", "clue": "Conjunto de cabos y cuerdas que sostienen el aparejo de un velero.", "answer": "jarcia"},
+        {"letter": "L", "kind": "empieza", "clue": "Franja de tierra que linda con el mar.", "answer": "litoral"},
+        {"letter": "M", "kind": "empieza", "clue": "Subida y bajada periódica del nivel del mar.", "answer": "marea"},
+        {"letter": "N", "kind": "empieza", "clue": "Hundimiento de una embarcación.", "answer": "naufragio"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Vara flexible con la que el pescador sujeta el sedal.", "answer": "caña"},
+        {"letter": "O", "kind": "empieza", "clue": "Onda del mar que rompe en la orilla.", "answer": "ola"},
+        {"letter": "P", "kind": "empieza", "clue": "Parte trasera de una embarcación.", "answer": "popa"},
+        {"letter": "Q", "kind": "empieza", "clue": "Pieza longitudinal que forma la base del casco.", "answer": "quilla"},
+        {"letter": "R", "kind": "empieza", "clue": "Pala larga con la que se impulsa una barca a mano.", "answer": "remo"},
+        {"letter": "S", "kind": "empieza", "clue": "Instrumento que mide la altura de los astros para situarse en el mar.", "answer": "sextante"},
+        {"letter": "T", "kind": "empieza", "clue": "Pieza con la que se gobierna el rumbo de una embarcación.", "answer": "timón"},
+        {"letter": "U", "kind": "empieza", "clue": "Se dice de los territorios que están al otro lado del mar.", "answer": "ultramar"},
+        {"letter": "V", "kind": "empieza", "clue": "Lona que recoge el viento y mueve el barco.", "answer": "vela"},
+        {"letter": "X", "kind": "contiene", "clue": "Lo que se pide por radio cuando la embarcación está en peligro.", "answer": "auxilio"},
+        {"letter": "Y", "kind": "empieza", "clue": "Embarcación pequeña y ligera que se impulsa a fuerza de brazos.", "answer": "yola"},
+        {"letter": "Z", "kind": "empieza", "clue": "Inquietud o angustia; también, el riesgo de que un barco vuelque.", "answer": "zozobra"}
+      ]
+    }
+  ]
+}

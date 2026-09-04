@@ -1,0 +1,68 @@
+{
+  "category": "Videojuegos",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "videojuegos-1",
+      "name": "Videojuegos 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Empresa pionera del sector, creadora de Pong en los años setenta.", "answer": "Atari"},
+        {"letter": "B", "kind": "empieza", "clue": "Rey de los Koopas, tortuga gigante que rapta a la princesa Peach.", "answer": "Bowser"},
+        {"letter": "C", "kind": "empieza", "clue": "Máquina dedicada a jugar que se conecta al televisor.", "answer": "consola"},
+        {"letter": "D", "kind": "empieza", "clue": "Shooter de id Software de 1993 protagonizado por un marine en Marte.", "answer": "Doom"},
+        {"letter": "E", "kind": "empieza", "clue": "Nombre que reciben las competiciones profesionales del sector.", "answer": "esports", "accepted": ["e-sports", "esport"]},
+        {"letter": "F", "kind": "empieza", "clue": "Battle royale de Epic Games famoso por sus bailes y sus construcciones.", "answer": "Fortnite"},
+        {"letter": "G", "kind": "empieza", "clue": "Aspecto visual de un título, lo que se mide en polígonos y resolución.", "answer": "gráficos"},
+        {"letter": "H", "kind": "empieza", "clue": "Saga de Xbox protagonizada por el Jefe Maestro.", "answer": "Halo"},
+        {"letter": "I", "kind": "empieza", "clue": "Pantalla donde el personaje guarda los objetos que va recogiendo.", "answer": "inventario"},
+        {"letter": "J", "kind": "empieza", "clue": "Palanca de mando con la que se dirige al personaje.", "answer": "joystick"},
+        {"letter": "L", "kind": "empieza", "clue": "Héroe de verde y espada maestra que salva el reino de Hyrule.", "answer": "Link"},
+        {"letter": "M", "kind": "empieza", "clue": "Fontanero italiano de gorra roja y bigote que salta sobre tortugas.", "answer": "Mario"},
+        {"letter": "N", "kind": "empieza", "clue": "Compañía japonesa creadora de la consola Switch.", "answer": "Nintendo"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Unidad de doce meses, lo que suele tardar en salir una secuela deportiva.", "answer": "año"},
+        {"letter": "O", "kind": "empieza", "clue": "Modo en el que se compite contra otra gente a través de internet.", "answer": "online"},
+        {"letter": "P", "kind": "empieza", "clue": "Comecocos amarillo perseguido por cuatro fantasmas en un laberinto.", "answer": "Pac-Man", "accepted": ["pacman", "comecocos"]},
+        {"letter": "Q", "kind": "empieza", "clue": "Shooter en tres dimensiones de id Software lanzado en 1996.", "answer": "Quake"},
+        {"letter": "R", "kind": "empieza", "clue": "Luchador de Street Fighter de cinta roja que lanza hadokens.", "answer": "Ryu"},
+        {"letter": "S", "kind": "empieza", "clue": "Compañía japonesa creadora de la consola Mega Drive.", "answer": "Sega"},
+        {"letter": "T", "kind": "empieza", "clue": "Juego ruso de piezas que caen y hay que encajar formando filas.", "answer": "Tetris"},
+        {"letter": "U", "kind": "empieza", "clue": "Empresa francesa creadora de Assassin's Creed.", "answer": "Ubisoft"},
+        {"letter": "V", "kind": "empieza", "clue": "Lo que se pierde al morir y se suele representar con corazones.", "answer": "vida"},
+        {"letter": "X", "kind": "empieza", "clue": "Consola de Microsoft, rival directa de PlayStation.", "answer": "Xbox"},
+        {"letter": "Y", "kind": "empieza", "clue": "Dinosaurio verde que sirve de montura al fontanero de Nintendo.", "answer": "Yoshi"},
+        {"letter": "Z", "kind": "empieza", "clue": "Princesa que da nombre a la saga del reino de Hyrule.", "answer": "Zelda"}
+      ]
+    },
+    {
+      "id": "videojuegos-2",
+      "name": "Videojuegos 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Máquina recreativa de salón que funciona echando monedas.", "answer": "arcade"},
+        {"letter": "B", "kind": "empieza", "clue": "Cada una de las teclas del mando que se pulsan para actuar.", "answer": "botón"},
+        {"letter": "C", "kind": "empieza", "clue": "Criatura verde que explota al acercarse, en el juego de los bloques.", "answer": "Creeper"},
+        {"letter": "D", "kind": "empieza", "clue": "Contenido adicional que se descarga después de comprar el juego.", "answer": "DLC"},
+        {"letter": "E", "kind": "empieza", "clue": "Cada uno de los mapas por los que avanza el jugador.", "answer": "escenario"},
+        {"letter": "F", "kind": "empieza", "clue": "Saga anual de fútbol de EA, renombrada más tarde como EA Sports FC.", "answer": "FIFA"},
+        {"letter": "G", "kind": "empieza", "clue": "Nombre del físico mudo que protagoniza Half-Life.", "answer": "Gordon"},
+        {"letter": "H", "kind": "empieza", "clue": "Reino donde transcurren las aventuras de la saga de la Trifuerza.", "answer": "Hyrule"},
+        {"letter": "I", "kind": "empieza", "clue": "Se dice del juego hecho por un estudio pequeño e independiente.", "answer": "indie"},
+        {"letter": "J", "kind": "empieza", "clue": "Lo bien o mal que se siente jugar a un título con el mando en la mano.", "answer": "jugabilidad"},
+        {"letter": "L", "kind": "empieza", "clue": "Hermano del fontanero de Nintendo, más alto, más verde y más miedoso.", "answer": "Luigi"},
+        {"letter": "M", "kind": "empieza", "clue": "Juego de bloques en el que se pica, se construye y se sobrevive de noche.", "answer": "Minecraft"},
+        {"letter": "N", "kind": "empieza", "clue": "Cada una de las fases que hay que superar para avanzar.", "answer": "nivel"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Trabajo de idear las mecánicas y los mapas de un juego.", "answer": "diseño"},
+        {"letter": "O", "kind": "empieza", "clue": "Shooter por equipos de Blizzard con héroes de habilidades distintas.", "answer": "Overwatch"},
+        {"letter": "P", "kind": "empieza", "clue": "Consola de Sony cuyo mando lleva triángulo, círculo, equis y cuadrado.", "answer": "PlayStation"},
+        {"letter": "Q", "kind": "empieza", "clue": "Palabra inglesa, muy usada en los juegos de rol, para cada misión.", "answer": "quest"},
+        {"letter": "R", "kind": "empieza", "clue": "Género en el que encarnas a un personaje y vas mejorando sus atributos.", "answer": "rol"},
+        {"letter": "S", "kind": "empieza", "clue": "Erizo azul que corre a toda velocidad recogiendo anillos.", "answer": "Sonic"},
+        {"letter": "T", "kind": "empieza", "clue": "Personaje con forma de seta que sirve a la princesa Peach.", "answer": "Toad"},
+        {"letter": "U", "kind": "empieza", "clue": "Cada persona que tiene una cuenta abierta en una plataforma de juego.", "answer": "usuario"},
+        {"letter": "V", "kind": "empieza", "clue": "Palabra completa para la máquina de sobremesa dedicada a jugar.", "answer": "videoconsola"},
+        {"letter": "X", "kind": "contiene", "clue": "Puntos que se acumulan al derrotar enemigos y permiten subir de rango.", "answer": "experiencia"},
+        {"letter": "Y", "kind": "empieza", "clue": "Saga japonesa de Sega ambientada en el barrio ficticio de Kamurocho.", "answer": "Yakuza"},
+        {"letter": "Z", "kind": "empieza", "clue": "Enemigo muerto viviente que abunda en los juegos de terror.", "answer": "zombi", "accepted": ["zombie"]}
+      ]
+    }
+  ]
+}

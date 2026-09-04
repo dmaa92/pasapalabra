@@ -1,0 +1,68 @@
+{
+  "category": "Marvel Cinematic Universe",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "marvel-cinematic-universe-1",
+      "name": "Marvel Cinematic Universe 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Reino dorado del que son príncipes Thor y Loki.", "answer": "Asgard"},
+        {"letter": "B", "kind": "empieza", "clue": "Nombre de pila del científico Banner, especialista en rayos gamma.", "answer": "Bruce"},
+        {"letter": "C", "kind": "empieza", "clue": "Nombre de pila de Danvers, la Capitana Marvel.", "answer": "Carol"},
+        {"letter": "D", "kind": "empieza", "clue": "Guardián de la Galaxia musculoso que se toma todo al pie de la letra.", "answer": "Drax"},
+        {"letter": "E", "kind": "empieza", "clue": "Subtítulo de la película de 2019 que cerró la Saga del Infinito.", "answer": "Endgame"},
+        {"letter": "F", "kind": "empieza", "clue": "Apellido de Nick, el director de S.H.I.E.L.D. del parche en el ojo.", "answer": "Fury"},
+        {"letter": "G", "kind": "empieza", "clue": "Hija adoptiva de Thanos, de piel verde, miembro de los Guardianes.", "answer": "Gamora"},
+        {"letter": "H", "kind": "empieza", "clue": "Gigante verde en el que se transforma Banner cuando se enfada.", "answer": "Hulk"},
+        {"letter": "I", "kind": "empieza", "clue": "Apellido de las seis gemas que Thanos engarza en su guantelete.", "answer": "Infinito", "accepted": ["infinity"]},
+        {"letter": "J", "kind": "empieza", "clue": "Inteligencia artificial que asiste a Tony Stark antes de que llegue Viernes.", "answer": "Jarvis"},
+        {"letter": "L", "kind": "empieza", "clue": "Dios del engaño, hermano adoptivo de Thor.", "answer": "Loki"},
+        {"letter": "M", "kind": "empieza", "clue": "Nombre del martillo de Thor, que solo levanta quien es digno.", "answer": "Mjolnir"},
+        {"letter": "N", "kind": "empieza", "clue": "Nombre de pila de la agente Romanoff, la espía de los Vengadores.", "answer": "Natasha"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Animal cuya picadura da sus poderes al joven que trepa por los rascacielos.", "answer": "araña"},
+        {"letter": "O", "kind": "empieza", "clue": "Padre tuerto de Thor y rey de los dioses nórdicos.", "answer": "Odín"},
+        {"letter": "P", "kind": "empieza", "clue": "Nombre de pila que comparten Parker y Quill.", "answer": "Peter"},
+        {"letter": "Q", "kind": "empieza", "clue": "Nave de transporte con motores basculantes que usan los Vengadores.", "answer": "Quinjet"},
+        {"letter": "R", "kind": "empieza", "clue": "Mapache genéticamente modificado y experto en armas.", "answer": "Rocket"},
+        {"letter": "S", "kind": "empieza", "clue": "Hermana de T'Challa y genio tecnológico de Wakanda.", "answer": "Shuri"},
+        {"letter": "T", "kind": "empieza", "clue": "Titán morado que chasquea los dedos y borra a la mitad del universo.", "answer": "Thanos"},
+        {"letter": "U", "kind": "empieza", "clue": "Inteligencia artificial de 2015 que se vuelve contra sus creadores.", "answer": "Ultrón", "accepted": ["ultron"]},
+        {"letter": "V", "kind": "empieza", "clue": "Metal casi indestructible que se extrae en Wakanda.", "answer": "vibranium"},
+        {"letter": "X", "kind": "empieza", "clue": "Planeta del Cuerpo Nova donde termina la primera película de los Guardianes.", "answer": "Xandar"},
+        {"letter": "Y", "kind": "empieza", "clue": "Espía rusa interpretada por Florence Pugh en Viuda Negra y en Ojo de Halcón.", "answer": "Yelena"},
+        {"letter": "Z", "kind": "empieza", "clue": "Barón que provoca la ruptura de los Vengadores en Civil War.", "answer": "Zemo"}
+      ]
+    },
+    {
+      "id": "marvel-cinematic-universe-2",
+      "name": "Marvel Cinematic Universe 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Bruja vecina de Wanda en la serie ambientada en Westview.", "answer": "Agatha"},
+        {"letter": "B", "kind": "empieza", "clue": "Apellido de Clint, el arquero conocido como Ojo de Halcón.", "answer": "Barton"},
+        {"letter": "C", "kind": "empieza", "clue": "Agente de S.H.I.E.L.D. interpretado por Clark Gregg.", "answer": "Coulson"},
+        {"letter": "D", "kind": "empieza", "clue": "Abogado ciego de Hell's Kitchen interpretado por Charlie Cox.", "answer": "Daredevil"},
+        {"letter": "E", "kind": "empieza", "clue": "Arma circular de vibranium que lanza el Capitán América.", "answer": "escudo"},
+        {"letter": "F", "kind": "empieza", "clue": "Cada uno de los bloques numerados en los que Marvel agrupa sus estrenos.", "answer": "fase"},
+        {"letter": "G", "kind": "empieza", "clue": "Guante dorado en el que se engarzan las seis gemas.", "answer": "guantelete"},
+        {"letter": "H", "kind": "empieza", "clue": "Diosa de la muerte interpretada por Cate Blanchett, hermana mayor de Thor.", "answer": "Hela"},
+        {"letter": "I", "kind": "empieza", "clue": "Nombre con el que se conoce la armadura roja y dorada del multimillonario Tony.", "answer": "Iron Man", "accepted": ["ironman", "el hombre de hierro"]},
+        {"letter": "J", "kind": "empieza", "clue": "Nombre de pila de la doctora Foster, astrofísica y pareja de Thor.", "answer": "Jane"},
+        {"letter": "L", "kind": "empieza", "clue": "Apellido de Scott, el ladrón que hereda el traje que encoge.", "answer": "Lang"},
+        {"letter": "M", "kind": "empieza", "clue": "Conjunto de realidades paralelas que Marvel explora tras la Saga del Infinito.", "answer": "multiverso"},
+        {"letter": "N", "kind": "empieza", "clue": "Hija cibernética de Thanos, hermana de Gamora.", "answer": "Nébula"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Lo que se vuelve el hombre hormiga al pulsar el botón de su traje.", "answer": "pequeño"},
+        {"letter": "O", "kind": "empieza", "clue": "Guerrera calva de las Dora Milaje interpretada por Danai Gurira.", "answer": "Okoye"},
+        {"letter": "P", "kind": "empieza", "clue": "Nombre de pila de Potts, la mano derecha y luego esposa de Tony.", "answer": "Pepper"},
+        {"letter": "Q", "kind": "empieza", "clue": "Apellido del líder de los Guardianes de la Galaxia, alias Star-Lord.", "answer": "Quill"},
+        {"letter": "R", "kind": "empieza", "clue": "Subtítulo de la tercera película de Thor, dirigida por Taika Waititi.", "answer": "Ragnarok"},
+        {"letter": "S", "kind": "empieza", "clue": "Apellido del multimillonario Tony, fundador de las Industrias que llevan su nombre.", "answer": "Stark"},
+        {"letter": "T", "kind": "empieza", "clue": "Nombre del rey de Wakanda que viste de Pantera Negra.", "answer": "T'Challa", "accepted": ["tchalla", "challa"]},
+        {"letter": "U", "kind": "empieza", "clue": "El Vigilante que observa y narra la serie de animación ¿Qué pasaría si...?", "answer": "Uatu"},
+        {"letter": "V", "kind": "empieza", "clue": "Androide de piel roja que porta la Gema de la Mente en la frente.", "answer": "Visión"},
+        {"letter": "X", "kind": "empieza", "clue": "Apellido del profesor Charles, líder de los mutantes, que aparece en Doctor Strange 2.", "answer": "Xavier"},
+        {"letter": "Y", "kind": "empieza", "clue": "Saqueador de cresta azul que dirige su flecha silbando.", "answer": "Yondu"},
+        {"letter": "Z", "kind": "empieza", "clue": "Científico de Hydra cuya mente sobrevive dentro de una computadora.", "answer": "Zola"}
+      ]
+    }
+  ]
+}

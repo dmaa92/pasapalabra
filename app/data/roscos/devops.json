@@ -1,0 +1,68 @@
+{
+  "category": "DevOps",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "devops-1",
+      "name": "DevOps 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Herramienta de automatización sin agentes que se configura con ficheros YAML.", "answer": "Ansible"},
+        {"letter": "B", "kind": "empieza", "clue": "Fase en la que el código se compila y se empaqueta en un artefacto.", "answer": "build"},
+        {"letter": "C", "kind": "empieza", "clue": "Unidad que empaqueta una aplicación junto con sus dependencias.", "answer": "contenedor"},
+        {"letter": "D", "kind": "empieza", "clue": "Herramienta de 2013 que popularizó empaquetar aplicaciones en imágenes.", "answer": "Docker"},
+        {"letter": "E", "kind": "empieza", "clue": "Cada escalón por el que pasa una versión: desarrollo, pruebas, producción.", "answer": "entorno"},
+        {"letter": "F", "kind": "empieza", "clue": "Operador de GitOps que sincroniza un clúster con lo que dice el repositorio.", "answer": "Flux"},
+        {"letter": "G", "kind": "empieza", "clue": "Sistema de control de versiones creado por Linus Torvalds en 2005.", "answer": "Git"},
+        {"letter": "H", "kind": "empieza", "clue": "Gestor de paquetes de Kubernetes cuyos paquetes se llaman charts.", "answer": "Helm"},
+        {"letter": "I", "kind": "empieza", "clue": "Lo que se declara como código en un fichero con extensión .tf.", "answer": "infraestructura"},
+        {"letter": "J", "kind": "empieza", "clue": "Veterano servidor de integración continua con un mayordomo en el logo.", "answer": "Jenkins"},
+        {"letter": "L", "kind": "empieza", "clue": "Registro de texto que una aplicación va escribiendo mientras funciona.", "answer": "log"},
+        {"letter": "M", "kind": "empieza", "clue": "Vigilancia continua del estado de un sistema mediante métricas y alertas.", "answer": "monitorización"},
+        {"letter": "N", "kind": "empieza", "clue": "Servidor web ligero, usado también como proxy inverso y balanceador.", "answer": "nginx"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Credencial secreta que jamás debe subirse al repositorio.", "answer": "contraseña"},
+        {"letter": "O", "kind": "empieza", "clue": "Capacidad de entender qué ocurre dentro de un sistema por lo que emite.", "answer": "observabilidad"},
+        {"letter": "P", "kind": "empieza", "clue": "Cadena de pasos automatizados que lleva el código hasta producción.", "answer": "pipeline"},
+        {"letter": "Q", "kind": "empieza", "clue": "Número mínimo de nodos que deben ponerse de acuerdo para decidir.", "answer": "quorum", "accepted": ["quórum"]},
+        {"letter": "R", "kind": "empieza", "clue": "Volver a la versión anterior cuando la nueva sale mal.", "answer": "rollback"},
+        {"letter": "S", "kind": "empieza", "clue": "Siglas de la ingeniería de fiabilidad que popularizó Google.", "answer": "SRE"},
+        {"letter": "T", "kind": "empieza", "clue": "Herramienta de HashiCorp para declarar recursos de la nube.", "answer": "Terraform"},
+        {"letter": "U", "kind": "empieza", "clue": "Tiempo que un servicio lleva funcionando sin haberse caído.", "answer": "uptime"},
+        {"letter": "V", "kind": "empieza", "clue": "Número que identifica cada entrega publicada del software.", "answer": "versión"},
+        {"letter": "X", "kind": "contiene", "clue": "Intermediario que recibe las peticiones y las reenvía a otro servidor.", "answer": "proxy"},
+        {"letter": "Y", "kind": "empieza", "clue": "Formato de texto indentado en el que se escriben casi todos los manifiestos.", "answer": "YAML"},
+        {"letter": "Z", "kind": "empieza", "clue": "Cada una de las divisiones de disponibilidad de una región en la nube.", "answer": "zona"}
+      ]
+    },
+    {
+      "id": "devops-2",
+      "name": "DevOps 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Siglas de la nube de Amazon.", "answer": "AWS"},
+        {"letter": "B", "kind": "empieza", "clue": "Copia de seguridad que salva el día cuando algo se borra por error.", "answer": "backup"},
+        {"letter": "C", "kind": "empieza", "clue": "Cada uno de los cambios que quedan registrados en el repositorio.", "answer": "commit"},
+        {"letter": "D", "kind": "empieza", "clue": "Acto de poner una versión nueva a funcionar de cara al usuario.", "answer": "despliegue"},
+        {"letter": "E", "kind": "empieza", "clue": "Añadir o quitar instancias según sube o baja la carga.", "answer": "escalado"},
+        {"letter": "F", "kind": "empieza", "clue": "Propiedad del sistema que se comporta como se espera durante mucho tiempo.", "answer": "fiabilidad"},
+        {"letter": "G", "kind": "empieza", "clue": "Herramienta de paneles y gráficas para visualizar métricas.", "answer": "Grafana"},
+        {"letter": "H", "kind": "empieza", "clue": "Parche urgente que se lleva directo a producción sin esperar a la siguiente entrega.", "answer": "hotfix"},
+        {"letter": "I", "kind": "empieza", "clue": "Plantilla inmutable a partir de la cual se arrancan los contenedores.", "answer": "imagen"},
+        {"letter": "J", "kind": "empieza", "clue": "Cada una de las tareas que ejecuta una cadena de integración continua.", "answer": "job"},
+        {"letter": "L", "kind": "empieza", "clue": "Retraso entre que se hace una petición y llega la respuesta.", "answer": "latencia"},
+        {"letter": "M", "kind": "empieza", "clue": "Cada pieza pequeña e independiente en que se parte una aplicación grande.", "answer": "microservicio"},
+        {"letter": "N", "kind": "empieza", "clue": "Cada una de las máquinas que forman un clúster.", "answer": "nodo"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Trabajo previo de decidir cómo se estructura un sistema antes de escribirlo.", "answer": "diseño"},
+        {"letter": "O", "kind": "empieza", "clue": "Software que decide en qué máquina se ejecuta cada contenedor.", "answer": "orquestador"},
+        {"letter": "P", "kind": "empieza", "clue": "Sistema de métricas de la CNCF que recoge los datos por sondeo.", "answer": "Prometheus"},
+        {"letter": "Q", "kind": "empieza", "clue": "Cola donde se acumulan los mensajes pendientes de procesar.", "answer": "queue"},
+        {"letter": "R", "kind": "empieza", "clue": "Agente que ejecuta los trabajos de una cadena de GitLab.", "answer": "runner"},
+        {"letter": "S", "kind": "empieza", "clue": "Credencial cifrada que se inyecta en tiempo de ejecución, nunca en el código.", "answer": "secreto"},
+        {"letter": "T", "kind": "empieza", "clue": "Prueba automática que valida que el código sigue funcionando.", "answer": "test"},
+        {"letter": "U", "kind": "empieza", "clue": "Distribución de Linux basada en Debian, muy usada en servidores.", "answer": "Ubuntu"},
+        {"letter": "V", "kind": "empieza", "clue": "Almacenamiento que sobrevive a la muerte de un contenedor.", "answer": "volumen"},
+        {"letter": "X", "kind": "contiene", "clue": "Entorno aislado donde se prueba sin tocar producción.", "answer": "sandbox"},
+        {"letter": "Y", "kind": "empieza", "clue": "Gestor de paquetes de JavaScript alternativo a npm.", "answer": "Yarn"},
+        {"letter": "Z", "kind": "empieza", "clue": "Herramienta veterana de vigilancia de infraestructuras, de origen letón.", "answer": "Zabbix"}
+      ]
+    }
+  ]
+}
