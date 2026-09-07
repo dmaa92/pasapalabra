@@ -1,0 +1,68 @@
+{
+  "category": "Geografía de América",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-07", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "geografia-de-america-1",
+      "name": "Geografía de América 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Río más caudaloso del mundo, que cruza la selva sudamericana.", "answer": "Amazonas"},
+        {"letter": "B", "kind": "empieza", "clue": "País más grande de Sudamérica, el único de habla portuguesa.", "answer": "Brasil"},
+        {"letter": "C", "kind": "empieza", "clue": "Mar cálido de islas al norte de Sudamérica.", "answer": "Caribe"},
+        {"letter": "D", "kind": "empieza", "clue": "Selva y tapón sin carreteras entre Panamá y Colombia.", "answer": "Darién"},
+        {"letter": "E", "kind": "empieza", "clue": "País andino que comparte nombre con una línea imaginaria.", "answer": "Ecuador"},
+        {"letter": "F", "kind": "empieza", "clue": "Tierra del ... es el archipiélago más austral del continente.", "answer": "Fuego"},
+        {"letter": "G", "kind": "empieza", "clue": "Isla helada del norte, la mayor del planeta.", "answer": "Groenlandia"},
+        {"letter": "H", "kind": "empieza", "clue": "Capital cubana de malecón y coches antiguos.", "answer": "Habana", "accepted": ["la habana"]},
+        {"letter": "I", "kind": "empieza", "clue": "Franja estrecha de tierra que une dos masas, como la de Panamá.", "answer": "istmo"},
+        {"letter": "J", "kind": "empieza", "clue": "Isla caribeña del reggae y de Bob Marley.", "answer": "Jamaica"},
+        {"letter": "L", "kind": "empieza", "clue": "Capital peruana levantada junto al océano Pacífico.", "answer": "Lima"},
+        {"letter": "M", "kind": "empieza", "clue": "Río más largo de los Estados Unidos.", "answer": "Misisipi", "accepted": ["mississippi"]},
+        {"letter": "N", "kind": "empieza", "clue": "Cataratas de la frontera entre Canadá y Estados Unidos.", "answer": "Niágara"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "El Gran ... del Colorado es la gran garganta de Arizona.", "answer": "cañón"},
+        {"letter": "O", "kind": "empieza", "clue": "Río venezolano de enorme delta que desemboca en el Atlántico.", "answer": "Orinoco"},
+        {"letter": "P", "kind": "empieza", "clue": "País centroamericano de un canal que une dos océanos.", "answer": "Panamá"},
+        {"letter": "Q", "kind": "empieza", "clue": "Capital ecuatoriana encajada en plena cordillera.", "answer": "Quito"},
+        {"letter": "R", "kind": "empieza", "clue": "Ciudad brasileña del Pan de Azúcar y el Corcovado.", "answer": "Río de Janeiro", "accepted": ["rio"]},
+        {"letter": "S", "kind": "empieza", "clue": "Capital chilena al pie de la cordillera.", "answer": "Santiago"},
+        {"letter": "T", "kind": "empieza", "clue": "Lago navegable más alto del mundo, entre Perú y Bolivia.", "answer": "Titicaca"},
+        {"letter": "U", "kind": "empieza", "clue": "Estado del oeste estadounidense de desiertos rojos y arcos de roca.", "answer": "Utah"},
+        {"letter": "V", "kind": "empieza", "clue": "País del salto Ángel y del lago de Maracaibo.", "answer": "Venezuela"},
+        {"letter": "X", "kind": "contiene", "clue": "País azteca situado justo al sur de los Estados Unidos.", "answer": "México"},
+        {"letter": "Y", "kind": "empieza", "clue": "Península mexicana de cenotes y ruinas mayas.", "answer": "Yucatán"},
+        {"letter": "Z", "kind": "empieza", "clue": "Nombre de la plaza principal de la capital mexicana.", "answer": "Zócalo"}
+      ]
+    },
+    {
+      "id": "geografia-de-america-2",
+      "name": "Geografía de América 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Cordillera más larga del mundo, en el oeste sudamericano.", "answer": "Andes"},
+        {"letter": "B", "kind": "empieza", "clue": "Capital colombiana levantada a 2600 metros de altura.", "answer": "Bogotá"},
+        {"letter": "C", "kind": "empieza", "clue": "País de la hoja de arce que ocupa el norte del continente.", "answer": "Canadá"},
+        {"letter": "D", "kind": "empieza", "clue": "República que comparte su isla con Haití.", "answer": "Dominicana"},
+        {"letter": "E", "kind": "empieza", "clue": "Humedales de caimanes en el extremo sureste estadounidense.", "answer": "Everglades"},
+        {"letter": "F", "kind": "empieza", "clue": "Península estadounidense de playas y naranjas.", "answer": "Florida"},
+        {"letter": "G", "kind": "empieza", "clue": "Archipiélago ecuatoriano de tortugas gigantes que estudió Darwin.", "answer": "Galápagos"},
+        {"letter": "H", "kind": "empieza", "clue": "País centroamericano de las ruinas mayas de Copán.", "answer": "Honduras"},
+        {"letter": "I", "kind": "empieza", "clue": "Ciudad peruana en plena Amazonia a la que no llega ninguna ruta.", "answer": "Iquitos"},
+        {"letter": "J", "kind": "empieza", "clue": "Ciudad fronteriza mexicana situada frente a El Paso.", "answer": "Juárez"},
+        {"letter": "L", "kind": "empieza", "clue": "Península del noreste de Canadá, junto a Terranova.", "answer": "Labrador"},
+        {"letter": "M", "kind": "empieza", "clue": "Lago venezolano, el más extenso de Sudamérica.", "answer": "Maracaibo"},
+        {"letter": "N", "kind": "empieza", "clue": "País centroamericano con un enorme lago del mismo nombre.", "answer": "Nicaragua"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Cabo de Florida desde el que despegan los cohetes.", "answer": "Cañaveral"},
+        {"letter": "O", "kind": "empieza", "clue": "Capital de Canadá, aunque no sea su ciudad más grande.", "answer": "Ottawa"},
+        {"letter": "P", "kind": "empieza", "clue": "Océano que baña toda la costa oeste del continente.", "answer": "Pacífico"},
+        {"letter": "Q", "kind": "empieza", "clue": "Provincia canadiense de habla francesa.", "answer": "Quebec"},
+        {"letter": "R", "kind": "empieza", "clue": "Montañas del oeste que recorren Estados Unidos y Canadá.", "answer": "Rocosas"},
+        {"letter": "S", "kind": "empieza", "clue": "Capital constitucional de Bolivia, aunque el gobierno esté en La Paz.", "answer": "Sucre"},
+        {"letter": "T", "kind": "empieza", "clue": "Capital centroamericana de nombre larguísimo, en un valle de montaña.", "answer": "Tegucigalpa"},
+        {"letter": "U", "kind": "empieza", "clue": "País más pequeño de Sudamérica continental, con capital en Montevideo.", "answer": "Uruguay"},
+        {"letter": "V", "kind": "empieza", "clue": "Puerto chileno de cerros empinados y ascensores centenarios.", "answer": "Valparaíso"},
+        {"letter": "X", "kind": "contiene", "clue": "Estado estadounidense del petróleo y de los vaqueros.", "answer": "Texas"},
+        {"letter": "Y", "kind": "empieza", "clue": "Territorio canadiense de la fiebre del oro del siglo XIX.", "answer": "Yukón"},
+        {"letter": "Z", "kind": "empieza", "clue": "Estado mexicano célebre por sus minas de plata.", "answer": "Zacatecas"}
+      ]
+    }
+  ]
+}

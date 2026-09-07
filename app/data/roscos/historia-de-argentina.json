@@ -1,0 +1,68 @@
+{
+  "category": "Historia de Argentina",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-07", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "historia-de-argentina-1",
+      "name": "Historia de Argentina 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Autor de las Bases que inspiraron la Constitución de 1853.", "answer": "Alberdi"},
+        {"letter": "B", "kind": "empieza", "clue": "Creador de la bandera celeste y blanca, vocal de la Primera Junta.", "answer": "Belgrano"},
+        {"letter": "C", "kind": "empieza", "clue": "Edificio colonial de la Plaza de Mayo donde se decidió la revolución.", "answer": "Cabildo"},
+        {"letter": "D", "kind": "empieza", "clue": "Gobernador federal fusilado por Lavalle en 1828.", "answer": "Dorrego"},
+        {"letter": "E", "kind": "empieza", "clue": "Apodo de la esposa del general Perón, abanderada de los humildes.", "answer": "Evita"},
+        {"letter": "F", "kind": "empieza", "clue": "Nombre de pila del caudillo riojano apodado el Tigre de los Llanos.", "answer": "Facundo"},
+        {"letter": "G", "kind": "empieza", "clue": "Caudillo salteño que defendió la frontera norte con sus gauchos.", "answer": "Güemes"},
+        {"letter": "H", "kind": "empieza", "clue": "Nombre de pila del primer presidente elegido por voto secreto en 1916.", "answer": "Hipólito"},
+        {"letter": "I", "kind": "empieza", "clue": "Lo que se declaró el 9 de julio de 1816 ante el rey de España.", "answer": "Independencia"},
+        {"letter": "J", "kind": "empieza", "clue": "Primer gobierno patrio de mayo de 1810, llamado la Primera ...", "answer": "Junta"},
+        {"letter": "L", "kind": "empieza", "clue": "General unitario que enfrentó al Restaurador y fusiló a Dorrego.", "answer": "Lavalle"},
+        {"letter": "M", "kind": "empieza", "clue": "Presidente y militar que fundó el diario La Nación.", "answer": "Mitre"},
+        {"letter": "N", "kind": "empieza", "clue": "Nombre de pila de Avellaneda, presidente entre 1874 y 1880.", "answer": "Nicolás"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Expedición militar prolongada, como la del Desierto o la libertadora.", "answer": "campaña"},
+        {"letter": "O", "kind": "empieza", "clue": "Vuelta del Paraná donde se defendió la soberanía en 1845.", "answer": "Obligado"},
+        {"letter": "P", "kind": "empieza", "clue": "Militar que fundó el movimiento justicialista y gobernó tres veces.", "answer": "Perón"},
+        {"letter": "Q", "kind": "empieza", "clue": "Apellido del caudillo riojano asesinado en Barranca Yaco.", "answer": "Quiroga"},
+        {"letter": "R", "kind": "empieza", "clue": "Gobernador de Buenos Aires apodado el Restaurador, vencido en Caseros.", "answer": "Rosas"},
+        {"letter": "S", "kind": "empieza", "clue": "Libertador que cruzó los Andes con su ejército en 1817.", "answer": "San Martín"},
+        {"letter": "T", "kind": "empieza", "clue": "Provincia norteña donde se reunió el Congreso de 1816.", "answer": "Tucumán"},
+        {"letter": "U", "kind": "empieza", "clue": "General que encabezó el golpe militar de 1930.", "answer": "Uriburu"},
+        {"letter": "V", "kind": "empieza", "clue": "Territorio del Río de la Plata que España creó en 1776.", "answer": "Virreinato"},
+        {"letter": "X", "kind": "contiene", "clue": "Marcha con la que el pueblo jujeño abandonó su tierra en 1812.", "answer": "éxodo"},
+        {"letter": "Y", "kind": "empieza", "clue": "Apellido del caudillo radical derrocado por los militares en 1930.", "answer": "Yrigoyen"},
+        {"letter": "Z", "kind": "contiene", "clue": "Apellido del general manco José María, jefe militar de los unitarios.", "answer": "Paz"}
+      ]
+    },
+    {
+      "id": "historia-de-argentina-2",
+      "name": "Historia de Argentina 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Presidente que asumió al volver la democracia en 1983.", "answer": "Alfonsín"},
+        {"letter": "B", "kind": "empieza", "clue": "Ciudad porteña fundada dos veces a orillas del Río de la Plata.", "answer": "Buenos Aires"},
+        {"letter": "C", "kind": "empieza", "clue": "Batalla de 1852 en la que cayó el Restaurador.", "answer": "Caseros"},
+        {"letter": "D", "kind": "empieza", "clue": "Apodo de los trabajadores que llenaron la plaza el 17 de octubre.", "answer": "descamisados"},
+        {"letter": "E", "kind": "empieza", "clue": "Autor romántico del relato El matadero.", "answer": "Echeverría"},
+        {"letter": "F", "kind": "empieza", "clue": "Medio de transporte de vías que los ingleses tendieron por la pampa.", "answer": "ferrocarril"},
+        {"letter": "G", "kind": "empieza", "clue": "Adelantado que fundó la segunda ciudad porteña en 1580.", "answer": "Garay"},
+        {"letter": "H", "kind": "empieza", "clue": "Protesta obrera que terminó en la matanza de la Patagonia en 1921.", "answer": "huelga"},
+        {"letter": "I", "kind": "empieza", "clue": "Presidente radical de los anteojos derrocado en 1966.", "answer": "Illia"},
+        {"letter": "J", "kind": "empieza", "clue": "Nombre de pila del Libertador y también del autor del Martín Fierro.", "answer": "José"},
+        {"letter": "L", "kind": "empieza", "clue": "Héroe de la reconquista ante las Invasiones Inglesas, fusilado en 1810.", "answer": "Liniers"},
+        {"letter": "M", "kind": "empieza", "clue": "Islas del Atlántico Sur por las que se combatió en 1982.", "answer": "Malvinas"},
+        {"letter": "N", "kind": "empieza", "clue": "Apellido del general de caballería del Ejército de los Andes.", "answer": "Necochea"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Cada uno de los doscientos que se cumplieron en el Bicentenario.", "answer": "año"},
+        {"letter": "O", "kind": "empieza", "clue": "General que gobernó de facto a partir de 1966.", "answer": "Onganía"},
+        {"letter": "P", "kind": "empieza", "clue": "Director Supremo que sostuvo con dinero el cruce de los Andes.", "answer": "Pueyrredón"},
+        {"letter": "Q", "kind": "empieza", "clue": "La ... de Olivos es la residencia oficial del presidente.", "answer": "quinta"},
+        {"letter": "R", "kind": "empieza", "clue": "Presidente de la Campaña del Desierto, dos veces en el poder.", "answer": "Roca"},
+        {"letter": "S", "kind": "empieza", "clue": "Presidente maestro y autor del libro sobre el caudillo riojano.", "answer": "Sarmiento"},
+        {"letter": "T", "kind": "empieza", "clue": "Cereal que convirtió a la pampa en el granero del mundo.", "answer": "trigo"},
+        {"letter": "U", "kind": "empieza", "clue": "Bando que quería un país centralizado, opuesto a los federales.", "answer": "unitarios"},
+        {"letter": "V", "kind": "empieza", "clue": "General que encabezó la dictadura iniciada en 1976.", "answer": "Videla"},
+        {"letter": "X", "kind": "contiene", "clue": "Lo que padecieron los perseguidos que tuvieron que irse del país.", "answer": "exilio"},
+        {"letter": "Y", "kind": "empieza", "clue": "Pueblo correntino donde nació el Libertador en 1778.", "answer": "Yapeyú"},
+        {"letter": "Z", "kind": "contiene", "clue": "Apellido del vocal militar de la junta de mayo de 1810.", "answer": "Azcuénaga"}
+      ]
+    }
+  ]
+}

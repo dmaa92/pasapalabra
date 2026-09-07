@@ -61,10 +61,13 @@ y lo commitees.
 
 Cine Hollywood, Deportes, Marvel Cinematic Universe, DC Comics,
 Bridgerton, Pokémon, Videojuegos, Tecnología, DevOps, Películas de
-acción, y diez roscos de cultura general al estilo clásico del programa
-(Pasapalabra Original V1 a V10). Cada una trae dos roscos —uno por
-jugador— de 25 preguntas: **1.050 preguntas** en total, más el rosco
-general de la portada.
+acción, Fórmula 1, Fútbol Argentino, Historia de Argentina, Geografía
+Argentina, Geografía de América, Fortnite, Minecraft, y diez roscos de
+cultura general al estilo clásico del programa (Pasapalabra Original V1
+a V10). Cada categoría trae **al menos dos roscos** —uno por jugador— de
+25 preguntas, y algunas traen más: Marvel Cinematic Universe siete, DC
+Comics y Deportes seis, Fórmula 1 y Fútbol Argentino cinco. En total, 73
+roscos y **1.825 preguntas**, más el rosco general de la portada.
 
 Esto es una herramienta de autoría, no parte del juego: necesita
 `ANTHROPIC_API_KEY` en tu `.env` local y vive en una imagen aparte. **La

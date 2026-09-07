@@ -1,0 +1,68 @@
+{
+  "category": "Geografía Argentina",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-07", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "geografia-argentina-1",
+      "name": "Geografía Argentina 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Cerro mendocino, el más alto de todo el continente americano.", "answer": "Aconcagua"},
+        {"letter": "B", "kind": "empieza", "clue": "Ciudad rionegrina a orillas del lago Nahuel Huapi.", "answer": "Bariloche"},
+        {"letter": "C", "kind": "empieza", "clue": "Provincia mediterránea de las sierras y del cerro Champaquí.", "answer": "Córdoba"},
+        {"letter": "D", "kind": "empieza", "clue": "Laberinto de islas donde el Paraná desemboca, cerca de Tigre.", "answer": "delta"},
+        {"letter": "E", "kind": "empieza", "clue": "Provincia litoraleña encerrada entre dos grandes ríos.", "answer": "Entre Ríos"},
+        {"letter": "F", "kind": "empieza", "clue": "Provincia del noreste que limita con Paraguay.", "answer": "Formosa"},
+        {"letter": "G", "kind": "empieza", "clue": "Masa de hielo en movimiento, como el Perito Moreno.", "answer": "glaciar"},
+        {"letter": "H", "kind": "empieza", "clue": "Valle jujeño de cerros de colores, Patrimonio de la Humanidad.", "answer": "Humahuaca"},
+        {"letter": "I", "kind": "empieza", "clue": "Cataratas misioneras compartidas con Brasil.", "answer": "Iguazú"},
+        {"letter": "J", "kind": "empieza", "clue": "Provincia situada en el extremo norte del país.", "answer": "Jujuy"},
+        {"letter": "L", "kind": "empieza", "clue": "Región de las provincias bañadas por los grandes ríos del noreste.", "answer": "Litoral"},
+        {"letter": "M", "kind": "empieza", "clue": "Provincia cuyana del vino y del sol, al pie de la cordillera.", "answer": "Mendoza"},
+        {"letter": "N", "kind": "empieza", "clue": "Provincia patagónica de los dinosaurios y del petróleo de Vaca Muerta.", "answer": "Neuquén"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Ave corredora que no vuela, típica de la llanura pampeana.", "answer": "ñandú"},
+        {"letter": "O", "kind": "empieza", "clue": "Árbol enorme y solitario, símbolo de la llanura.", "answer": "ombú"},
+        {"letter": "P", "kind": "empieza", "clue": "Región del sur del país, de estepas y vientos fuertes.", "answer": "Patagonia"},
+        {"letter": "Q", "kind": "empieza", "clue": "Valle estrecho y profundo abierto entre montañas.", "answer": "quebrada"},
+        {"letter": "R", "kind": "empieza", "clue": "Ciudad santafesina del Monumento a la Bandera.", "answer": "Rosario"},
+        {"letter": "S", "kind": "empieza", "clue": "Provincia norteña apodada la Linda.", "answer": "Salta"},
+        {"letter": "T", "kind": "empieza", "clue": "Provincia más pequeña, apodada el Jardín de la República.", "answer": "Tucumán"},
+        {"letter": "U", "kind": "empieza", "clue": "Ciudad más austral del país, en Tierra del Fuego.", "answer": "Ushuaia"},
+        {"letter": "V", "kind": "empieza", "clue": "Península chubutense donde se avistan ballenas francas.", "answer": "Valdés"},
+        {"letter": "X", "kind": "contiene", "clue": "Así es el punto más al sur del territorio continental.", "answer": "extremo"},
+        {"letter": "Y", "kind": "empieza", "clue": "Planta del litoral con cuyas hojas se ceba el mate.", "answer": "yerba"},
+        {"letter": "Z", "kind": "empieza", "clue": "Viento cálido y seco que baja de la cordillera en Cuyo.", "answer": "zonda"}
+      ]
+    },
+    {
+      "id": "geografia-argentina-2",
+      "name": "Geografía Argentina 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Mar que baña toda la costa oriental del país.", "answer": "Atlántico"},
+        {"letter": "B", "kind": "empieza", "clue": "Provincia más poblada del país, con capital en La Plata.", "answer": "Buenos Aires"},
+        {"letter": "C", "kind": "empieza", "clue": "Provincia patagónica del valle de los galeses.", "answer": "Chubut"},
+        {"letter": "D", "kind": "empieza", "clue": "Muro que embalsa un río, muy común en las sierras cordobesas.", "answer": "dique"},
+        {"letter": "E", "kind": "empieza", "clue": "Humedales correntinos famosos por sus carpinchos y yacarés.", "answer": "esteros"},
+        {"letter": "F", "kind": "empieza", "clue": "Cerro santacruceño de granito junto al pueblo de El Chaltén.", "answer": "Fitz Roy"},
+        {"letter": "G", "kind": "empieza", "clue": "Entrada del mar en la costa, como el Nuevo o el San Jorge.", "answer": "golfo"},
+        {"letter": "H", "kind": "empieza", "clue": "El campo de ... continental se comparte con Chile.", "answer": "hielo"},
+        {"letter": "I", "kind": "empieza", "clue": "Porción de tierra rodeada de agua, como Martín García.", "answer": "isla"},
+        {"letter": "J", "kind": "empieza", "clue": "Río salteño donde Belgrano hizo jurar por primera vez la bandera.", "answer": "Juramento"},
+        {"letter": "L", "kind": "empieza", "clue": "Volcán neuquino de cono perfecto y cumbre nevada.", "answer": "Lanín"},
+        {"letter": "M", "kind": "empieza", "clue": "Provincia de tierra colorada y selva, en el extremo noreste.", "answer": "Misiones"},
+        {"letter": "N", "kind": "empieza", "clue": "Lago y parque nacional junto a la ciudad de Bariloche.", "answer": "Nahuel Huapi"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Valle estrecho y hondo típico del paisaje patagónico.", "answer": "cañadón"},
+        {"letter": "O", "kind": "empieza", "clue": "Gran masa de agua salada que rodea los continentes.", "answer": "océano"},
+        {"letter": "P", "kind": "empieza", "clue": "Llanura fértil del centro del país, ideal para el ganado.", "answer": "pampa"},
+        {"letter": "Q", "kind": "empieza", "clue": "Ruinas de un pueblo originario en los valles calchaquíes tucumanos.", "answer": "Quilmes"},
+        {"letter": "R", "kind": "empieza", "clue": "Provincia patagónica de las manzanas y el alto valle frutícola.", "answer": "Río Negro"},
+        {"letter": "S", "kind": "empieza", "clue": "Provincia del túnel subfluvial y de la ciudad de Rosario.", "answer": "Santa Fe"},
+        {"letter": "T", "kind": "empieza", "clue": "Provincia insular más austral, separada por un estrecho.", "answer": "Tierra del Fuego"},
+        {"letter": "U", "kind": "empieza", "clue": "Río que separa Entre Ríos del país vecino del mismo nombre.", "answer": "Uruguay"},
+        {"letter": "V", "kind": "empieza", "clue": "Los ... Calchaquíes son el paisaje de altura del noroeste.", "answer": "valles"},
+        {"letter": "X", "kind": "contiene", "clue": "Venta al exterior de la carne y los granos que produce el campo.", "answer": "exportación"},
+        {"letter": "Y", "kind": "empieza", "clue": "Reptil del litoral parecido al cocodrilo.", "answer": "yacaré"},
+        {"letter": "Z", "kind": "empieza", "clue": "Ciudad neuquina situada en el centro geográfico de su provincia.", "answer": "Zapala"}
+      ]
+    }
+  ]
+}
