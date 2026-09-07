@@ -101,9 +101,13 @@ function say(message, kind) {
   feedback.className = `feedback ${kind || "info"}`;
 }
 
+// The ring is laid out in percentages of the wheel, not pixels, so the
+// board scales with the screen it is projected on: how big the rosco
+// gets is a CSS decision (.rosco), not one baked in here.
+const ROSCO_RADIUS = 41; // % of the wheel's box, centre to letter centre
+
 function drawRosco(panel, player) {
   const wheel = panel.querySelector(".rosco");
-  const radius = 108;
   const current = player.current ? player.current.letter : null;
   wheel.innerHTML = "";
   player.letters.forEach((entry, index) => {
@@ -112,8 +116,8 @@ function drawRosco(panel, player) {
     node.className = `letter ${entry.status}`;
     if (entry.letter === current) node.classList.add("current");
     node.textContent = entry.letter;
-    node.style.transform =
-      `translate(${Math.cos(angle) * radius}px, ${Math.sin(angle) * radius}px)`;
+    node.style.left = `${50 + Math.cos(angle) * ROSCO_RADIUS}%`;
+    node.style.top = `${50 + Math.sin(angle) * ROSCO_RADIUS}%`;
     wheel.appendChild(node);
   });
 }
