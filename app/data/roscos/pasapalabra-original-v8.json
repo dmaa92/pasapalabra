@@ -1,0 +1,68 @@
+{
+  "category": "Pasapalabra Original V8",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pasapalabra-original-v8-1",
+      "name": "Original V8 · Rosco A",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Héroe griego invulnerable salvo por su talón.", "answer": "Aquiles"},
+        {"letter": "B", "kind": "empieza", "clue": "Dios romano del vino y las fiestas.", "answer": "Baco"},
+        {"letter": "C", "kind": "empieza", "clue": "Perro de tres cabezas que guarda la entrada del inframundo.", "answer": "Cerbero", "accepted": ["cancerbero", "cerbero"]},
+        {"letter": "D", "kind": "empieza", "clue": "Arquitecto que ideó la prisión del monstruo de Creta.", "answer": "Dédalo"},
+        {"letter": "E", "kind": "empieza", "clue": "Ninfa condenada a repetir las últimas palabras que oía.", "answer": "Eco"},
+        {"letter": "F", "kind": "empieza", "clue": "Ave que renace de sus propias cenizas.", "answer": "Fénix"},
+        {"letter": "G", "kind": "empieza", "clue": "Monstruo femenino de serpientes por cabello; Medusa era una de ellas.", "answer": "Gorgona"},
+        {"letter": "H", "kind": "empieza", "clue": "Héroe romano que cumplió doce trabajos imposibles.", "answer": "Hércules"},
+        {"letter": "I", "kind": "empieza", "clue": "Joven que voló con alas de cera y cayó al acercarse al sol.", "answer": "Ícaro"},
+        {"letter": "J", "kind": "empieza", "clue": "Dios supremo del panteón romano, señor del rayo.", "answer": "Júpiter"},
+        {"letter": "L", "kind": "empieza", "clue": "Construcción de pasillos enrevesados de la que es difícil salir.", "answer": "laberinto"},
+        {"letter": "M", "kind": "empieza", "clue": "Ser con cuerpo de hombre y cabeza de toro encerrado en Creta.", "answer": "Minotauro"},
+        {"letter": "N", "kind": "empieza", "clue": "Dios romano de los mares, armado con un tridente.", "answer": "Neptuno"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Lo que Morfeo traía a los mortales cada noche.", "answer": "sueño"},
+        {"letter": "O", "kind": "empieza", "clue": "Nombre griego del rey de Ítaca que ideó el caballo de Troya.", "answer": "Odiseo"},
+        {"letter": "P", "kind": "empieza", "clue": "Caballo alado de la mitología griega.", "answer": "Pegaso"},
+        {"letter": "Q", "kind": "empieza", "clue": "Monstruo con cabeza de león, cuerpo de cabra y cola de serpiente.", "answer": "quimera"},
+        {"letter": "R", "kind": "empieza", "clue": "Fundador de Roma junto a su hermano Remo.", "answer": "Rómulo"},
+        {"letter": "S", "kind": "empieza", "clue": "Ser mitad mujer y mitad pez que atraía a los marineros con su canto.", "answer": "sirena"},
+        {"letter": "T", "kind": "empieza", "clue": "Cada uno de los dioses anteriores a los del Olimpo.", "answer": "titán"},
+        {"letter": "U", "kind": "empieza", "clue": "Nombre latino del héroe que tardó diez años en volver de Troya.", "answer": "Ulises"},
+        {"letter": "V", "kind": "empieza", "clue": "Diosa romana del amor y la belleza.", "answer": "Venus"},
+        {"letter": "X", "kind": "contiene", "clue": "Ayuda que los héroes piden a los dioses cuando están en apuros.", "answer": "auxilio"},
+        {"letter": "Y", "kind": "empieza", "clue": "Árbol que sostiene los nueve mundos en la mitología nórdica.", "answer": "Yggdrasil"},
+        {"letter": "Z", "kind": "empieza", "clue": "Dios griego del rayo y rey del Olimpo.", "answer": "Zeus"}
+      ]
+    },
+    {
+      "id": "pasapalabra-original-v8-2",
+      "name": "Original V8 · Rosco B",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "La parte más pequeña de un elemento que conserva sus propiedades.", "answer": "átomo"},
+        {"letter": "B", "kind": "empieza", "clue": "Microorganismo unicelular sin núcleo definido.", "answer": "bacteria"},
+        {"letter": "C", "kind": "empieza", "clue": "Unidad básica de la que están hechos todos los seres vivos.", "answer": "célula"},
+        {"letter": "D", "kind": "empieza", "clue": "Relación entre la masa de un cuerpo y el volumen que ocupa.", "answer": "densidad"},
+        {"letter": "E", "kind": "empieza", "clue": "Partícula de carga negativa que rodea el núcleo.", "answer": "electrón"},
+        {"letter": "F", "kind": "empieza", "clue": "Lo que cambia el estado de movimiento de un cuerpo.", "answer": "fuerza"},
+        {"letter": "G", "kind": "empieza", "clue": "Conjunto completo del material genético de un ser vivo.", "answer": "genoma"},
+        {"letter": "H", "kind": "empieza", "clue": "Elemento número uno de la tabla periódica y el más abundante del cosmos.", "answer": "hidrógeno"},
+        {"letter": "I", "kind": "empieza", "clue": "Cuerpo capaz de atraer el hierro a distancia.", "answer": "imán"},
+        {"letter": "J", "kind": "empieza", "clue": "Unidad de energía del sistema internacional.", "answer": "julio"},
+        {"letter": "L", "kind": "empieza", "clue": "Radiación que permite ver y viaja a 300.000 kilómetros por segundo.", "answer": "luz"},
+        {"letter": "M", "kind": "empieza", "clue": "Conjunto de dos o más partículas químicas unidas por enlaces.", "answer": "molécula"},
+        {"letter": "N", "kind": "empieza", "clue": "Partícula del núcleo que no tiene carga eléctrica.", "answer": "neutrón"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Lo que es una partícula subatómica: imposible de ver a simple vista.", "answer": "pequeño"},
+        {"letter": "O", "kind": "empieza", "clue": "Gas de la atmósfera imprescindible para respirar.", "answer": "oxígeno"},
+        {"letter": "P", "kind": "empieza", "clue": "Partícula del núcleo con carga positiva.", "answer": "protón"},
+        {"letter": "Q", "kind": "empieza", "clue": "Partícula elemental que compone las que forman el núcleo.", "answer": "quark"},
+        {"letter": "R", "kind": "empieza", "clue": "Proceso en el que unas sustancias se transforman en otras distintas.", "answer": "reacción"},
+        {"letter": "S", "kind": "empieza", "clue": "Sustancia que se disuelve dentro de un disolvente.", "answer": "soluto"},
+        {"letter": "T", "kind": "empieza", "clue": "Rama de la física que estudia el calor y su relación con la energía.", "answer": "termodinámica"},
+        {"letter": "U", "kind": "empieza", "clue": "Elemento radiactivo empleado como combustible en las centrales nucleares.", "answer": "uranio"},
+        {"letter": "V", "kind": "empieza", "clue": "Espacio recorrido dividido entre el tiempo empleado.", "answer": "velocidad"},
+        {"letter": "X", "kind": "contiene", "clue": "Prueba controlada con la que se contrasta una hipótesis.", "answer": "experimento"},
+        {"letter": "Y", "kind": "empieza", "clue": "Elemento químico de símbolo I, presente en la sal marina.", "answer": "yodo"},
+        {"letter": "Z", "kind": "empieza", "clue": "Metal de símbolo Zn con el que se galvaniza el hierro.", "answer": "zinc", "accepted": ["cinc"]}
+      ]
+    }
+  ]
+}

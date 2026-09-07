@@ -188,3 +188,12 @@ button.ko { background: var(--ko); border-color: var(--ko); color: #fff; }
 .sheet-list li.correct b { color: var(--ok); }
 .sheet-list li.wrong b { color: var(--ko); }
 .sheet-list li.current { background: #1f2733; outline: 1px solid var(--accent); }
+
+.paused-banner {
+  margin: .8rem 0 0;
+  padding: .5rem .8rem;
+  border-radius: 8px;
+  background: #46351f;
+  border: 1px solid #6b4f2a;
+  font-weight: 600;
+}

@@ -1,0 +1,68 @@
+{
+  "category": "Minecraft",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-07", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "minecraft-1",
+      "name": "Minecraft 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Habitante narigón de las aldeas con el que se puede comerciar.", "answer": "aldeano"},
+        {"letter": "B", "kind": "empieza", "clue": "Cubo con el que está construido absolutamente todo el mundo.", "answer": "bloque"},
+        {"letter": "C", "kind": "empieza", "clue": "Criatura verde y silenciosa que explota al acercarse.", "answer": "creeper"},
+        {"letter": "D", "kind": "empieza", "clue": "Mineral azul brillante con el que se fabrican las mejores herramientas.", "answer": "diamante"},
+        {"letter": "E", "kind": "empieza", "clue": "Criatura negra y altísima que se teletransporta si la miras.", "answer": "enderman"},
+        {"letter": "F", "kind": "empieza", "clue": "Criatura voladora que ataca si pasas varias noches sin dormir.", "answer": "fantasma", "accepted": ["phantom"]},
+        {"letter": "G", "kind": "empieza", "clue": "Construcción para cultivar trigo o criar animales en serie.", "answer": "granja"},
+        {"letter": "H", "kind": "empieza", "clue": "Bloque en el que se cocinan alimentos y se funden minerales.", "answer": "horno"},
+        {"letter": "I", "kind": "empieza", "clue": "Ventana donde se guardan todos los objetos que se recogen.", "answer": "inventario"},
+        {"letter": "J", "kind": "empieza", "clue": "Bioma de árboles altísimos donde viven ocelotes y pandas.", "answer": "jungla"},
+        {"letter": "L", "kind": "empieza", "clue": "Líquido naranja que quema al que lo toca y da luz.", "answer": "lava"},
+        {"letter": "M", "kind": "empieza", "clue": "Mueble de trabajo con nueve casillas para fabricar objetos.", "answer": "mesa"},
+        {"letter": "N", "kind": "empieza", "clue": "Dimensión roja e infernal a la que se llega por un portal.", "answer": "Nether"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "La ... de azúcar sirve para fabricar papel y libros.", "answer": "caña"},
+        {"letter": "O", "kind": "empieza", "clue": "Bloque negro durísimo que se forma cuando el agua toca la lava.", "answer": "obsidiana"},
+        {"letter": "P", "kind": "empieza", "clue": "Herramienta imprescindible para picar piedra y minerales.", "answer": "pico"},
+        {"letter": "Q", "kind": "contiene", "clue": "Monstruo de huesos que dispara flechas durante la noche.", "answer": "esqueleto"},
+        {"letter": "R", "kind": "empieza", "clue": "Polvo rojo con el que se construyen circuitos y mecanismos.", "answer": "redstone"},
+        {"letter": "S", "kind": "empieza", "clue": "Nombre del personaje masculino que viene por defecto.", "answer": "Steve"},
+        {"letter": "T", "kind": "empieza", "clue": "Siglas del bloque explosivo que se activa con una palanca.", "answer": "TNT"},
+        {"letter": "U", "kind": "empieza", "clue": "Cada persona que entra a jugar en un servidor con su cuenta.", "answer": "usuario"},
+        {"letter": "V", "kind": "empieza", "clue": "Animal del que se obtiene cuero y también leche con un balde.", "answer": "vaca"},
+        {"letter": "X", "kind": "contiene", "clue": "Esferas verdes que se recogen para encantar objetos.", "answer": "experiencia"},
+        {"letter": "Y", "kind": "empieza", "clue": "Bloque pesado que sirve para reparar y renombrar objetos.", "answer": "yunque"},
+        {"letter": "Z", "kind": "empieza", "clue": "Monstruo verde que aparece de noche y se quema con el sol.", "answer": "zombi", "accepted": ["zombie"]}
+      ]
+    },
+    {
+      "id": "minecraft-2",
+      "name": "Minecraft 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Objeto que se coloca en la pared para iluminar una cueva.", "answer": "antorcha"},
+        {"letter": "B", "kind": "empieza", "clue": "Cada tipo de paisaje del mundo: desierto, taiga o sabana.", "answer": "bioma"},
+        {"letter": "C", "kind": "empieza", "clue": "Mueble de madera en el que se almacenan los objetos sobrantes.", "answer": "cofre"},
+        {"letter": "D", "kind": "empieza", "clue": "Jefe final alado que espera en la dimensión del End.", "answer": "dragón"},
+        {"letter": "E", "kind": "empieza", "clue": "Mejora mágica que se aplica a una herramienta usando lapislázuli.", "answer": "encantamiento"},
+        {"letter": "F", "kind": "empieza", "clue": "Munición que dispara el arco y también la ballesta.", "answer": "flecha"},
+        {"letter": "G", "kind": "empieza", "clue": "Guardián de hierro que protege a los habitantes de la aldea.", "answer": "golem"},
+        {"letter": "H", "kind": "empieza", "clue": "Metal gris que se funde a partir de su mineral en bruto.", "answer": "hierro"},
+        {"letter": "I", "kind": "empieza", "clue": "Casita de nieve que aparece en los biomas helados.", "answer": "iglú"},
+        {"letter": "J", "kind": "empieza", "clue": "Enemigo especial y poderoso, como el dragón o el Wither.", "answer": "jefe"},
+        {"letter": "L", "kind": "empieza", "clue": "Mineral azul que sirve para encantar y para teñir la lana.", "answer": "lapislázuli"},
+        {"letter": "M", "kind": "empieza", "clue": "Material que se obtiene talando troncos con el hacha.", "answer": "madera"},
+        {"letter": "N", "kind": "empieza", "clue": "Apodo del programador sueco que creó el juego.", "answer": "Notch"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Criatura de ocho patas y ojos rojos que trepa por las paredes.", "answer": "araña"},
+        {"letter": "O", "kind": "empieza", "clue": "Animal del que se obtiene lana al esquilarlo con tijeras.", "answer": "oveja"},
+        {"letter": "P", "kind": "empieza", "clue": "Estructura de obsidiana que hay que encender para cambiar de dimensión.", "answer": "portal"},
+        {"letter": "Q", "kind": "contiene", "clue": "Los ... de texturas cambian por completo el aspecto del juego.", "answer": "paquete"},
+        {"letter": "R", "kind": "empieza", "clue": "Vías de metal por las que circula la vagoneta en la mina.", "answer": "rieles", "accepted": ["riel", "railes"]},
+        {"letter": "S", "kind": "empieza", "clue": "Número que, al escribirlo, genera siempre el mismo mundo.", "answer": "semilla", "accepted": ["seed"]},
+        {"letter": "T", "kind": "empieza", "clue": "Arma que sueltan los ahogados y que puede lanzarse bajo la lluvia.", "answer": "tridente"},
+        {"letter": "U", "kind": "empieza", "clue": "Así es cada mundo que se genera a partir de una semilla distinta.", "answer": "único"},
+        {"letter": "V", "kind": "empieza", "clue": "Vehículo que recorre los raíles del interior de una mina.", "answer": "vagoneta"},
+        {"letter": "X", "kind": "contiene", "clue": "Lo que provoca el bloque de dinamita al encenderse.", "answer": "explosión"},
+        {"letter": "Y", "kind": "contiene", "clue": "Todo objeto que se lanza, como la flecha o la perla del End.", "answer": "proyectil"},
+        {"letter": "Z", "kind": "empieza", "clue": "Verdura naranja que se cultiva y que atrae a los cerdos.", "answer": "zanahoria"}
+      ]
+    }
+  ]
+}

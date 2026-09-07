@@ -86,6 +86,7 @@ function start() {
   if (polling) clearInterval(polling);
   ticking = setInterval(() => {
     if (!state || state.over || busy) return;
+    if (state.paused) return;  // frozen clocks: nothing to interpolate
     const player = state.players[state.turn];
     paintClocks(player.remaining_seconds - (seconds() - syncedAt));
   }, 250);
@@ -144,7 +145,14 @@ function render() {
     return;
   }
 
-  buttons.forEach((button) => { button.disabled = false; });
+  // A paused match freezes the rulings too: nothing should be scored
+  // while the clocks are stopped.
+  buttons.forEach((button) => { button.disabled = state.paused; });
+  document.getElementById("paused-banner").hidden = !state.paused;
+  const pauseButton = document.getElementById("pause");
+  pauseButton.disabled = false;
+  pauseButton.textContent = state.paused ? "Reanudar" : "Pausa";
+  pauseButton.classList.toggle("primary", state.paused);
   ruling.classList.remove("closed");
   const player = state.players[state.turn];
   document.getElementById("turn-name").textContent = player.name;
@@ -194,6 +202,14 @@ document.getElementById("ko").addEventListener("click", () => rule(
   () => api(endpoint("/judge"), { method: "POST", body: JSON.stringify({ correct: false }) }),
   (result) => `Fallo en la ${result.letter}: era "${result.solution}".`,
 ));
+
+document.getElementById("pause").addEventListener("click", () => {
+  const resuming = state && state.paused;
+  rule(
+    () => api(endpoint(resuming ? "/resume" : "/pause"), { method: "POST" }),
+    () => (resuming ? "Se reanuda la partida." : "Partida en pausa: relojes parados."),
+  );
+});
 
 document.getElementById("pass").addEventListener("click", () => rule(
   () => api(endpoint("/pass"), { method: "POST" }),

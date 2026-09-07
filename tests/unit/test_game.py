@@ -5,7 +5,7 @@ import unittest
 from app.content import Question, Rosco
 from app.game import (CORRECT, DEFAULT_TIME_SECONDS, FINISH_ROSCO,
                       FINISH_TIMEOUT, MODE_JUDGE, MODE_KEYBOARD, PENDING,
-                      WRONG, Game, GameOver, WrongMode)
+                      WRONG, Game, GameOver, Paused, WrongMode)
 
 LETTERS = ("A", "B", "C")
 
@@ -228,6 +228,74 @@ class TestModes(unittest.TestCase):
         self.assertTrue(game.over)
         with self.assertRaises(GameOver):
             game.judge(True, now=3.0)
+
+
+class TestPause(unittest.TestCase):
+    """A pause is for a recount or an argument: it must cost nobody time,
+    and nothing may be scored while it lasts."""
+
+    def test_a_new_game_is_not_paused(self):
+        self.assertFalse(new_game().paused)
+
+    def test_pausing_charges_the_time_used_up_to_that_moment(self):
+        game = new_game(seconds=100.0)
+        game.pause(now=10.0)
+        self.assertTrue(game.paused)
+        self.assertAlmostEqual(game.players[0].remaining, 90.0)
+
+    def test_no_clock_runs_while_paused(self):
+        game = new_game(seconds=100.0)
+        game.pause(now=10.0)
+        game.sync(now=310.0)   # five minutes of recount
+        self.assertAlmostEqual(game.players[0].remaining, 90.0)
+        self.assertAlmostEqual(game.players[1].remaining, 100.0)
+
+    def test_the_pause_is_not_charged_back_on_resume(self):
+        game = new_game(seconds=100.0)
+        game.pause(now=10.0)
+        game.resume(now=310.0)
+        game.sync(now=315.0)   # only these five seconds count
+        self.assertAlmostEqual(game.players[0].remaining, 85.0)
+
+    def test_nothing_can_be_played_while_paused(self):
+        game = new_game()
+        game.pause(now=1.0)
+        with self.assertRaises(Paused):
+            game.answer("answer", now=2.0)
+        with self.assertRaises(Paused):
+            game.skip(now=2.0)
+        with self.assertRaises(Paused):
+            game.resign(now=2.0)
+
+    def test_a_judge_cannot_score_while_paused(self):
+        game = Game.create(("Uno", "Dos"), (rosco("r1"), rosco("r2")),
+                           now=0.0, mode=MODE_JUDGE, judge_token="secreto")
+        game.pause(now=1.0)
+        with self.assertRaises(Paused):
+            game.judge(True, now=2.0)
+
+    def test_play_resumes_normally(self):
+        game = new_game()
+        game.pause(now=1.0)
+        game.resume(now=2.0)
+        self.assertFalse(game.paused)
+        self.assertTrue(game.answer("answer", now=3.0)["correct"])
+
+    def test_pausing_twice_is_not_an_error(self):
+        game = new_game(seconds=100.0)
+        game.pause(now=10.0)
+        game.pause(now=20.0)
+        self.assertTrue(game.paused)
+        self.assertAlmostEqual(game.players[0].remaining, 90.0)
+
+    def test_a_finished_game_cannot_be_paused(self):
+        game = new_game()
+        game.resign(now=1.0)
+        game.resign(now=2.0)
+        with self.assertRaises(GameOver):
+            game.pause(now=3.0)
+        with self.assertRaises(GameOver):
+            game.resume(now=3.0)
 
 
 if __name__ == "__main__":

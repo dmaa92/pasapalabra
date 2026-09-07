@@ -1,0 +1,68 @@
+{
+  "category": "Pasapalabra Original V1",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pasapalabra-original-v1-1",
+      "name": "Original V1 · Rosco A",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Roedor de cola peluda que salta entre las ramas y esconde frutos secos.", "answer": "ardilla"},
+        {"letter": "B", "kind": "empieza", "clue": "Ave rapaz nocturna con penachos de plumas que parecen orejas.", "answer": "búho"},
+        {"letter": "C", "kind": "empieza", "clue": "Molusco de concha en espiral que deja un rastro de baba.", "answer": "caracol"},
+        {"letter": "D", "kind": "empieza", "clue": "Mamífero marino muy inteligente que salta junto a la proa de los barcos.", "answer": "delfín"},
+        {"letter": "E", "kind": "empieza", "clue": "Animal cubierto de púas que se enrosca en una bola al asustarse.", "answer": "erizo"},
+        {"letter": "F", "kind": "empieza", "clue": "Mamífero marino de cuerpo alargado que se arrastra sobre el hielo.", "answer": "foca"},
+        {"letter": "G", "kind": "empieza", "clue": "El primate más grande, de espalda plateada cuando es adulto.", "answer": "gorila"},
+        {"letter": "H", "kind": "empieza", "clue": "Enorme mamífero africano que pasa el día metido en el río.", "answer": "hipopótamo"},
+        {"letter": "I", "kind": "empieza", "clue": "Reptil verde con cresta en el lomo que toma el sol sobre las rocas.", "answer": "iguana"},
+        {"letter": "J", "kind": "empieza", "clue": "Felino manchado de América, el mayor del continente.", "answer": "jaguar"},
+        {"letter": "L", "kind": "empieza", "clue": "Cánido salvaje que aúlla a la luna y caza en manada.", "answer": "lobo"},
+        {"letter": "M", "kind": "empieza", "clue": "Primate de cola larga que trepa por los árboles.", "answer": "mono"},
+        {"letter": "N", "kind": "empieza", "clue": "Mamífero acuático y juguetón que rompe conchas sobre su vientre.", "answer": "nutria"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Pez de río sudamericano de dientes afilados y fama voraz.", "answer": "piraña"},
+        {"letter": "O", "kind": "empieza", "clue": "Mamífero grande y peludo que pasa el invierno hibernando.", "answer": "oso"},
+        {"letter": "P", "kind": "empieza", "clue": "Animal marino de ocho brazos con ventosas.", "answer": "pulpo"},
+        {"letter": "Q", "kind": "empieza", "clue": "Ave centroamericana de larga cola verde, símbolo de Guatemala.", "answer": "quetzal"},
+        {"letter": "R", "kind": "empieza", "clue": "Anfibio saltarín que croa en las charcas.", "answer": "rana"},
+        {"letter": "S", "kind": "empieza", "clue": "Reptil sin patas que repta y muda la piel.", "answer": "serpiente"},
+        {"letter": "T", "kind": "empieza", "clue": "Reptil lento que lleva su casa a cuestas.", "answer": "tortuga"},
+        {"letter": "U", "kind": "empieza", "clue": "Ave de los bosques cantábricos famosa por su canto de cortejo.", "answer": "urogallo"},
+        {"letter": "V", "kind": "empieza", "clue": "Hembra del toro, de la que se obtiene la leche.", "answer": "vaca"},
+        {"letter": "X", "kind": "contiene", "clue": "Lo que amenaza a una especie cuando ya no le quedan individuos.", "answer": "extinción"},
+        {"letter": "Y", "kind": "empieza", "clue": "Bóvido de largo pelaje que vive en las montañas del Tíbet.", "answer": "yak"},
+        {"letter": "Z", "kind": "empieza", "clue": "Pájaro pardo y moteado de canto melodioso.", "answer": "zorzal"}
+      ]
+    },
+    {
+      "id": "pasapalabra-original-v1-2",
+      "name": "Original V1 · Rosco B",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Vaso que sale del corazón y reparte oxígeno por el cuerpo.", "answer": "arteria"},
+        {"letter": "B", "kind": "empieza", "clue": "Órgano del abdomen que forma parte del sistema inmunitario.", "answer": "bazo"},
+        {"letter": "C", "kind": "empieza", "clue": "Conjunto de huesos de la cabeza que protege el encéfalo.", "answer": "cráneo"},
+        {"letter": "D", "kind": "empieza", "clue": "Pieza dura de la boca con la que se mastica.", "answer": "diente"},
+        {"letter": "E", "kind": "empieza", "clue": "Órgano en forma de bolsa donde continúa la digestión tras tragar.", "answer": "estómago"},
+        {"letter": "F", "kind": "empieza", "clue": "El hueso más largo del cuerpo humano.", "answer": "fémur"},
+        {"letter": "G", "kind": "empieza", "clue": "Parte interior del cuello por donde pasan el aire y la comida.", "answer": "garganta"},
+        {"letter": "H", "kind": "empieza", "clue": "Órgano que produce la bilis y depura las toxinas.", "answer": "hígado"},
+        {"letter": "I", "kind": "empieza", "clue": "Tubo largo y enrollado donde se absorben los nutrientes.", "answer": "intestino"},
+        {"letter": "J", "kind": "empieza", "clue": "Dolor de cabeza intenso que suele venir con náuseas.", "answer": "jaqueca"},
+        {"letter": "L", "kind": "empieza", "clue": "Músculo de la boca con el que se saborea y se articula el habla.", "answer": "lengua"},
+        {"letter": "M", "kind": "empieza", "clue": "Tejido que se contrae y permite mover los huesos.", "answer": "músculo"},
+        {"letter": "N", "kind": "empieza", "clue": "Órgano del olfato, en el centro de la cara.", "answer": "nariz"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Órgano con forma de alubia que filtra la orina.", "answer": "riñón"},
+        {"letter": "O", "kind": "empieza", "clue": "Parte externa y visible del oído.", "answer": "oreja"},
+        {"letter": "P", "kind": "empieza", "clue": "Órgano par del tórax con el que respiramos.", "answer": "pulmón"},
+        {"letter": "Q", "kind": "empieza", "clue": "Sala del hospital donde se realizan las operaciones.", "answer": "quirófano"},
+        {"letter": "R", "kind": "empieza", "clue": "Articulación que une el muslo con la pierna.", "answer": "rodilla"},
+        {"letter": "S", "kind": "empieza", "clue": "Líquido rojo que circula por las venas y las arterias.", "answer": "sangre"},
+        {"letter": "T", "kind": "empieza", "clue": "Conducto que lleva el aire desde la garganta hasta los bronquios.", "answer": "tráquea"},
+        {"letter": "U", "kind": "empieza", "clue": "Lámina dura que protege la punta de los dedos.", "answer": "uña"},
+        {"letter": "V", "kind": "empieza", "clue": "Cada uno de los huesos que forman la columna.", "answer": "vértebra"},
+        {"letter": "X", "kind": "contiene", "clue": "Parte del cuerpo entre el cuello y el abdomen, protegida por las costillas.", "answer": "tórax"},
+        {"letter": "Y", "kind": "empieza", "clue": "Segunda porción del tramo delgado del tubo digestivo.", "answer": "yeyuno"},
+        {"letter": "Z", "kind": "empieza", "clue": "Sonido continuo que se percibe en los oídos cuando hay un acúfeno.", "answer": "zumbido"}
+      ]
+    }
+  ]
+}

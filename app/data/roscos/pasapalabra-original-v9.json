@@ -1,0 +1,68 @@
+{
+  "category": "Pasapalabra Original V9",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pasapalabra-original-v9-1",
+      "name": "Original V9 · Rosco A",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Parte del dinero que se guarda en vez de gastarse.", "answer": "ahorro"},
+        {"letter": "B", "kind": "empieza", "clue": "Entidad donde se deposita el dinero y se piden préstamos.", "answer": "banco"},
+        {"letter": "C", "kind": "empieza", "clue": "Documento firmado que regula la relación laboral entre las dos partes.", "answer": "contrato"},
+        {"letter": "D", "kind": "empieza", "clue": "Lo que se debe a alguien y hay que devolver.", "answer": "deuda"},
+        {"letter": "E", "kind": "empieza", "clue": "Organización que produce bienes o servicios para venderlos.", "answer": "empresa"},
+        {"letter": "F", "kind": "empieza", "clue": "Documento que detalla lo cobrado por un producto o un servicio.", "answer": "factura"},
+        {"letter": "G", "kind": "empieza", "clue": "Salida de dinero para pagar algo.", "answer": "gasto"},
+        {"letter": "H", "kind": "empieza", "clue": "Préstamo a largo plazo con el que se compra una vivienda.", "answer": "hipoteca"},
+        {"letter": "I", "kind": "empieza", "clue": "Subida generalizada y sostenida de los precios.", "answer": "inflación"},
+        {"letter": "J", "kind": "empieza", "clue": "Retirada del trabajo al alcanzar cierta edad.", "answer": "jubilación"},
+        {"letter": "L", "kind": "empieza", "clue": "Facilidad con la que un bien se convierte en dinero contante.", "answer": "liquidez"},
+        {"letter": "M", "kind": "empieza", "clue": "Pieza metálica acuñada que sirve para pagar.", "answer": "moneda"},
+        {"letter": "N", "kind": "empieza", "clue": "Documento mensual que detalla lo que cobra un empleado.", "answer": "nómina"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Otra palabra para una sociedad mercantil.", "answer": "compañía"},
+        {"letter": "O", "kind": "empieza", "clue": "Cantidad de un producto que se pone a la venta en el mercado.", "answer": "oferta"},
+        {"letter": "P", "kind": "empieza", "clue": "Cálculo previo de lo que costará una obra o un servicio.", "answer": "presupuesto"},
+        {"letter": "Q", "kind": "empieza", "clue": "Situación de la empresa que ya no puede pagar lo que debe.", "answer": "quiebra"},
+        {"letter": "R", "kind": "empieza", "clue": "Ingreso periódico que produce un bien o un trabajo.", "answer": "renta"},
+        {"letter": "S", "kind": "empieza", "clue": "Dinero que se recibe a cambio del trabajo realizado.", "answer": "salario"},
+        {"letter": "T", "kind": "empieza", "clue": "Porcentaje de interés que se aplica a un préstamo.", "answer": "tipo"},
+        {"letter": "U", "kind": "empieza", "clue": "Cobro de intereses abusivos por prestar dinero.", "answer": "usura"},
+        {"letter": "V", "kind": "empieza", "clue": "Entrega de un producto a cambio de dinero.", "answer": "venta"},
+        {"letter": "X", "kind": "contiene", "clue": "Envío de mercancías para venderlas fuera del país.", "answer": "exportación"},
+        {"letter": "Y", "kind": "empieza", "clue": "Lugar donde se encuentra un mineral que puede explotarse.", "answer": "yacimiento"},
+        {"letter": "Z", "kind": "empieza", "clue": "Mercado tradicional al aire libre de los países árabes.", "answer": "zoco"}
+      ]
+    },
+    {
+      "id": "pasapalabra-original-v9-2",
+      "name": "Original V9 · Rosco B",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Zona de altas presiones que trae buen tiempo.", "answer": "anticiclón"},
+        {"letter": "B", "kind": "empieza", "clue": "Viento suave y agradable, frecuente junto al mar.", "answer": "brisa"},
+        {"letter": "C", "kind": "empieza", "clue": "Lluvia fuerte y de corta duración.", "answer": "chubasco"},
+        {"letter": "D", "kind": "empieza", "clue": "Fusión de la nieve y el hielo cuando sube la temperatura.", "answer": "deshielo"},
+        {"letter": "E", "kind": "empieza", "clue": "Capa de hielo fino que amanece sobre los coches.", "answer": "escarcha"},
+        {"letter": "F", "kind": "empieza", "clue": "Línea que separa dos masas de aire de distinta temperatura.", "answer": "frente"},
+        {"letter": "G", "kind": "empieza", "clue": "Bolitas de hielo que caen durante una tormenta.", "answer": "granizo"},
+        {"letter": "H", "kind": "empieza", "clue": "Ciclón tropical de vientos violentísimos que gira alrededor de un ojo.", "answer": "huracán"},
+        {"letter": "I", "kind": "empieza", "clue": "Línea del mapa del tiempo que une puntos de igual presión.", "answer": "isobara"},
+        {"letter": "J", "kind": "empieza", "clue": "Mes en el que comienza el verano en el hemisferio norte.", "answer": "junio"},
+        {"letter": "L", "kind": "empieza", "clue": "Lluvia muy fina y menuda que apenas moja.", "answer": "llovizna"},
+        {"letter": "M", "kind": "empieza", "clue": "Viento estacional que trae las grandes lluvias al sur de Asia.", "answer": "monzón"},
+        {"letter": "N", "kind": "empieza", "clue": "Nube baja que reduce la visibilidad a ras del suelo.", "answer": "niebla"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Estación del año en la que caen las hojas de los árboles.", "answer": "otoño"},
+        {"letter": "O", "kind": "empieza", "clue": "Cada uno de los episodios de calor que duran varios días seguidos.", "answer": "ola"},
+        {"letter": "P", "kind": "empieza", "clue": "Nombre técnico del agua que cae del cielo en cualquiera de sus formas.", "answer": "precipitación"},
+        {"letter": "Q", "kind": "empieza", "clue": "Lo que provoca el sol en la piel cuando falta la protección.", "answer": "quemadura"},
+        {"letter": "R", "kind": "empieza", "clue": "Gotas que se depositan al amanecer sobre las plantas.", "answer": "rocío"},
+        {"letter": "S", "kind": "empieza", "clue": "Periodo largo y anormal sin lluvias.", "answer": "sequía"},
+        {"letter": "T", "kind": "empieza", "clue": "Columna de aire que gira a gran velocidad y toca el suelo.", "answer": "tornado"},
+        {"letter": "U", "kind": "empieza", "clue": "Radiación solar invisible de la que protege la crema.", "answer": "ultravioleta"},
+        {"letter": "V", "kind": "empieza", "clue": "Pieza giratoria del tejado que indica de dónde sopla el viento.", "answer": "veleta"},
+        {"letter": "X", "kind": "contiene", "clue": "La temperatura más alta que se registra a lo largo de un día.", "answer": "máxima"},
+        {"letter": "Y", "kind": "empieza", "clue": "Se dice del terreno seco, pelado y sin cultivar.", "answer": "yermo"},
+        {"letter": "Z", "kind": "empieza", "clue": "Viento cálido y seco que baja de los Andes en Argentina.", "answer": "zonda"}
+      ]
+    }
+  ]
+}

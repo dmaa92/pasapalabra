@@ -1,0 +1,68 @@
+{
+  "category": "Cine Hollywood",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "cine-hollywood-1",
+      "name": "Cine Hollywood 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Película de James Cameron de 2009 ambientada en el planeta Pandora.", "answer": "Avatar"},
+        {"letter": "B", "kind": "empieza", "clue": "Apellido del actor que interpretó a Vito Corleone en El Padrino.", "answer": "Brando"},
+        {"letter": "C", "kind": "empieza", "clue": "Clásico de 1942 con Humphrey Bogart ambientado en Marruecos durante la guerra.", "answer": "Casablanca"},
+        {"letter": "D", "kind": "empieza", "clue": "Estudio fundado en 1923 por dos hermanos, famoso por su animación clásica.", "answer": "Disney"},
+        {"letter": "E", "kind": "empieza", "clue": "Apellido del actor y director de Sin perdón y Gran Torino.", "answer": "Eastwood"},
+        {"letter": "F", "kind": "empieza", "clue": "Nombre de pila del personaje de Tom Hanks que se pone a correr por todo el país.", "answer": "Forrest"},
+        {"letter": "G", "kind": "empieza", "clue": "Texto con los diálogos y las escenas a partir del cual se rueda.", "answer": "guion", "accepted": ["guión"]},
+        {"letter": "H", "kind": "empieza", "clue": "Apellido del director británico de Psicosis y Los pájaros.", "answer": "Hitchcock"},
+        {"letter": "I", "kind": "empieza", "clue": "Trabajo de las luces en un rodaje, clave para crear la atmósfera.", "answer": "iluminación"},
+        {"letter": "J", "kind": "empieza", "clue": "Nombre de pila del actor Nicholson y del pirata Sparrow.", "answer": "Jack"},
+        {"letter": "L", "kind": "empieza", "clue": "Nombre de pila del actor DiCaprio.", "answer": "Leonardo"},
+        {"letter": "M", "kind": "empieza", "clue": "Nombre de pila de la actriz Monroe, icono de los años cincuenta.", "answer": "Marilyn"},
+        {"letter": "N", "kind": "empieza", "clue": "Candidatura a un premio: el paso previo a llevárselo.", "answer": "nominación"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Elevación del terreno que la Paramount luce en su logotipo rodeada de estrellas.", "answer": "montaña"},
+        {"letter": "O", "kind": "empieza", "clue": "Estatuilla dorada que entrega la Academia cada año.", "answer": "Óscar", "accepted": ["oscar"]},
+        {"letter": "P", "kind": "empieza", "clue": "Estudio de animación por ordenador creador de Toy Story.", "answer": "Pixar"},
+        {"letter": "Q", "kind": "empieza", "clue": "Nombre de pila del director Tarantino.", "answer": "Quentin"},
+        {"letter": "R", "kind": "empieza", "clue": "Periodo durante el cual se graba una película.", "answer": "rodaje"},
+        {"letter": "S", "kind": "empieza", "clue": "Apellido del director de Tiburón, E.T. y Parque Jurásico.", "answer": "Spielberg"},
+        {"letter": "T", "kind": "empieza", "clue": "Película de 1997 sobre el naufragio del transatlántico más famoso de la historia.", "answer": "Titanic"},
+        {"letter": "U", "kind": "empieza", "clue": "Estudio de Hollywood que muestra un globo terráqueo en su logotipo.", "answer": "Universal"},
+        {"letter": "V", "kind": "empieza", "clue": "Departamento que se ocupa de la ropa que llevan los actores.", "answer": "vestuario"},
+        {"letter": "X", "kind": "contiene", "clue": "Figurante que aparece de fondo en una escena y no tiene diálogo.", "answer": "extra"},
+        {"letter": "Y", "kind": "empieza", "clue": "Maestro jedi bajito y de orejas puntiagudas que habla del revés.", "answer": "Yoda"},
+        {"letter": "Z", "kind": "empieza", "clue": "Actriz de Dune y de las últimas películas de Spider-Man.", "answer": "Zendaya"}
+      ]
+    },
+    {
+      "id": "cine-hollywood-2",
+      "name": "Cine Hollywood 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Mujer que interpreta un papel en una película.", "answer": "actriz"},
+        {"letter": "B", "kind": "empieza", "clue": "Apellido del actor de El halcón maltés y El sueño eterno.", "answer": "Bogart"},
+        {"letter": "C", "kind": "empieza", "clue": "Aparato con el que se graban las imágenes de una película.", "answer": "cámara"},
+        {"letter": "D", "kind": "empieza", "clue": "Sustitución de las voces originales por otras en un idioma distinto.", "answer": "doblaje"},
+        {"letter": "E", "kind": "empieza", "clue": "Nombre de pila de las actrices Stone y Watson.", "answer": "Emma"},
+        {"letter": "F", "kind": "empieza", "clue": "Serie de películas que continúan una misma historia y explotan la misma marca.", "answer": "franquicia"},
+        {"letter": "G", "kind": "empieza", "clue": "Apellido del actor de La La Land y Blade Runner 2049.", "answer": "Gosling"},
+        {"letter": "H", "kind": "empieza", "clue": "Barrio de Los Ángeles cuyas letras blancas presiden una colina.", "answer": "Hollywood"},
+        {"letter": "I", "kind": "empieza", "clue": "Película de 2014 sobre un viaje espacial a través de un agujero de gusano.", "answer": "Interestelar", "accepted": ["interstellar"]},
+        {"letter": "J", "kind": "empieza", "clue": "Nombre de pila de la actriz Roberts, protagonista de Pretty Woman.", "answer": "Julia"},
+        {"letter": "L", "kind": "empieza", "clue": "Apellido del creador de la saga Star Wars.", "answer": "Lucas"},
+        {"letter": "M", "kind": "empieza", "clue": "Trabajo de cortar y ordenar los planos para dar forma a la película.", "answer": "montaje"},
+        {"letter": "N", "kind": "empieza", "clue": "Apellido del director de Origen, Dunkerque y Tenet.", "answer": "Nolan"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Empresa que financia y distribuye una película.", "answer": "compañía"},
+        {"letter": "O", "kind": "empieza", "clue": "Película de 2023 sobre el científico que dirigió el proyecto de la bomba atómica.", "answer": "Oppenheimer"},
+        {"letter": "P", "kind": "empieza", "clue": "Personaje principal alrededor del cual gira la historia.", "answer": "protagonista"},
+        {"letter": "Q", "kind": "empieza", "clue": "Lo que se dice que hay entre dos actores cuando el público se cree su romance.", "answer": "química"},
+        {"letter": "R", "kind": "empieza", "clue": "Conjunto de los actores que intervienen en una película.", "answer": "reparto"},
+        {"letter": "S", "kind": "empieza", "clue": "Película que continúa la historia de otra anterior.", "answer": "secuela"},
+        {"letter": "T", "kind": "empieza", "clue": "Avance que se proyecta en la sala antes de que llegue el estreno.", "answer": "tráiler", "accepted": ["trailer"]},
+        {"letter": "U", "kind": "empieza", "clue": "Nombre de pila de la actriz Thurman, protagonista de Kill Bill.", "answer": "Uma"},
+        {"letter": "V", "kind": "empieza", "clue": "Película de Hitchcock de 1958 ambientada en San Francisco, con James Stewart.", "answer": "Vértigo"},
+        {"letter": "X", "kind": "contiene", "clue": "Interés y espera impaciente del público ante un estreno muy esperado.", "answer": "expectación"},
+        {"letter": "Y", "kind": "empieza", "clue": "Criatura peluda del Himalaya que ha protagonizado más de una película.", "answer": "yeti"},
+        {"letter": "Z", "kind": "empieza", "clue": "Apellido del director de Regreso al futuro.", "answer": "Zemeckis"}
+      ]
+    }
+  ]
+}

@@ -23,6 +23,10 @@ the container, so CI and a laptop run the same thing.
 - Clocks: only the active player's clock runs, a timeout takes that
   player out, the survivor plays on alone, and the match ends when both
   are done.
+- Pause: pausing charges the time used so far and then stops both
+  clocks, a long pause costs nobody a second, nothing can be answered or
+  ruled on while paused, pausing twice is not an error, and a finished
+  match cannot be paused.
 - Scoring: most hits wins, ties break on fewer misses, an identical
   scoreline is a draw.
 - Answer matching: case, accents and `ñ` are folded; declared variants
@@ -63,3 +67,6 @@ Then one refereed match:
    the board within about a second.
 8. Opening `/juez` without a token (or with a wrong one) refuses to load
    the match.
+9. Pausing stops both counters on the board, the answer box and the
+   judge's ruling buttons stop accepting anything, and resuming picks up
+   exactly where the clock stopped.

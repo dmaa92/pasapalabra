@@ -1,0 +1,68 @@
+{
+  "category": "Fortnite",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-07", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "fortnite-1",
+      "name": "Fortnite 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Vehículo volador del que se lanzan los cien participantes.", "answer": "autobús", "accepted": ["battle bus", "autobus de batalla"]},
+        {"letter": "B", "kind": "empieza", "clue": "El pase de ... es el sistema de recompensas de cada temporada.", "answer": "batalla"},
+        {"letter": "C", "kind": "empieza", "clue": "Mecánica de levantar rampas y muros con los materiales recogidos.", "answer": "construcción"},
+        {"letter": "D", "kind": "empieza", "clue": "Modo de juego en el que se compite de a dos.", "answer": "dúo"},
+        {"letter": "E", "kind": "empieza", "clue": "Arma de corta distancia, la favorita para el combate cerrado.", "answer": "escopeta"},
+        {"letter": "F", "kind": "empieza", "clue": "Arma de mira telescópica para disparar desde muy lejos.", "answer": "francotirador"},
+        {"letter": "G", "kind": "empieza", "clue": "Portal morado que teletransporta al jugador por el mapa.", "answer": "grieta"},
+        {"letter": "H", "kind": "empieza", "clue": "Planta del bosque que al consumirla otorga escudo.", "answer": "hongo"},
+        {"letter": "I", "kind": "empieza", "clue": "Terreno rodeado de agua donde transcurre toda la partida.", "answer": "isla"},
+        {"letter": "J", "kind": "empieza", "clue": "Asesino de traje negro y perro, uno de los aspectos más famosos.", "answer": "John Wick"},
+        {"letter": "L", "kind": "empieza", "clue": "Rareza dorada, la mejor que puede tener un arma.", "answer": "legendario"},
+        {"letter": "M", "kind": "empieza", "clue": "Material que se obtiene golpeando árboles y tablones.", "answer": "madera"},
+        {"letter": "N", "kind": "empieza", "clue": "Cada escalón que se sube dentro del pase de temporada.", "answer": "nivel"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Puntos de vida que quita cada disparo acertado.", "answer": "daño"},
+        {"letter": "O", "kind": "empieza", "clue": "Metal de las barras que sirven para comprar a los personajes.", "answer": "oro"},
+        {"letter": "P", "kind": "empieza", "clue": "Herramienta con la que se rompen los objetos para reunir materiales.", "answer": "pico"},
+        {"letter": "Q", "kind": "contiene", "clue": "Grupo de cuatro personas que compiten juntas en una partida.", "answer": "equipo"},
+        {"letter": "R", "kind": "empieza", "clue": "Color que indica lo buena que es un arma encontrada.", "answer": "rareza"},
+        {"letter": "S", "kind": "empieza", "clue": "Palabra inglesa para el aspecto que viste el personaje.", "answer": "skin"},
+        {"letter": "T", "kind": "empieza", "clue": "Círculo morado que se cierra y daña a quien se queda fuera.", "answer": "tormenta"},
+        {"letter": "U", "kind": "empieza", "clue": "Nombre del motor gráfico de Epic con el que está hecho el juego.", "answer": "Unreal"},
+        {"letter": "V", "kind": "empieza", "clue": "Lo que se logra al quedar el último en pie: ¡... magistral!", "answer": "victoria"},
+        {"letter": "X", "kind": "contiene", "clue": "Puntos que se acumulan jugando para subir de nivel.", "answer": "experiencia"},
+        {"letter": "Y", "kind": "empieza", "clue": "Barco de lujo que fue un punto de interés del mapa.", "answer": "yate"},
+        {"letter": "Z", "kind": "empieza", "clue": "Cada área segura que va quedando dentro del círculo.", "answer": "zona"}
+      ]
+    },
+    {
+      "id": "fortnite-2",
+      "name": "Fortnite 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Objeto con el que se dispara al rival para eliminarlo.", "answer": "arma"},
+        {"letter": "B", "kind": "empieza", "clue": "Conjunto de objetos que suelta un cofre al abrirlo.", "answer": "botín"},
+        {"letter": "C", "kind": "empieza", "clue": "Caja dorada que al abrirse reparte armas y consumibles.", "answer": "cofre"},
+        {"letter": "D", "kind": "empieza", "clue": "Hamburguesería de cabeza gigante, punto famoso del mapa.", "answer": "Durrr Burger", "accepted": ["durr burger", "durrr"]},
+        {"letter": "E", "kind": "empieza", "clue": "Estudio que creó el juego y es dueño del motor Unreal.", "answer": "Epic"},
+        {"letter": "F", "kind": "empieza", "clue": "Arma automática de asalto, la más versátil del inventario.", "answer": "fusil"},
+        {"letter": "G", "kind": "empieza", "clue": "Explosivo que se lanza con la mano contra una construcción.", "answer": "granada"},
+        {"letter": "H", "kind": "empieza", "clue": "Fogata que cura poco a poco al que se sienta cerca.", "answer": "hoguera"},
+        {"letter": "I", "kind": "empieza", "clue": "Estación en la que el mapa aparece cubierto de nieve.", "answer": "invierno"},
+        {"letter": "J", "kind": "empieza", "clue": "Aspecto clásico del soldado calvo protagonista de la historia.", "answer": "Jonesy"},
+        {"letter": "L", "kind": "empieza", "clue": "Piñata azul y morada que guarda materiales y munición.", "answer": "llama"},
+        {"letter": "M", "kind": "empieza", "clue": "Plano de la isla que muestra por dónde se cierra la tormenta.", "answer": "mapa"},
+        {"letter": "N", "kind": "empieza", "clue": "Lo que cubre el suelo del mapa en la temporada navideña.", "answer": "nieve"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Cada uno de los que lleva el juego desde su salida en 2017.", "answer": "año"},
+        {"letter": "O", "kind": "empieza", "clue": "Cada cosa que se guarda en las cinco ranuras del inventario.", "answer": "objeto"},
+        {"letter": "P", "kind": "empieza", "clue": "Lo que se despliega para descender suavemente tras el salto.", "answer": "planeador"},
+        {"letter": "Q", "kind": "contiene", "clue": "Cada marca invitada, como Marvel o Star Wars, que llega al juego.", "answer": "franquicia"},
+        {"letter": "R", "kind": "empieza", "clue": "Estructura inclinada que se construye para ganar altura.", "answer": "rampa"},
+        {"letter": "S", "kind": "empieza", "clue": "Lo que se hace desde el autobús para llegar a la isla.", "answer": "salto"},
+        {"letter": "T", "kind": "empieza", "clue": "Lugar del menú donde se compran aspectos con paVos.", "answer": "tienda"},
+        {"letter": "U", "kind": "empieza", "clue": "Nombre con el que cada jugador aparece dentro de la partida.", "answer": "usuario"},
+        {"letter": "V", "kind": "empieza", "clue": "Barra verde de cien puntos que se pierde al recibir disparos.", "answer": "vida"},
+        {"letter": "X", "kind": "contiene", "clue": "Adjetivo del arma que causa daño en toda un área.", "answer": "explosivo"},
+        {"letter": "Y", "kind": "contiene", "clue": "Aspecto con forma de plátano, uno de los más queridos.", "answer": "Peely"},
+        {"letter": "Z", "kind": "empieza", "clue": "Enemigo no muerto que aparece en el modo Salvar el Mundo.", "answer": "zombi", "accepted": ["zombie"]}
+      ]
+    }
+  ]
+}

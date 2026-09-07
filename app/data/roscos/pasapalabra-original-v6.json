@@ -1,0 +1,68 @@
+{
+  "category": "Pasapalabra Original V6",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pasapalabra-original-v6-1",
+      "name": "Original V6 · Rosco A",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Quien levanta paredes con ladrillos y cemento.", "answer": "albañil"},
+        {"letter": "B", "kind": "empieza", "clue": "Quien acude con la manguera a apagar los incendios.", "answer": "bombero"},
+        {"letter": "C", "kind": "empieza", "clue": "Quien reparte la correspondencia por las casas.", "answer": "cartero"},
+        {"letter": "D", "kind": "empieza", "clue": "Quien cuida, empasta y arregla la dentadura.", "answer": "dentista"},
+        {"letter": "E", "kind": "empieza", "clue": "Quien instala y repara los cables y los enchufes de una casa.", "answer": "electricista"},
+        {"letter": "F", "kind": "empieza", "clue": "Quien arregla las tuberías y los grifos que gotean.", "answer": "fontanero"},
+        {"letter": "G", "kind": "empieza", "clue": "Quien cría animales y cultiva la tierra en el campo.", "answer": "granjero"},
+        {"letter": "H", "kind": "empieza", "clue": "Quien golpea el hierro al rojo sobre el yunque.", "answer": "herrero"},
+        {"letter": "I", "kind": "empieza", "clue": "Titulado que diseña máquinas, puentes o sistemas.", "answer": "ingeniero"},
+        {"letter": "J", "kind": "empieza", "clue": "Quien cuida las plantas y el césped de un parque.", "answer": "jardinero"},
+        {"letter": "L", "kind": "empieza", "clue": "Quien vende libros en su establecimiento.", "answer": "librero"},
+        {"letter": "M", "kind": "empieza", "clue": "Quien diagnostica una enfermedad y receta el tratamiento.", "answer": "médico"},
+        {"letter": "N", "kind": "empieza", "clue": "Funcionario que da fe pública de los contratos y las escrituras.", "answer": "notario"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Profesional que idea la forma de objetos, ropa o carteles.", "answer": "diseñador"},
+        {"letter": "O", "kind": "empieza", "clue": "Profesional que gradúa la vista y vende gafas.", "answer": "óptico"},
+        {"letter": "P", "kind": "empieza", "clue": "Quien amasa y hornea el pan de cada día.", "answer": "panadero"},
+        {"letter": "Q", "kind": "empieza", "clue": "Científico que trabaja con reactivos y probetas en el laboratorio.", "answer": "químico"},
+        {"letter": "R", "kind": "empieza", "clue": "Quien repara los mecanismos que dan la hora.", "answer": "relojero"},
+        {"letter": "S", "kind": "empieza", "clue": "Quien corta y cose trajes a medida.", "answer": "sastre"},
+        {"letter": "T", "kind": "empieza", "clue": "Quien conduce un coche de alquiler con licencia municipal.", "answer": "taxista"},
+        {"letter": "U", "kind": "empieza", "clue": "Especialista en las vías urinarias.", "answer": "urólogo"},
+        {"letter": "V", "kind": "empieza", "clue": "Quien atiende y opera a los animales.", "answer": "veterinario"},
+        {"letter": "X", "kind": "contiene", "clue": "Quien ayuda al profesional principal en su tarea.", "answer": "auxiliar"},
+        {"letter": "Y", "kind": "empieza", "clue": "Operario que reviste paredes y techos con escayola.", "answer": "yesero"},
+        {"letter": "Z", "kind": "empieza", "clue": "Quien fabrica y arregla el calzado.", "answer": "zapatero"}
+      ]
+    },
+    {
+      "id": "pasapalabra-original-v6-2",
+      "name": "Original V6 · Rosco B",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Prenda larga y gruesa que se pone encima de todo lo demás en invierno.", "answer": "abrigo"},
+        {"letter": "B", "kind": "empieza", "clue": "Prenda alargada de lana que se enrolla al cuello.", "answer": "bufanda"},
+        {"letter": "C", "kind": "empieza", "clue": "Prenda de botones y cuello que hay que planchar.", "answer": "camisa"},
+        {"letter": "D", "kind": "empieza", "clue": "Prenda que se ata a la cintura para no mancharse al cocinar.", "answer": "delantal"},
+        {"letter": "E", "kind": "empieza", "clue": "Traje masculino de gala con solapas de raso.", "answer": "esmoquin"},
+        {"letter": "F", "kind": "empieza", "clue": "Prenda que cuelga de la cintura sin separar las piernas.", "answer": "falda"},
+        {"letter": "G", "kind": "empieza", "clue": "Prenda de cabeza con visera para el sol.", "answer": "gorra"},
+        {"letter": "H", "kind": "empieza", "clue": "Hebra fina que se enhebra en la aguja para coser.", "answer": "hilo"},
+        {"letter": "I", "kind": "empieza", "clue": "Prenda que no deja pasar el agua de la lluvia.", "answer": "impermeable"},
+        {"letter": "J", "kind": "empieza", "clue": "Prenda de punto que se mete por la cabeza.", "answer": "jersey"},
+        {"letter": "L", "kind": "empieza", "clue": "Tejido fresco de origen vegetal que se arruga con solo mirarlo.", "answer": "lino"},
+        {"letter": "M", "kind": "empieza", "clue": "Parte de la prenda que cubre el brazo.", "answer": "manga"},
+        {"letter": "N", "kind": "empieza", "clue": "Lo que se hace con la corbata delante del espejo.", "answer": "nudo"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Tela de lana tupida con la que se hacen abrigos.", "answer": "paño"},
+        {"letter": "O", "kind": "empieza", "clue": "Abertura cosida por la que se mete el botón.", "answer": "ojal"},
+        {"letter": "P", "kind": "empieza", "clue": "Prenda con dos perneras que cubre de cintura para abajo.", "answer": "pantalón"},
+        {"letter": "Q", "kind": "empieza", "clue": "Prenda tradicional japonesa que se cierra con un fajín.", "answer": "quimono", "accepted": ["kimono"]},
+        {"letter": "R", "kind": "empieza", "clue": "Chaqueta de punto abotonada por delante.", "answer": "rebeca"},
+        {"letter": "S", "kind": "empieza", "clue": "Prenda de cabeza con copa y ala alrededor.", "answer": "sombrero"},
+        {"letter": "T", "kind": "empieza", "clue": "Pieza que eleva la parte trasera del calzado.", "answer": "tacón"},
+        {"letter": "U", "kind": "empieza", "clue": "Ropa idéntica que visten todos los miembros de un grupo.", "answer": "uniforme"},
+        {"letter": "V", "kind": "empieza", "clue": "Prenda de una sola pieza que cubre el cuerpo y baja por las piernas.", "answer": "vestido"},
+        {"letter": "X", "kind": "contiene", "clue": "Se dice del sector industrial que fabrica telas y prendas.", "answer": "textil"},
+        {"letter": "Y", "kind": "empieza", "clue": "Fibra vegetal basta con la que se tejen los sacos.", "answer": "yute"},
+        {"letter": "Z", "kind": "empieza", "clue": "Calzado que cubre el pie sin llegar a pasar del tobillo.", "answer": "zapato"}
+      ]
+    }
+  ]
+}

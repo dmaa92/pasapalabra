@@ -1,0 +1,68 @@
+{
+  "category": "Pasapalabra Original V2",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pasapalabra-original-v2-1",
+      "name": "Original V2 · Rosco A",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "El río más caudaloso del mundo, en Sudamérica.", "answer": "Amazonas"},
+        {"letter": "B", "kind": "empieza", "clue": "Capital de Alemania, dividida por un muro hasta 1989.", "answer": "Berlín"},
+        {"letter": "C", "kind": "empieza", "clue": "Cadena de montañas alineadas, como la de los Andes.", "answer": "cordillera"},
+        {"letter": "D", "kind": "empieza", "clue": "Terreno triangular de sedimentos que forma un río al desembocar.", "answer": "delta"},
+        {"letter": "E", "kind": "empieza", "clue": "La montaña más alta del planeta, en el Himalaya.", "answer": "Everest"},
+        {"letter": "F", "kind": "empieza", "clue": "Entrante estrecho y profundo del mar entre acantilados, típico de Noruega.", "answer": "fiordo"},
+        {"letter": "G", "kind": "empieza", "clue": "Surtidor natural de agua caliente que brota del suelo en Islandia.", "answer": "géiser"},
+        {"letter": "H", "kind": "empieza", "clue": "Cada una de las dos mitades en que el ecuador divide la Tierra.", "answer": "hemisferio"},
+        {"letter": "I", "kind": "empieza", "clue": "Lengua de tierra estrecha que une dos masas continentales, como la de Panamá.", "answer": "istmo"},
+        {"letter": "J", "kind": "empieza", "clue": "País asiático formado por islas, con capital en Tokio.", "answer": "Japón"},
+        {"letter": "L", "kind": "empieza", "clue": "Masa de agua estancada, más pequeña que un lago.", "answer": "laguna"},
+        {"letter": "M", "kind": "empieza", "clue": "Cada una de las líneas imaginarias que van de un polo al otro.", "answer": "meridiano"},
+        {"letter": "N", "kind": "empieza", "clue": "Río africano que cruza Egipto y desemboca en el Mediterráneo.", "answer": "Nilo"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Garganta profunda excavada por un río, como la del Colorado.", "answer": "cañón"},
+        {"letter": "O", "kind": "empieza", "clue": "Capital de Noruega, a orillas de un fiordo.", "answer": "Oslo"},
+        {"letter": "P", "kind": "empieza", "clue": "Porción de tierra rodeada de agua salvo por un lado.", "answer": "península"},
+        {"letter": "Q", "kind": "empieza", "clue": "Capital de Ecuador, en plena cordillera andina.", "answer": "Quito"},
+        {"letter": "R", "kind": "empieza", "clue": "Valle fluvial invadido por el mar, muy característico de Galicia.", "answer": "ría"},
+        {"letter": "S", "kind": "empieza", "clue": "El mayor desierto cálido del mundo, en el norte de África.", "answer": "Sáhara"},
+        {"letter": "T", "kind": "empieza", "clue": "Cada uno de los dos paralelos llamados de Cáncer y de Capricornio.", "answer": "trópico"},
+        {"letter": "U", "kind": "empieza", "clue": "Cadena montañosa rusa que marca el límite entre Europa y Asia.", "answer": "Ural"},
+        {"letter": "V", "kind": "empieza", "clue": "Llanura entre dos montañas por la que suele correr un río.", "answer": "valle"},
+        {"letter": "X", "kind": "contiene", "clue": "País norteamericano cuya capital lleva su mismo nombre.", "answer": "México"},
+        {"letter": "Y", "kind": "empieza", "clue": "El río más largo de Asia, que atraviesa China.", "answer": "Yangtsé", "accepted": ["yangtze"]},
+        {"letter": "Z", "kind": "empieza", "clue": "Río africano en el que están las cataratas Victoria.", "answer": "Zambeze", "accepted": ["zambezi"]}
+      ]
+    },
+    {
+      "id": "pasapalabra-original-v2-2",
+      "name": "Original V2 · Rosco B",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Ciudad griega considerada la cuna de la democracia.", "answer": "Atenas"},
+        {"letter": "B", "kind": "empieza", "clue": "Prisión parisina asaltada el 14 de julio de 1789.", "answer": "Bastilla"},
+        {"letter": "C", "kind": "empieza", "clue": "Navegante genovés que llegó a América en 1492.", "answer": "Colón"},
+        {"letter": "D", "kind": "empieza", "clue": "Serie de gobernantes que pertenecen a una misma familia.", "answer": "dinastía"},
+        {"letter": "E", "kind": "empieza", "clue": "Civilización antigua de faraones y pirámides a orillas del Nilo.", "answer": "Egipto"},
+        {"letter": "F", "kind": "empieza", "clue": "Sistema medieval de señores, vasallos y tierras cedidas.", "answer": "feudalismo"},
+        {"letter": "G", "kind": "empieza", "clue": "Máquina de ejecución que se hizo célebre en el París de 1793.", "answer": "guillotina"},
+        {"letter": "H", "kind": "empieza", "clue": "Nombre que dieron los romanos a la península ibérica.", "answer": "Hispania"},
+        {"letter": "I", "kind": "empieza", "clue": "Conjunto de territorios gobernados por un emperador.", "answer": "imperio"},
+        {"letter": "J", "kind": "empieza", "clue": "Reina de Castilla apodada la Loca, hija de los Reyes Católicos.", "answer": "Juana"},
+        {"letter": "L", "kind": "empieza", "clue": "Nombre de los reyes franceses; el decimocuarto fue el Rey Sol.", "answer": "Luis"},
+        {"letter": "M", "kind": "empieza", "clue": "Muro defensivo que rodea una ciudad; la de China es la más famosa.", "answer": "muralla"},
+        {"letter": "N", "kind": "empieza", "clue": "Emperador francés derrotado definitivamente en Waterloo.", "answer": "Napoleón"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "País europeo cuya guerra civil terminó en 1939.", "answer": "España"},
+        {"letter": "O", "kind": "empieza", "clue": "Monumento egipcio alto y puntiagudo tallado en una sola pieza.", "answer": "obelisco"},
+        {"letter": "P", "kind": "empieza", "clue": "Material vegetal sobre el que escribían los egipcios.", "answer": "papiro"},
+        {"letter": "Q", "kind": "empieza", "clue": "Cada uno de los reemplazos anuales del servicio militar obligatorio.", "answer": "quinta"},
+        {"letter": "R", "kind": "empieza", "clue": "Cambio brusco y violento del orden político establecido.", "answer": "revolución"},
+        {"letter": "S", "kind": "empieza", "clue": "Derecho al voto, que se hizo universal a lo largo del siglo XX.", "answer": "sufragio"},
+        {"letter": "T", "kind": "empieza", "clue": "Acuerdo firmado entre países, a menudo para poner fin a una guerra.", "answer": "tratado"},
+        {"letter": "U", "kind": "empieza", "clue": "Siglas del estado soviético que se disolvió en 1991.", "answer": "URSS"},
+        {"letter": "V", "kind": "empieza", "clue": "Representante del rey al frente de un territorio americano.", "answer": "virrey"},
+        {"letter": "X", "kind": "contiene", "clue": "Viaje organizado para explorar o conquistar un territorio.", "answer": "expedición"},
+        {"letter": "Y", "kind": "empieza", "clue": "Símbolo que, junto a las flechas, usaron los Reyes Católicos.", "answer": "yugo"},
+        {"letter": "Z", "kind": "empieza", "clue": "Título que ostentaba el emperador de Rusia hasta 1917.", "answer": "zar"}
+      ]
+    }
+  ]
+}

@@ -36,6 +36,10 @@ class WrongMode(Exception):
     """Raised when a play doesn't belong to the mode the match is in."""
 
 
+class Paused(Exception):
+    """Raised when a play is attempted while the match is paused."""
+
+
 @dataclass
 class LetterState:
     letter: str
@@ -104,6 +108,9 @@ class Game:
         self.turn = 0
         self.turn_started_at = now
         self.created_at = now
+        # Both clocks stop while paused — for a recount, an argument, or
+        # anything else that shouldn't cost a player their time.
+        self.paused = False
 
     @classmethod
     def create(
@@ -154,6 +161,11 @@ class Game:
         """Charge elapsed time to the active player and settle the turn."""
         if self.over:
             return
+        if self.paused:
+            # A paused clock charges nothing, and the time spent paused
+            # never becomes a debt to settle on resume.
+            self.turn_started_at = now
+            return
         elapsed = max(0.0, now - self.turn_started_at)
         self.turn_started_at = now
         player = self.active
@@ -177,6 +189,29 @@ class Game:
         if not self.players[other].finished:
             self.turn = other
 
+    # -- pause ---------------------------------------------------------
+
+    def pause(self, now: float) -> None:
+        """Stop both clocks. Charges whatever the active player has used
+        so far, so pausing never gives time back."""
+        self.sync(now)
+        if self.over:
+            raise GameOver("the game has already finished")
+        # Idempotent on purpose: two people hitting pause is not an error.
+        self.paused = True
+
+    def resume(self, now: float) -> None:
+        if self.over:
+            raise GameOver("the game has already finished")
+        self.paused = False
+        self.turn_started_at = now
+
+    def _playable(self) -> None:
+        if self.over:
+            raise GameOver("the game has already finished")
+        if self.paused:
+            raise Paused("the match is paused")
+
     # -- plays ---------------------------------------------------------
 
     def answer(self, attempt: str, now: float) -> dict:
@@ -184,8 +219,7 @@ class Game:
         if self.mode != MODE_KEYBOARD:
             raise WrongMode("this match is refereed by a judge")
         self.sync(now)
-        if self.over:
-            raise GameOver("the game has already finished")
+        self._playable()
         question = self.active.question
         assert question is not None  # a non-finished player always has one
         return self._resolve(question.matches(attempt), attempt, now)
@@ -195,8 +229,7 @@ class Game:
         if self.mode != MODE_JUDGE:
             raise WrongMode("this match is played from the keyboard")
         self.sync(now)
-        if self.over:
-            raise GameOver("the game has already finished")
+        self._playable()
         return self._resolve(correct, None, now)
 
     def _resolve(self, correct: bool, attempt: str | None, now: float) -> dict:
@@ -220,8 +253,7 @@ class Game:
     def skip(self, now: float) -> dict:
         """"Pasapalabra": keep the letter pending and hand over the turn."""
         self.sync(now)
-        if self.over:
-            raise GameOver("the game has already finished")
+        self._playable()
         player = self.active
         letter = player.letters[player.cursor].letter
         player.advance()
@@ -231,7 +263,6 @@ class Game:
     def resign(self, now: float) -> None:
         """Stop the active player's rosco early ("me planto")."""
         self.sync(now)
-        if self.over:
-            raise GameOver("the game has already finished")
+        self._playable()
         self.active.finish(FINISH_ROSCO)
         self._pass_turn(now)

@@ -21,7 +21,7 @@ from pydantic import BaseModel, Field
 
 from .content import DEFAULT_CATEGORY, by_category, load_roscos, slugify
 from .game import (CORRECT, DEFAULT_TIME_SECONDS, MODE_JUDGE, MODE_KEYBOARD,
-                   PENDING, WRONG, Game, GameOver, WrongMode)
+                   PENDING, WRONG, Game, GameOver, Paused, WrongMode)
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
 
@@ -101,6 +101,8 @@ def _play(action) -> dict:
         raise HTTPException(status_code=409, detail=str(exc))
     except WrongMode as exc:
         raise HTTPException(status_code=409, detail=str(exc))
+    except Paused:
+        raise HTTPException(status_code=409, detail="la partida está en pausa")
 
 
 def _state(game: Game, now: float) -> dict:
@@ -133,6 +135,7 @@ def _state(game: Game, now: float) -> dict:
         "category": game.players[0].rosco.category,
         "turn": game.turn,
         "over": game.over,
+        "paused": game.paused,
         "winner": game.winner,
         "players": players,
     }
@@ -243,6 +246,23 @@ async def skip(game_id: str, token: str | None = None) -> dict:
     now = time.monotonic()
     result = _play(lambda: game.skip(now))
     return {"result": result, "game": _state(game, now)}
+
+
+@app.post("/api/games/{game_id}/pause")
+async def pause(game_id: str, token: str | None = None) -> dict:
+    """Stop both clocks — for a recount, a protest, a coffee."""
+    game = _controlled_by_judge(_get_game(game_id), token)
+    now = time.monotonic()
+    _play(lambda: game.pause(now))
+    return {"result": {"paused": True}, "game": _state(game, now)}
+
+
+@app.post("/api/games/{game_id}/resume")
+async def resume(game_id: str, token: str | None = None) -> dict:
+    game = _controlled_by_judge(_get_game(game_id), token)
+    now = time.monotonic()
+    _play(lambda: game.resume(now))
+    return {"result": {"paused": False}, "game": _state(game, now)}
 
 
 @app.post("/api/games/{game_id}/resign")

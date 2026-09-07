@@ -57,6 +57,18 @@ repeticiones, sin pistas que filtren su respuesta), pide que se corrija lo
 que falle, y escribe `app/data/roscos/<categoría>.json` para que lo revises
 y lo commitees.
 
+### Categorías incluidas
+
+Cine Hollywood, Deportes, Marvel Cinematic Universe, DC Comics,
+Bridgerton, Pokémon, Videojuegos, Tecnología, DevOps, Películas de
+acción, Fórmula 1, Fútbol Argentino, Historia de Argentina, Geografía
+Argentina, Geografía de América, Fortnite, Minecraft, y diez roscos de
+cultura general al estilo clásico del programa (Pasapalabra Original V1
+a V10). Cada categoría trae **al menos dos roscos** —uno por jugador— de
+25 preguntas, y algunas traen más: Marvel Cinematic Universe siete, DC
+Comics y Deportes seis, Fórmula 1 y Fútbol Argentino cinco. En total, 73
+roscos y **1.825 preguntas**, más el rosco general de la portada.
+
 Esto es una herramienta de autoría, no parte del juego: necesita
 `ANTHROPIC_API_KEY` en tu `.env` local y vive en una imagen aparte. **La
 aplicación desplegada no lleva clave, no sale a internet y no inventa
@@ -84,6 +96,11 @@ Ver [docs/testing.md](docs/testing.md).
 - Reloj por jugador (200 s por defecto). Al agotarse, ese jugador queda
   fuera y el otro sigue jugando solo contra su propio reloj.
 - Un jugador puede plantarse y cerrar su rosco antes de tiempo.
+- **Pausa**: se pueden parar los dos relojes para un recuento, una
+  reclamación o un descanso. Mientras está en pausa no corre el tiempo de
+  nadie y no se puede responder ni marcar; el tiempo ya consumido se
+  cobra antes de parar, así que pausar nunca regala segundos. En modo
+  juez, el botón está en el panel del juez.
 - Gana quien tenga más aciertos; a igualdad, menos fallos; si persiste,
   empate. Las soluciones solo se revelan al terminar la partida.
 - Las reglas son idénticas en los tres modos: lo único que cambia es

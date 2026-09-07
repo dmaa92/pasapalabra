@@ -1,0 +1,68 @@
+{
+  "category": "Pasapalabra Original V3",
+  "generated": {"model": "claude-opus-5", "at": "2026-09-04", "reviewed_by_a_human": false},
+  "roscos": [
+    {
+      "id": "pasapalabra-original-v3-1",
+      "name": "Original V3 · Rosco A",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Grasa líquida que se extrae de la aceituna.", "answer": "aceite"},
+        {"letter": "B", "kind": "empieza", "clue": "Verdura verde con forma de arbolito que se come cocida.", "answer": "brócoli"},
+        {"letter": "C", "kind": "empieza", "clue": "Especia en rama o en polvo que se saca de la corteza de un árbol.", "answer": "canela"},
+        {"letter": "D", "kind": "empieza", "clue": "Fruto dulce y alargado que da la palmera.", "answer": "dátil"},
+        {"letter": "E", "kind": "empieza", "clue": "Masa rellena y horneada, típica de Galicia y de Argentina.", "answer": "empanada"},
+        {"letter": "F", "kind": "empieza", "clue": "Cada uno de los hilos de pasta que se echan a la sopa.", "answer": "fideo"},
+        {"letter": "G", "kind": "empieza", "clue": "Sopa fría andaluza de hortalizas crudas trituradas.", "answer": "gazpacho"},
+        {"letter": "H", "kind": "empieza", "clue": "Polvo que se obtiene al moler el grano de trigo.", "answer": "harina"},
+        {"letter": "I", "kind": "empieza", "clue": "Cada uno de los componentes que lleva una receta.", "answer": "ingrediente"},
+        {"letter": "J", "kind": "empieza", "clue": "Pata trasera del cerdo curada con sal.", "answer": "jamón"},
+        {"letter": "L", "kind": "empieza", "clue": "Legumbre pequeña y aplastada que se guisa con chorizo.", "answer": "lenteja"},
+        {"letter": "M", "kind": "empieza", "clue": "Grasa untable que se obtiene batiendo la nata.", "answer": "mantequilla"},
+        {"letter": "N", "kind": "empieza", "clue": "Fruto seco de cáscara dura cuyo interior recuerda a un cerebro.", "answer": "nuez"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Hongo comestible blanco que se sirve al ajillo.", "answer": "champiñón"},
+        {"letter": "O", "kind": "empieza", "clue": "Hierba aromática imprescindible en una pizza.", "answer": "orégano"},
+        {"letter": "P", "kind": "empieza", "clue": "Plato valenciano de arroz con azafrán, conejo y judía verde.", "answer": "paella"},
+        {"letter": "Q", "kind": "empieza", "clue": "Alimento sólido que se obtiene cuajando la leche.", "answer": "queso"},
+        {"letter": "R", "kind": "empieza", "clue": "Plato italiano de arroz cocinado hasta quedar cremoso.", "answer": "risotto"},
+        {"letter": "S", "kind": "empieza", "clue": "Recipiente plano con mango que se usa para freír.", "answer": "sartén"},
+        {"letter": "T", "kind": "empieza", "clue": "Fruto rojo y jugoso con el que se hace el sofrito.", "answer": "tomate"},
+        {"letter": "U", "kind": "empieza", "clue": "Fruto de la vid con el que se elabora el vino.", "answer": "uva"},
+        {"letter": "V", "kind": "empieza", "clue": "Líquido ácido y de olor fuerte que aliña la ensalada.", "answer": "vinagre"},
+        {"letter": "X", "kind": "contiene", "clue": "Se dice del plato delicioso y muy bien elaborado.", "answer": "exquisito"},
+        {"letter": "Y", "kind": "empieza", "clue": "Producto lácteo obtenido por fermentación, que se toma con cuchara.", "answer": "yogur", "accepted": ["yogurt"]},
+        {"letter": "Z", "kind": "empieza", "clue": "Hortaliza de raíz naranja, rica en caroteno.", "answer": "zanahoria"}
+      ]
+    },
+    {
+      "id": "pasapalabra-original-v3-2",
+      "name": "Original V3 · Rosco B",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Conjunto de tres o más sonidos que se tocan a la vez.", "answer": "acorde"},
+        {"letter": "B", "kind": "empieza", "clue": "Conjunto de percusión con bombo, caja y platillos.", "answer": "batería"},
+        {"letter": "C", "kind": "empieza", "clue": "Signo que abre el renglón musical y fija la altura de lo escrito.", "answer": "clave"},
+        {"letter": "D", "kind": "empieza", "clue": "Quien marca el tempo a la orquesta con una batuta.", "answer": "director"},
+        {"letter": "E", "kind": "empieza", "clue": "Sucesión ordenada de sonidos, como la de do mayor.", "answer": "escala"},
+        {"letter": "F", "kind": "empieza", "clue": "Arte andaluz que reúne cante, toque y baile.", "answer": "flamenco"},
+        {"letter": "G", "kind": "empieza", "clue": "Caja de madera con seis cuerdas que se rasga o se puntea.", "answer": "guitarra"},
+        {"letter": "H", "kind": "empieza", "clue": "Composición solemne que representa a un país.", "answer": "himno"},
+        {"letter": "I", "kind": "empieza", "clue": "Objeto construido para producir sonidos musicales.", "answer": "instrumento"},
+        {"letter": "J", "kind": "empieza", "clue": "Género nacido en Nueva Orleans basado en la improvisación.", "answer": "jazz"},
+        {"letter": "L", "kind": "empieza", "clue": "Palabras que se cantan sobre la música de una canción.", "answer": "letra"},
+        {"letter": "M", "kind": "empieza", "clue": "Sucesión de sonidos que se reconoce y se tararea.", "answer": "melodía"},
+        {"letter": "N", "kind": "empieza", "clue": "Cada uno de los signos redondos que se escriben en el renglón musical.", "answer": "nota"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Lo que hacen los instrumentos que apoyan a la voz principal.", "answer": "acompañamiento"},
+        {"letter": "O", "kind": "empieza", "clue": "Obra teatral enteramente cantada.", "answer": "ópera"},
+        {"letter": "P", "kind": "empieza", "clue": "Conjunto de cinco líneas horizontales donde se escribe la música.", "answer": "pentagrama"},
+        {"letter": "Q", "kind": "empieza", "clue": "Grupo formado por cinco músicos.", "answer": "quinteto"},
+        {"letter": "R", "kind": "empieza", "clue": "Lo que marca el compás y hace que se mueva el pie solo.", "answer": "ritmo"},
+        {"letter": "S", "kind": "empieza", "clue": "Obra amplia para orquesta dividida en movimientos.", "answer": "sinfonía"},
+        {"letter": "T", "kind": "empieza", "clue": "La voz masculina más aguda del canto lírico.", "answer": "tenor"},
+        {"letter": "U", "kind": "empieza", "clue": "Cuando dos voces cantan exactamente lo mismo a la vez.", "answer": "unísono"},
+        {"letter": "V", "kind": "empieza", "clue": "El más agudo de la familia de la cuerda frotada.", "answer": "violín"},
+        {"letter": "X", "kind": "contiene", "clue": "Viento de metal con boquilla de caña, habitual en las big bands.", "answer": "saxofón"},
+        {"letter": "Y", "kind": "empieza", "clue": "Tambor africano con forma de copa que se toca con las manos.", "answer": "yembé", "accepted": ["djembe", "yembe"]},
+        {"letter": "Z", "kind": "empieza", "clue": "Género lírico español que alterna partes cantadas y habladas.", "answer": "zarzuela"}
+      ]
+    }
+  ]
+}

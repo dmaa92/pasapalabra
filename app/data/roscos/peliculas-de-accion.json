@@ -1,0 +1,73 @@
+{
+  "category": "Películas de acción",
+  "generated": {
+    "model": "claude-opus-5",
+    "at": "2026-09-03",
+    "reviewed_by_a_human": false,
+    "note": "Escrito en sesión, no con scripts/generate_rosco.py: esta máquina no tiene ANTHROPIC_API_KEY. Validado con app.content.validate_rosco igual que el resto."
+  },
+  "roscos": [
+    {
+      "id": "peliculas-de-accion-1",
+      "name": "Películas de acción 1",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Secuela de 1986 dirigida por James Cameron en la que la teniente Ripley vuelve a enfrentarse a los xenomorfos.", "answer": "Aliens"},
+        {"letter": "B", "kind": "empieza", "clue": "Apellido del agente 007, el espía con licencia para matar.", "answer": "Bond"},
+        {"letter": "C", "kind": "empieza", "clue": "Película de 1985 en la que un coronel retirado arrasa una isla para rescatar a su hija de unos mercenarios.", "answer": "Commando"},
+        {"letter": "D", "kind": "empieza", "clue": "Nombre de pila del actor conocido como La Roca.", "answer": "Dwayne"},
+        {"letter": "E", "kind": "empieza", "clue": "Nombre de pila del agente Hunt en la saga Misión: Imposible.", "answer": "Ethan"},
+        {"letter": "F", "kind": "empieza", "clue": "Personaje manco interpretado por Charlize Theron en Mad Max: Fury Road.", "answer": "Furiosa"},
+        {"letter": "G", "kind": "empieza", "clue": "Película de Ridley Scott del año 2000 en la que Máximo se venga de Cómodo en la arena.", "answer": "gladiador", "accepted": ["gladiator"]},
+        {"letter": "H", "kind": "empieza", "clue": "Nombre de pila del actor que interpretó a Han Solo y a Rick Deckard en Blade Runner.", "answer": "Harrison"},
+        {"letter": "I", "kind": "empieza", "clue": "Arqueólogo del sombrero y el látigo creado por Spielberg y Lucas.", "answer": "Indiana"},
+        {"letter": "J", "kind": "empieza", "clue": "Nombre de pila que comparten los personajes McClane y Wick.", "answer": "John"},
+        {"letter": "L", "kind": "empieza", "clue": "Sicario que cuida una planta y protege a Mathilda en la película de Luc Besson de 1994.", "answer": "León", "accepted": ["leon el profesional"]},
+        {"letter": "M", "kind": "empieza", "clue": "Película de 1999 de las hermanas Wachowski en la que Neo descubre que su mundo es una simulación.", "answer": "Matrix"},
+        {"letter": "N", "kind": "empieza", "clue": "Edificio de Los Ángeles donde transcurre la primera entrega de La jungla de cristal.", "answer": "Nakatomi"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Golpe dado con la mano cerrada; la moneda de cambio de este género.", "answer": "puñetazo"},
+        {"letter": "O", "kind": "empieza", "clue": "Premio de la Academia de Hollywood; Mad Max: Fury Road se llevó seis en 2016.", "answer": "Óscar", "accepted": ["oscar"]},
+        {"letter": "P", "kind": "empieza", "clue": "Criatura alienígena cazadora que persigue en la jungla al comando de Dutch en la película de 1987.", "answer": "Predator", "accepted": ["depredador"]},
+        {"letter": "Q", "kind": "empieza", "clue": "Nombre de pila del director de Kill Bill y Pulp Fiction.", "answer": "Quentin"},
+        {"letter": "R", "kind": "empieza", "clue": "Veterano de Vietnam creado por David Morrell y llevado al cine en 1982.", "answer": "Rambo"},
+        {"letter": "S", "kind": "empieza", "clue": "Película de 1994 en la que un autobús estalla si baja de unos 80 km/h.", "answer": "Speed", "accepted": ["maxima velocidad"]},
+        {"letter": "T", "kind": "empieza", "clue": "Ciborg asesino llegado del futuro al que dio vida Schwarzenegger en 1984.", "answer": "Terminator"},
+        {"letter": "U", "kind": "empieza", "clue": "Subfusil israelí, habitual en los tiroteos del cine de los años ochenta.", "answer": "Uzi"},
+        {"letter": "V", "kind": "empieza", "clue": "Equipo de superhéroes de Marvel que se reunió por primera vez en el cine en 2012.", "answer": "Vengadores", "accepted": ["los vengadores", "avengers"]},
+        {"letter": "X", "kind": "contiene", "clue": "Deflagración que hace saltar por los aires un coche; marca de la casa del género.", "answer": "explosión"},
+        {"letter": "Y", "kind": "empieza", "clue": "Mafia japonesa que aparece en muchas películas ambientadas en Tokio.", "answer": "yakuza"},
+        {"letter": "Z", "kind": "empieza", "clue": "Espadachín enmascarado de California que firma sus hazañas con una Z.", "answer": "Zorro", "accepted": ["el zorro"]}
+      ]
+    },
+    {
+      "id": "peliculas-de-accion-2",
+      "name": "Películas de acción 2",
+      "questions": [
+        {"letter": "A", "kind": "empieza", "clue": "Nombre de pila del actor austríaco que interpretó a Conan el Bárbaro.", "answer": "Arnold"},
+        {"letter": "B", "kind": "empieza", "clue": "Apellido del agente amnésico interpretado por Matt Damon.", "answer": "Bourne"},
+        {"letter": "C", "kind": "empieza", "clue": "Apellido del actor de Hong Kong famoso por rodar sus propias acrobacias.", "answer": "Chan"},
+        {"letter": "D", "kind": "empieza", "clue": "Explosivo inventado por Alfred Nobel; clásico de los atracos de película.", "answer": "dinamita"},
+        {"letter": "E", "kind": "empieza", "clue": "Nombre de pila de la teniente Ripley en la saga Alien.", "answer": "Ellen"},
+        {"letter": "F", "kind": "empieza", "clue": "Película de 1993 en la que un médico acusado de matar a su mujer huye de un agente federal.", "answer": "fugitivo", "accepted": ["el fugitivo"]},
+        {"letter": "G", "kind": "empieza", "clue": "Explosivo de mano que se lanza después de quitarle la anilla.", "answer": "granada"},
+        {"letter": "H", "kind": "empieza", "clue": "Agente federal, calvo y descomunal, que empieza persiguiendo a Toretto en la saga Fast & Furious.", "answer": "Hobbs"},
+        {"letter": "I", "kind": "empieza", "clue": "Organización internacional de policía que coordina la caza de delincuentes entre países.", "answer": "Interpol"},
+        {"letter": "J", "kind": "empieza", "clue": "Todoterreno militar, vehículo habitual del cine bélico y de acción.", "answer": "jeep"},
+        {"letter": "L", "kind": "empieza", "clue": "Nombre de pila de la arqueóloga Croft de Tomb Raider.", "answer": "Lara"},
+        {"letter": "M", "kind": "empieza", "clue": "Las balas que siempre se le acaban al héroe en el peor momento.", "answer": "munición"},
+        {"letter": "N", "kind": "empieza", "clue": "Guerrero japonés vestido de negro, experto en sigilo y armas arrojadizas.", "answer": "ninja"},
+        {"letter": "Ñ", "kind": "contiene", "clue": "Arma de artillería; también se llama así la parte tubular de una pistola.", "answer": "cañón"},
+        {"letter": "O", "kind": "empieza", "clue": "Película de 1983 de la saga 007 protagonizada por Roger Moore.", "answer": "Octopussy"},
+        {"letter": "P", "kind": "empieza", "clue": "Escena de coches a toda velocidad por las calles; sello del género.", "answer": "persecución"},
+        {"letter": "Q", "kind": "empieza", "clue": "Grupo británico de Freddie Mercury que compuso la banda sonora de Flash Gordon.", "answer": "Queen"},
+        {"letter": "R", "kind": "empieza", "clue": "Arma corta con un tambor giratorio donde se alojan las balas.", "answer": "revólver"},
+        {"letter": "S", "kind": "empieza", "clue": "Apellido del actor que escribió y protagonizó Rocky.", "answer": "Stallone"},
+        {"letter": "T", "kind": "empieza", "clue": "Intercambio de disparos entre dos bandos; escena obligatoria del género.", "answer": "tiroteo"},
+        {"letter": "U", "kind": "empieza", "clue": "Ropa reglamentaria que visten los soldados y los policías.", "answer": "uniforme"},
+        {"letter": "V", "kind": "empieza", "clue": "El malo de la película, quien se opone al héroe.", "answer": "villano"},
+        {"letter": "X", "kind": "contiene", "clue": "Aparato rojo para apagar incendios que nunca falta en una azotea de película.", "answer": "extintor"},
+        {"letter": "Y", "kind": "empieza", "clue": "Arte marcial japonesa de proyecciones y llaves, que también se escribe con jota.", "answer": "yudo", "accepted": ["judo"]},
+        {"letter": "Z", "kind": "empieza", "clue": "Movimiento de cámara que acerca la imagen sin desplazar el aparato.", "answer": "zoom"}
+      ]
+    }
+  ]
+}

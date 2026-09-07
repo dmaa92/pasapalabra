@@ -22,6 +22,10 @@ answers, and refereed by a judge for competitions — runnable locally with
 - Running out of time takes that player out; the other keeps playing
   alone until their own rosco or clock ends.
 - A player may stop early ("me planto") and close their rosco.
+- Either side can **pause** the match — for a recount, a protest, a
+  break. Both clocks stop, no letter can be answered or ruled on while it
+  lasts, and the time already spent is charged before stopping, so a
+  pause never gives time back. In `juez` mode only the judge can pause.
 - The winner is whoever has more hits; ties break on fewer misses, and
   an identical scoreline is a draw.
 
