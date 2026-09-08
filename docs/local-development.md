@@ -41,16 +41,19 @@ http://127.0.0.1:8080/juez#<id>:<token>
 
 Open it in another tab, another window, or — if you want the real
 competition setup — on a phone, replacing `127.0.0.1` with the machine's
-LAN address. That needs the app bound beyond loopback, which
-`docker-compose.yml` deliberately does not do; for a one-off, run the
-image directly:
+LAN address. That needs the app bound beyond loopback, which Compose
+does not do by default. `APP_BIND` is the opt-in:
 
 ```
-docker run --rm -p 8080:8000 --read-only --tmpfs /tmp pasapalabra:dev
+APP_BIND=0.0.0.0 APP_PORT=9080 docker compose up -d
 ```
 
-and reach it at `http://<your-lan-ip>:8080/`. Anything more permanent is
-an exposure decision — see `docs/security.md`.
+and reach it at `http://<your-lan-ip>:9080/`. The container always
+listens on 8000 inside, whatever host port you pick.
+
+Binding beyond loopback is an exposure decision, not a convenience: the
+app has no authentication, so everyone who can reach the host can open
+the board and start matches. Read `docs/security.md` first.
 
 Refreshing the board is safe: the match id is in the URL fragment, so it
 picks the match back up. The same is true of the judge panel, token
