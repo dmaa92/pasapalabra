@@ -10,7 +10,8 @@ services:
     # Loopback-only by default: nothing here is meant to be reachable
     # from the LAN without a deliberate decision.
     ports:
-      - "127.0.0.1:${APP_PORT:-1080}:8080"
+      #- "127.0.0.1:${APP_PORT:-1080}:8080"
+      - "1080}:8080"
     environment:
       UVICORN_LOG_LEVEL: ${LOG_LEVEL:-info}
     read_only: true
@@ -19,9 +20,9 @@ services:
     cap_drop: [ALL]
     security_opt:
       - no-new-privileges:true
-    mem_limit: ${APP_MEM_LIMIT:-256m}
-    cpus: ${APP_CPU_LIMIT:-0.5}
-    pids_limit: ${APP_PIDS_LIMIT:-128}
+    #mem_limit: ${APP_MEM_LIMIT:-256m}
+    #cpus: ${APP_CPU_LIMIT:-0.5}
+    #pids_limit: ${APP_PIDS_LIMIT:-128}
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=3)"]
       interval: 10s
