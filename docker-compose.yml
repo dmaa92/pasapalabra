@@ -7,12 +7,16 @@ services:
       context: .
       target: runtime
     image: pasapalabra:dev
-    # Loopback-only by default: nothing here is meant to be reachable
-    # from the LAN without a deliberate decision. Serving a LAN is that
-    # decision, made once by setting APP_BIND=0.0.0.0 — the app has no
-    # authentication, so read docs/security.md before you do.
+    # Bound to every interface on purpose: this stack is deployed on a
+    # server and has to answer from the LAN. That is an exposure
+    # decision, not a default — the app has no authentication, so anyone
+    # who reaches this port can play. See docs/security.md.
+    #
+    # Values are literal rather than ${VAR} because the target platform
+    # does not interpolate them. 9080 is the host port; the container
+    # always listens on 8000.
     ports:
-      - "${APP_BIND:-127.0.0.1}:${APP_PORT:-8080}:8000"
+      - "0.0.0.0:9080:8000"
     environment:
       UVICORN_LOG_LEVEL: ${LOG_LEVEL:-info}
     read_only: true
@@ -21,9 +25,9 @@ services:
     cap_drop: [ALL]
     security_opt:
       - no-new-privileges:true
-    #mem_limit: ${APP_MEM_LIMIT:-256m}
-    #cpus: ${APP_CPU_LIMIT:-0.5}
-    #pids_limit: ${APP_PIDS_LIMIT:-128}
+    mem_limit: 256m
+    cpus: 0.5
+    pids_limit: 128
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=3)"]
       interval: 10s

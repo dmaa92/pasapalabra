@@ -44,15 +44,21 @@ follow, and both are deliberate:
 - **Bound anything a client can grow.** Match state is capped
   (`MAX_GAMES`) and request fields have explicit length and range
   limits, so a loop of requests can't exhaust memory.
-- **Don't widen exposure by default.** Compose binds to `127.0.0.1`
-  unless `APP_BIND` says otherwise, and the Kubernetes Service is a
-  ClusterIP. Exposing this to a LAN or the internet stays a deliberate,
-  documented decision — `APP_BIND=0.0.0.0` makes it one line, not one
-  less decision. What it costs: the app has **no authentication**, so
-  every host that can reach the port can open the board, start matches
-  and spend the `MAX_GAMES` budget. A trusted LAN is a defensible place
-  for that; the open internet is not, and putting it there needs a
-  reverse proxy that adds auth in front — not this flag on its own.
+- **Exposure is now on, and it is a decision that was made — not a
+  default to inherit blindly.** `docker-compose.yml` binds
+  `0.0.0.0:9080` so the deployed server answers its LAN; the Kubernetes
+  Service is still a ClusterIP. What that costs: the app has **no
+  authentication**, so every host that can reach the port can open the
+  board, start matches and spend the `MAX_GAMES` budget. A trusted
+  internal network is a defensible place for that. The open internet is
+  not — putting it there needs a reverse proxy that adds authentication
+  in front, and this file's binding is not that.
+
+  Two consequences worth stating plainly, because the file is committed:
+  anyone who clones this repo and runs `docker compose up` serves their
+  own network as well, laptop included; and moving the port or narrowing
+  the interface means editing the file, since the deployment platform
+  does not interpolate `${VAR}`.
 
 ## Concern categories
 

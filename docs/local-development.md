@@ -13,14 +13,16 @@ make up      # build the image and start the app
 make wait    # block until the container reports healthy
 ```
 
-Open http://127.0.0.1:8080/ and play. `APP_PORT` changes the host port:
+Open http://localhost:9080/ and play — and note that the stack answers on
+every interface, so anyone who can reach this machine on that port can
+open the board too (see `docs/security.md`).
 
-```
-APP_PORT=9000 make up
-```
+The host port and the interface are written literally in
+`docker-compose.yml`; the platform this is deployed on does not
+interpolate `${VAR}`, so there is no `APP_PORT` to set. To move the port,
+edit that file. The container always listens on 8000 inside.
 
-`.env` (gitignored, copy from `.env.example`) is picked up by Compose if
-you prefer to set it there.
+`.env` (gitignored, copy from `.env.example`) still sets `LOG_LEVEL`.
 
 ## Inspect
 
@@ -40,20 +42,13 @@ http://127.0.0.1:8080/juez#<id>:<token>
 ```
 
 Open it in another tab, another window, or — if you want the real
-competition setup — on a phone, replacing `127.0.0.1` with the machine's
-LAN address. That needs the app bound beyond loopback, which Compose
-does not do by default. `APP_BIND` is the opt-in:
+competition setup — on a phone, replacing `localhost` with the machine's
+LAN address: `http://<lan-ip>:9080/juez#<id>:<token>`. The stack already
+binds every interface, so nothing else is needed for that.
 
-```
-APP_BIND=0.0.0.0 APP_PORT=9080 docker compose up -d
-```
-
-and reach it at `http://<your-lan-ip>:9080/`. The container always
-listens on 8000 inside, whatever host port you pick.
-
-Binding beyond loopback is an exposure decision, not a convenience: the
-app has no authentication, so everyone who can reach the host can open
-the board and start matches. Read `docs/security.md` first.
+The flip side is that it is reachable by everyone else on that network
+too, and the app has no authentication. That is fine on a trusted LAN and
+not fine on the open internet — see `docs/security.md`.
 
 Refreshing the board is safe: the match id is in the URL fragment, so it
 picks the match back up. The same is true of the judge panel, token
