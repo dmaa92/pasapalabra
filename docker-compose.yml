@@ -10,8 +10,8 @@ services:
     # Loopback-only by default: nothing here is meant to be reachable
     # from the LAN without a deliberate decision.
     ports:
-      #- "127.0.0.1:${APP_PORT:-1080}:8080"
-      - "9080:8080"
+      - "127.0.0.1:9080:8080"
+      #- "9080:8080"
     environment:
       UVICORN_LOG_LEVEL: ${LOG_LEVEL:-info}
     read_only: true
